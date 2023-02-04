@@ -49,22 +49,22 @@
 <a name="intro"></a>
 ## 1. Introduction
 
-sometext
+...
 
 <a name="desc"></a>
 ## 2. Overall Description
 
-sometext
+...
 
 <a name="feat"></a>
 ## 3. System Features
 
-sometext
+...
 
 <a name="nonfunc"></a>
 ## 4. Non Functional Requirements
 
-sometext
+...
 
 <br/>
 <hr/>
@@ -74,13 +74,13 @@ sometext
 <a name="hld"></a>
 ## 1. High Level Design
 
-sometext
+...
 
 <a name="pd"></a>
 ## 2. Proposed Design
 
-sometext
+...
 
 <a name="hla"></a>
 ## 3. High Level API
-sometext
+...
