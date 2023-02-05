@@ -49,22 +49,43 @@
 <a name="intro"></a>
 ## 1. Introduction
 
-...
+The system provides an efficient solution for uploading and managing datasets. Users can upload their datasets to Minio, a high-performance object storage solution, and have their associated metadata indexed in Elasticsearch. The system also includes an API that allows users to search and retrieve their data using Elasticsearch. This streamlined process reduces the time and effort required to manage and access large amounts of data.
 
 <a name="desc"></a>
 ## 2. Overall Description
 
-...
+The system is a comprehensive solution for uploading, storing, and retrieving datasets. It consists of two main components: Minio, an object storage solution that provides reliable and scalable data storage, and Elasticsearch, a powerful search and analytics engine that enables efficient data retrieval. The system provides a user-friendly API that allows users to upload their datasets to Minio and index the associated metadata in Elasticsearch. This allows for fast and accurate searching and retrieval of data. The system is designed to meet the needs of various user groups, such as data scientists, researchers, and others who require a reliable and efficient way to manage their data.
 
 <a name="feat"></a>
 ## 3. System Features
 
-...
+1. Data Upload: The system provides an easy-to-use interface for uploading datasets to Minio.
+
+2. Metadata Indexing: The associated metadata of the uploaded datasets is automatically indexed in Elasticsearch for efficient data retrieval.
+
+3. Search and Retrieval: The system provides an API that allows users to search and retrieve their data using Elasticsearch.
 
 <a name="nonfunc"></a>
 ## 4. Non Functional Requirements
 
-...
+1. Performance: The system should be able to handle large amounts of data and perform efficiently, with quick response times for data searches and retrievals.
+
+2. Scalability: The system should be able to scale to meet the changing needs of its users, including the ability to store increasing amounts of data.
+
+3. Security: The system should implement appropriate security measures to protect users' data, such as encryption and secure access controls.
+
+3. Availability: The system should have high availability, ensuring that users can access their data whenever they need it.
+
+4. Interoperability: The system should be able to integrate with other software solutions, allowing users to access their data in a variety of ways.
+
+5. User-friendly: The system should be easy to use, with a user-friendly interface and intuitive functionality.
+
+6. Reliability: The system should be reliable, with minimal downtime and a high degree of stability.
+
+7. Compatibility: The system should be compatible with various data formats, allowing users to upload and access their data in a variety of formats.
+
+8. Maintainability: The system should be easy to maintain and upgrade, with clear documentation and a robust architecture.
+
 
 <br/>
 <hr/>
