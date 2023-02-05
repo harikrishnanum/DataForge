@@ -83,4 +83,7 @@
 
 <a name="hla"></a>
 ## 3. High Level API
-...
+
+The API will consist of a main endpoint:
+- /query : The body of the query should consist of access token (if required), information about the category of images, fine grained filters (if any), any other misc. information required to process the query
+
