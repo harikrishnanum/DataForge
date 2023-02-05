@@ -74,12 +74,14 @@
 <a name="hld"></a>
 ## 1. High Level Design
 
-...
+On a high level the design consists of mainly 2 workflows:
+- DataSets Upload: Uploader will upload data to MinIO, as data is uploaded, an event will be triggered and added to a Messaging Queue, There will be an event listener which will then take data from the MQ and add it to Elastic Search or Solr service for future queries.
+- When an API call is made by the user, it will first go to API handler where the processing of query will take place, it will then forward the request to File Searcher which will then communicate with Elastic Search to get the Object IDs, which can then be used to fetch data from MinIO. It will then return the result from MinIO to the API handler and finally to end user. 
 
-<a name="pd"></a>
-## 2. Proposed Design
+<img src="HLD.png"
+     alt="High Level Design Image"
+     style="float: center;" />
 
-...
 
 <a name="hla"></a>
 ## 3. High Level API
