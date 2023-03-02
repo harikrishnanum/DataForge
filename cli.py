@@ -12,6 +12,7 @@ logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='a')
 
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
+@click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
 @click.option('--bucket', default='', help='The bucket to upload the file to.')
 @click.option('--endpoint', default='192.168.1.189:9000', help='The MinIO server endpoint.')
 @click.option('--access-key', default='minio', help='The access key for the MinIO server.')
@@ -24,7 +25,7 @@ logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='a')
 @click.option('--mongo-uri', default='mongodb://192.168.1.189:27017/', help='The MongoDB server URI.')
 @click.option('--mongo-db', default='my-database', help='The name of the MongoDB database.')
 @click.option('--mongo-collection', default='my-collection', help='The name of the MongoDB collection.')
-def upload_dataset(dir_path, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
+def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
     """Upload a dataset to MinIO and write its metadata to RabbitMQ, and create a MongoDB document for the dataset."""
     if not bucket:
         # Use the parent directory name of the directory as the bucket name
@@ -54,11 +55,10 @@ def upload_dataset(dir_path, bucket, endpoint, access_key, secret_key, queue, ho
                 if '.jpg' not in file_path:
                     continue
                 with open(file_path, 'rb') as f:
-                    file_name = os.path.basename(file_path)
-                    logging.info(f'Uploading {file_name} to {bucket} on MinIO server.')
-                    client.put_object(bucket, file_name, f, length=os.fstat(f.fileno()).st_size)
-                    # click.echo(f'Successfully uploaded {file_name} to {bucket} on MinIO server.')
-                    logging.info(f'Successfully uploaded {file_name} to {bucket} on MinIO server.')
+                    # file_name = os.path.basename(file_path)
+                    logging.info(f'Uploading {file_path} to {bucket} on MinIO server.')
+                    client.put_object(bucket, file_path, f, length=os.fstat(f.fileno()).st_size)
+                    logging.info(f'Successfully uploaded {file_path} to {bucket} on MinIO server.')
         click.echo(f'Successfully uploaded {dir_path} to {bucket} on MinIO server.')
             
         # Update status, name, and readme in MongoDB document
