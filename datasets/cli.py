@@ -7,6 +7,9 @@ from pymongo import MongoClient
 import glob
 import logging
 from tqdm import tqdm
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')
 
@@ -15,17 +18,17 @@ logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')
 @click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
 @click.option('--img_format', default='jpg', help='The image format of the dataset.')
 @click.option('--bucket', default='', help='The bucket to upload the file to.')
-@click.option('--endpoint', default='192.168.1.189:9000', help='The MinIO server endpoint.')
-@click.option('--access-key', default='minio', help='The access key for the MinIO server.')
-@click.option('--secret-key', default='miniostorage', help='The secret key for the MinIO server.')
-@click.option('--queue', default='my-queue', help='The RabbitMQ queue name to send the metadata to.')
-@click.option('--host', default='192.168.1.189', help='The RabbitMQ server hostname.')
-@click.option('--port', default=5672, help='The RabbitMQ server port.')
-@click.option('--username', default='guest', help='The RabbitMQ server username.')
-@click.option('--password', default='guest', help='The RabbitMQ server password.')
-@click.option('--mongo-uri', default='mongodb://192.168.1.189:27017/', help='The MongoDB server URI.')
-@click.option('--mongo-db', default='my-database', help='The name of the MongoDB database.')
-@click.option('--mongo-collection', default='my-collection', help='The name of the MongoDB collection.')
+@click.option('--endpoint', default=os.getenv('MINIO_ENDPOINT'), help='The MinIO server endpoint.')
+@click.option('--access-key', default=os.getenv('MINIO_ACCESS_KEY'), help='The access key for the MinIO server.')
+@click.option('--secret-key', default=os.getenv('MINIO_SECRET_KEY'), help='The secret key for the MinIO server.')
+@click.option('--queue', default=os.getenv('RM_QUEUE'), help='The RabbitMQ queue name to send the metadata to.')
+@click.option('--host', default=os.getenv('RM_HOST'), help='The RabbitMQ server hostname.')
+@click.option('--port', default=os.getenv('RM_PORT'), help='The RabbitMQ server port.')
+@click.option('--username', default=os.getenv('RM_USERNAME'), help='The RabbitMQ server username.')
+@click.option('--password', default=os.getenv('RM_PASSWORD'), help='The RabbitMQ server password.')
+@click.option('--mongo-uri', default=os.getenv('MONGO_URI'), help='The MongoDB server URI.')
+@click.option('--mongo-db', default=os.getenv('MONGO_DB'), help='The name of the MongoDB database.')
+@click.option('--mongo-collection', default=os.getenv('MONGO_COLLECTION'), help='The name of the MongoDB collection.')
 def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
     """Upload a dataset to MinIO and write its metadata to RabbitMQ, and create a MongoDB document for the dataset."""
     
