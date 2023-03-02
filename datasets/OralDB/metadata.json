@@ -1,5 +1,5 @@
 {
-    "0aa155fa_front_2.tif": {
+    "0aa155fa_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -18,7 +18,7 @@
             "Oral"
         ]
     },
-    "0cd801fd_top_1.tif": {
+    "0cd801fd_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -36,7 +36,7 @@
             "Oral"
         ]
     },
-    "0df174b4_front_inpainted_GDBICP_similarity.tif": {
+    "0df174b4_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -52,14 +52,14 @@
             "Oral"
         ]
     },
-    "0e1b4127_front_GDBICP_similarity_2.tif": {
+    "0e1b4127_front_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "0f06d422_lip_2.tif": {
+    "0f06d422_lip_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -74,7 +74,7 @@
             "Out"
         ]
     },
-    "0f265101_bottom_GDBICP_similarity.tif": {
+    "0f265101_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -83,7 +83,7 @@
         "Blood pressure and pulse": " 128/82, 70",
         "Blood oxygen saturation": " -%"
     },
-    "0fd01317_bottom_1.tif": {
+    "0fd01317_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -103,7 +103,7 @@
             "Marginal"
         ]
     },
-    "0fe58a9c_face_GDBICP_similarity.tif": {
+    "0fe58a9c_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -112,7 +112,7 @@
         "Blood pressure and pulse": " 138/83, 61",
         "Blood oxygen saturation": " 97%"
     },
-    "1ab4f745_face_GDBICP_similarity.tif": {
+    "1ab4f745_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -121,7 +121,7 @@
         "Blood pressure and pulse": " 139/72, 60",
         "Blood oxygen saturation": " -%"
     },
-    "1aedc4dc_bottom_1.tif": {
+    "1aedc4dc_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -138,7 +138,7 @@
             "Out"
         ]
     },
-    "1c1d5e49_top_1.tif": {
+    "1c1d5e49_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -163,14 +163,14 @@
             "Skin"
         ]
     },
-    "1cd2eadc_front_inpainted_GDBICP_similarity_2.tif": {
+    "1cd2eadc_front_inpainted_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "1d419ddf_wideangle_GDBICP_similarity_3.tif": {
+    "1d419ddf_wideangle_GDBICP_similarity_3.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -179,7 +179,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "1df73fca_face_inpainted_GDBICP_similarity.tif": {
+    "1df73fca_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -192,7 +192,7 @@
             "Skin"
         ]
     },
-    "1e99c158_face_1.tif": {
+    "1e99c158_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -207,7 +207,7 @@
             "Lip"
         ]
     },
-    "2a6fdb51_face_1.tif": {
+    "2a6fdb51_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -223,7 +223,7 @@
             "Lip"
         ]
     },
-    "2b29da80_bottom_2.tif": {
+    "2b29da80_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -239,7 +239,7 @@
             "Attrition/Erosion"
         ]
     },
-    "2b579dbf_front_GDBICP_similarity.tif": {
+    "2b579dbf_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -248,7 +248,7 @@
         "Blood pressure and pulse": " 119/79, 68",
         "Blood oxygen saturation": " -%"
     },
-    "2b18392e_front_1.tif": {
+    "2b18392e_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -268,7 +268,7 @@
             "Oral"
         ]
     },
-    "2c132132_bottom_inpainted_GDBICP_similarity.tif": {
+    "2c132132_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -291,7 +291,7 @@
             "Hair"
         ]
     },
-    "2ea1fec2_bottom_1.tif": {
+    "2ea1fec2_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -308,7 +308,7 @@
             "Oral"
         ]
     },
-    "3a4ab068_bottom_2.tif": {
+    "3a4ab068_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -329,7 +329,7 @@
             "Out"
         ]
     },
-    "3acc1529_front_GDBICP_similarity.tif": {
+    "3acc1529_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -338,7 +338,7 @@
         "Blood pressure and pulse": " 164/80, 72",
         "Blood oxygen saturation": " 97%"
     },
-    "3ad0489f_bottom_9.tif": {
+    "3ad0489f_bottom_9.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -358,7 +358,7 @@
             "Metal"
         ]
     },
-    "3af4bbbc_front_4.tif": {
+    "3af4bbbc_front_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -376,7 +376,7 @@
             "Attached"
         ]
     },
-    "3b5dfd99_face_inpainted_GDBICP_similarity.tif": {
+    "3b5dfd99_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -392,14 +392,14 @@
             "Shadow/Noise"
         ]
     },
-    "3b75a345_decay_inpaint_crop_GDBICP_similarity.tif": {
+    "3b75a345_decay_inpaint_crop_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 138/83, 61",
         "Blood oxygen saturation": " 97%"
     },
-    "3db0b9c0_top_inpaint_GDBICP_similarity.tif": {
+    "3db0b9c0_top_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -423,7 +423,7 @@
             "Marginal"
         ]
     },
-    "4a53ee14_top_2.tif": {
+    "4a53ee14_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -445,7 +445,7 @@
             "Skin"
         ]
     },
-    "4ad8fb28_lip_3.tif": {
+    "4ad8fb28_lip_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -461,7 +461,7 @@
             "Ulcer"
         ]
     },
-    "4bed5883_bottom_2.tif": {
+    "4bed5883_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -482,7 +482,7 @@
             "Out"
         ]
     },
-    "04c85106_bottom_inpainted_GDBICP_similarity.tif": {
+    "04c85106_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -506,7 +506,7 @@
             "Attached"
         ]
     },
-    "4cfae92f_bottom_inpaint_GDBICP_similarity.tif": {
+    "4cfae92f_bottom_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -527,7 +527,7 @@
             "Soft"
         ]
     },
-    "4d6d104d_top_inpaint_GDBICP_similarity_roi.tif": {
+    "4d6d104d_top_inpaint_GDBICP_similarity_roi.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -548,7 +548,7 @@
             "Skin"
         ]
     },
-    "4e0c1145_face_2.tif": {
+    "4e0c1145_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -563,7 +563,7 @@
             "Hair"
         ]
     },
-    "4e7ad98c_face_1.tif": {
+    "4e7ad98c_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -580,7 +580,7 @@
             "Out"
         ]
     },
-    "4e2529ae_top_2.tif": {
+    "4e2529ae_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -595,14 +595,14 @@
             "Marginal"
         ]
     },
-    "04f5fad6_top_GDBICP_similarity.tif": {
+    "04f5fad6_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "4f6d0110_bottom_1.tif": {
+    "4f6d0110_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -619,7 +619,7 @@
             "Enamel"
         ]
     },
-    "4f86dd9c_front_1.tif": {
+    "4f86dd9c_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -637,7 +637,7 @@
             "Oral"
         ]
     },
-    "4f9320ba_throat_1.tif": {
+    "4f9320ba_throat_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -646,7 +646,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "4fafec82_bottom_1.tif": {
+    "4fafec82_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -664,7 +664,7 @@
             "Attached"
         ]
     },
-    "4fff4164_top_4.tif": {
+    "4fff4164_top_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -685,7 +685,7 @@
             "Enamel"
         ]
     },
-    "5bc649c1_bottom_inpainted_GDBICP_similarity.tif": {
+    "5bc649c1_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -707,7 +707,7 @@
             "Oral"
         ]
     },
-    "005c43ee_wideangle_GDBICP_similarity_1.tif": {
+    "005c43ee_wideangle_GDBICP_similarity_1.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -716,7 +716,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "5c59b624_bottom_1.tif": {
+    "5c59b624_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -736,7 +736,7 @@
             "Out"
         ]
     },
-    "5d65db43_bottom_2.tif": {
+    "5d65db43_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -755,7 +755,7 @@
             "Attached"
         ]
     },
-    "5e64403e_face_inpainted_GDBICP_similarity.tif": {
+    "5e64403e_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -771,7 +771,7 @@
             "Skin"
         ]
     },
-    "5ebfeae0_front_3.tif": {
+    "5ebfeae0_front_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -792,7 +792,7 @@
             "Skin"
         ]
     },
-    "5f333c18_bottom_inpainted_GDBICP_similarity.tif": {
+    "5f333c18_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -814,7 +814,7 @@
             "Fluorosis"
         ]
     },
-    "5f1670b8_front_1.tif": {
+    "5f1670b8_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -832,7 +832,7 @@
             "Prosthetics"
         ]
     },
-    "5fce51ec_face_inpainted_GDBICP_similarity.tif": {
+    "5fce51ec_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -846,14 +846,14 @@
             "Skin"
         ]
     },
-    "5fd6c8fa_face_GDBICP_similarity_2.tif": {
+    "5fd6c8fa_face_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "6bb49860_top_2.tif": {
+    "6bb49860_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -881,7 +881,7 @@
             "Marginal"
         ]
     },
-    "6d5ec27d_bottom_GDBICP_similarity.tif": {
+    "6d5ec27d_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -890,7 +890,7 @@
         "Blood pressure and pulse": " 119/79, 68",
         "Blood oxygen saturation": " -%"
     },
-    "6d573e42_wide_9.tif": {
+    "6d573e42_wide_9.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -899,7 +899,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "7b1dab5e_top_1.tif": {
+    "7b1dab5e_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -914,7 +914,7 @@
             "Enamel"
         ]
     },
-    "7d5baccc_top_1.tif": {
+    "7d5baccc_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -933,7 +933,7 @@
             "Skin"
         ]
     },
-    "7da64cbc_top_3.tif": {
+    "7da64cbc_top_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -949,7 +949,7 @@
             "Marginal"
         ]
     },
-    "7e1fc1d2_front_4.tif": {
+    "7e1fc1d2_front_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -966,7 +966,7 @@
             "Enamel"
         ]
     },
-    "8bf3775c_top_GDBICP_similarity.tif": {
+    "8bf3775c_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -975,7 +975,7 @@
         "Blood pressure and pulse": " 126/80, 71",
         "Blood oxygen saturation": " -%"
     },
-    "8c3b57e1_front_GDBICP_similarity.tif": {
+    "8c3b57e1_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -984,7 +984,7 @@
         "Blood pressure and pulse": " 138/83, 61",
         "Blood oxygen saturation": " 97%"
     },
-    "8dc4c401_bottom_4.tif": {
+    "8dc4c401_bottom_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -999,14 +999,14 @@
             "Out"
         ]
     },
-    "8e6afe4f_bottom_GDBICP_similarity.tif": {
+    "8e6afe4f_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "08e70396_face_inpainted_GDBICP_similarity.tif": {
+    "08e70396_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1021,7 +1021,7 @@
             "Lip"
         ]
     },
-    "8fdefb36_top_2.tif": {
+    "8fdefb36_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1045,7 +1045,7 @@
             "Oral"
         ]
     },
-    "9a0d026d_top_5.tif": {
+    "9a0d026d_top_5.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1065,7 +1065,7 @@
             "Lip"
         ]
     },
-    "9ae2ce0b_bottom_1.tif": {
+    "9ae2ce0b_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1084,7 +1084,7 @@
             "Skin"
         ]
     },
-    "9b31d725_bottom_GDBICP_similarity.tif": {
+    "9b31d725_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1093,14 +1093,14 @@
         "Blood pressure and pulse": " 100/61, 70",
         "Blood oxygen saturation": " -%"
     },
-    "9b31fee9_top_GDBICP_similarity.tif": {
+    "9b31fee9_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 144/89, 50",
         "Blood oxygen saturation": " 97%"
     },
-    "9b531e22_wide_1.tif": {
+    "9b531e22_wide_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1109,7 +1109,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "9bddff71_wide_13.tif": {
+    "9bddff71_wide_13.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1118,7 +1118,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "9c2af212_top_3.tif": {
+    "9c2af212_top_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1146,7 +1146,7 @@
             "Marginal"
         ]
     },
-    "9c62ea68_face_1.tif": {
+    "9c62ea68_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1162,7 +1162,7 @@
             "Lip"
         ]
     },
-    "9c3344da_front_2.tif": {
+    "9c3344da_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1181,7 +1181,7 @@
             "Out"
         ]
     },
-    "9d7bbc4e_wide_12.tif": {
+    "9d7bbc4e_wide_12.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1190,7 +1190,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "09d077e3_front_2.tif": {
+    "09d077e3_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1207,7 +1207,7 @@
             "Oral"
         ]
     },
-    "9db146f4_front_1.tif": {
+    "9db146f4_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1226,7 +1226,7 @@
             "Lip"
         ]
     },
-    "9f1ed64e_bottom_inpainted_GDBICP_similarity.tif": {
+    "9f1ed64e_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1248,7 +1248,7 @@
             "Dentine"
         ]
     },
-    "9f22fb86_front_2.tif": {
+    "9f22fb86_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1266,7 +1266,7 @@
             "Oral"
         ]
     },
-    "9fea3e9b_lip_2.tif": {
+    "9fea3e9b_lip_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1290,7 +1290,7 @@
             "Enamel"
         ]
     },
-    "16b4247c_front_inpainted_GDBICP_similarity.tif": {
+    "16b4247c_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1313,7 +1313,7 @@
             "Fluorosis"
         ]
     },
-    "19e5c622_front_inpainted_GDBICP_similarity.tif": {
+    "19e5c622_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1322,14 +1322,14 @@
         "Blood pressure and pulse": " 109/86, 88",
         "Blood oxygen saturation": " -%"
     },
-    "21c66ecd_face_inpainted_GDBICP_similarity_2.tif": {
+    "21c66ecd_face_inpainted_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "21cd9f19_top_1.tif": {
+    "21cd9f19_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1353,7 +1353,7 @@
             "Skin"
         ]
     },
-    "22d488ac_front_GDBICP_similarity.tif": {
+    "22d488ac_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1362,7 +1362,7 @@
         "Blood pressure and pulse": " 109/86, 88",
         "Blood oxygen saturation": " -%"
     },
-    "24a08f45_top_1.tif": {
+    "24a08f45_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1374,7 +1374,7 @@
             "Hard"
         ]
     },
-    "24d34a15_front_GDBICP_similarity.tif": {
+    "24d34a15_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1383,7 +1383,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "25b317fe_bottom_inpainted_GDBICP_similarity.tif": {
+    "25b317fe_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -1398,7 +1398,7 @@
             "Initial"
         ]
     },
-    "28d49556_face_inpainted_GDBICP_similarity.tif": {
+    "28d49556_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1411,7 +1411,7 @@
             "Skin"
         ]
     },
-    "30d9733d_wideangle_face_inpainted_GDBICP_similarity_2.tif": {
+    "30d9733d_wideangle_face_inpainted_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -1420,7 +1420,7 @@
         "Blood pressure and pulse": " 128/101, 79",
         "Blood oxygen saturation": " -%"
     },
-    "30da9b27_face_1.tif": {
+    "30da9b27_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1436,14 +1436,14 @@
             "Lip"
         ]
     },
-    "31f1c8a0_face_GDBICP_similarity.tif": {
+    "31f1c8a0_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 144/89, 50",
         "Blood oxygen saturation": " 97%"
     },
-    "34dec32c_front_1.tif": {
+    "34dec32c_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1461,7 +1461,7 @@
             "Attached"
         ]
     },
-    "34f0b3ec_front_1.tif": {
+    "34f0b3ec_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1481,7 +1481,7 @@
             "Oral"
         ]
     },
-    "36ec7ab3_face_inpainted_GDBICP_similarity.tif": {
+    "36ec7ab3_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1496,7 +1496,7 @@
             "Skin"
         ]
     },
-    "37f2a6e6_bottom_GDBICP_similarity.tif": {
+    "37f2a6e6_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1505,7 +1505,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "42bef1c9_front_1.tif": {
+    "42bef1c9_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1525,7 +1525,7 @@
             "Initial"
         ]
     },
-    "43d1f0ef_top_4.tif": {
+    "43d1f0ef_top_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1550,7 +1550,7 @@
             "Attrition/Erosion"
         ]
     },
-    "43ebce65_wide_4.tif": {
+    "43ebce65_wide_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1566,7 +1566,7 @@
             "Enamel"
         ]
     },
-    "44fc5512_front_3.tif": {
+    "44fc5512_front_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1589,14 +1589,14 @@
             "Root"
         ]
     },
-    "45c913d3_top_GDBICP_similarity.tif": {
+    "45c913d3_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "45d3d05a_face_2.tif": {
+    "45d3d05a_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1613,7 +1613,7 @@
             "Skin"
         ]
     },
-    "45fefe26_face.tif": {
+    "45fefe26_face.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1622,7 +1622,7 @@
         "Blood pressure and pulse": " 143/75, 82",
         "Blood oxygen saturation": " 98%"
     },
-    "046da61c_bottom_2.tif": {
+    "046da61c_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1644,7 +1644,7 @@
             "Mole"
         ]
     },
-    "51aeab76_wide_2.tif": {
+    "51aeab76_wide_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1661,7 +1661,7 @@
             "Enamel"
         ]
     },
-    "60a01651_front_1.tif": {
+    "60a01651_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1680,7 +1680,7 @@
             "Skin"
         ]
     },
-    "61c7ef70_bottom_inpaint_GDBICP_similarity.tif": {
+    "61c7ef70_bottom_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1708,7 +1708,7 @@
             "Lip"
         ]
     },
-    "67ec05b8_front_GDBICP_similarity.tif": {
+    "67ec05b8_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1717,7 +1717,7 @@
         "Blood pressure and pulse": " 139/72, 60",
         "Blood oxygen saturation": " -%"
     },
-    "67ff14a2_bottom_1.tif": {
+    "67ff14a2_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1734,7 +1734,7 @@
             "Enamel"
         ]
     },
-    "68c0e111_bottom_1.tif": {
+    "68c0e111_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1753,7 +1753,7 @@
             "Plastic"
         ]
     },
-    "68f32a0e_wide_6.tif": {
+    "68f32a0e_wide_6.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1772,7 +1772,7 @@
             "Enamel"
         ]
     },
-    "71d4ac12_front_2.tif": {
+    "71d4ac12_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1796,7 +1796,7 @@
             "Oral"
         ]
     },
-    "78cfc240_wide_8.tif": {
+    "78cfc240_wide_8.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1805,7 +1805,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "83f161a4_bottom_GDBICP_similarity.tif": {
+    "83f161a4_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1814,7 +1814,7 @@
         "Blood pressure and pulse": " 109/86, 88",
         "Blood oxygen saturation": " -%"
     },
-    "84b80fc1_front_inpainted_GDBICP_similarity.tif": {
+    "84b80fc1_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1831,7 +1831,7 @@
             "Attached"
         ]
     },
-    "087bf07d_top_1.tif": {
+    "087bf07d_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1851,7 +1851,7 @@
             "Skin"
         ]
     },
-    "89bf4a65_face_1.tif": {
+    "89bf4a65_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1867,7 +1867,7 @@
             "Lip"
         ]
     },
-    "93f11393_front_2.tif": {
+    "93f11393_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1884,7 +1884,7 @@
             "Hair"
         ]
     },
-    "94bed205_face_inpainted_GDBICP_similarity.tif": {
+    "94bed205_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1898,7 +1898,7 @@
             "Skin"
         ]
     },
-    "95bd014c_face_GDBICP_similarity.tif": {
+    "95bd014c_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1907,7 +1907,7 @@
         "Blood pressure and pulse": " 112/72, 45",
         "Blood oxygen saturation": " -%"
     },
-    "95cf79dd_bottom_1.tif": {
+    "95cf79dd_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -1927,7 +1927,7 @@
             "Out"
         ]
     },
-    "97bf21be_bottom_inpaint_GDBICP_similarity_roi.tif": {
+    "97bf21be_bottom_inpaint_GDBICP_similarity_roi.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -1949,7 +1949,7 @@
             "Attached"
         ]
     },
-    "97d8debf_face_GDBICP_similarity.tif": {
+    "97d8debf_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1958,7 +1958,7 @@
         "Blood pressure and pulse": " 100/61, 70",
         "Blood oxygen saturation": " -%"
     },
-    "98a88440_wideangle_face_inpainted_GDBICP_similarity_3.tif": {
+    "98a88440_wideangle_face_inpainted_GDBICP_similarity_3.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -1967,7 +1967,7 @@
         "Blood pressure and pulse": " 118/73, 54",
         "Blood oxygen saturation": " -%"
     },
-    "98e6b8c4_wide_7.tif": {
+    "98e6b8c4_wide_7.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -1976,7 +1976,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "99f788d1_face_inpainted_GDBICP_similarity.tif": {
+    "99f788d1_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -1988,7 +1988,7 @@
             "Lip"
         ]
     },
-    "100c0fd8_tongue_GDBICP_similarity.tif": {
+    "100c0fd8_tongue_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -1997,7 +1997,7 @@
         "Blood pressure and pulse": " 164/80, 72",
         "Blood oxygen saturation": " 97%"
     },
-    "104fff16_bottom_GDBICP_similarity.tif": {
+    "104fff16_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2006,7 +2006,7 @@
         "Blood pressure and pulse": " 112/72, 45",
         "Blood oxygen saturation": " -%"
     },
-    "130cc1d2_wideangle_GDBICP_similarity_3.tif": {
+    "130cc1d2_wideangle_GDBICP_similarity_3.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -2015,7 +2015,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "136ba85c_bottom_1.tif": {
+    "136ba85c_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2037,7 +2037,7 @@
             "Marginal"
         ]
     },
-    "190d894c_top_2.tif": {
+    "190d894c_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2055,7 +2055,7 @@
             "Oral"
         ]
     },
-    "202f94cc_lip_2.tif": {
+    "202f94cc_lip_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2073,7 +2073,7 @@
             "Specular"
         ]
     },
-    "206f89f8_lip_1.tif": {
+    "206f89f8_lip_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2089,7 +2089,7 @@
             "Out"
         ]
     },
-    "210ffd4b_face_GDBICP_similarity.tif": {
+    "210ffd4b_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2098,14 +2098,14 @@
         "Blood pressure and pulse": " 128/82, 70",
         "Blood oxygen saturation": " -%"
     },
-    "222a7a70_front_GDBICP_similarity.tif": {
+    "222a7a70_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "244ef5fb_bottom_back_1.tif": {
+    "244ef5fb_bottom_back_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2125,7 +2125,7 @@
             "Skin"
         ]
     },
-    "245ab8ef_wide_11.tif": {
+    "245ab8ef_wide_11.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -2134,7 +2134,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "268a97d0_front_2.tif": {
+    "268a97d0_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2154,7 +2154,7 @@
             "Oral"
         ]
     },
-    "271d63af_front_inpainted_GDBICP_similarity.tif": {
+    "271d63af_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2171,7 +2171,7 @@
             "Attached"
         ]
     },
-    "321ec3dc_front_2.tif": {
+    "321ec3dc_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2190,7 +2190,7 @@
             "Enamel"
         ]
     },
-    "387d7e0d_bottom_inpainted_GDBICP_similarity.tif": {
+    "387d7e0d_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2210,7 +2210,7 @@
             "Attached"
         ]
     },
-    "417fc1e8_bottom_GDBICP_similarity_2.tif": {
+    "417fc1e8_bottom_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2219,7 +2219,7 @@
         "Blood pressure and pulse": " 126/80, 71",
         "Blood oxygen saturation": " -%"
     },
-    "422b1ab8_bottom_6.tif": {
+    "422b1ab8_bottom_6.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2242,7 +2242,7 @@
             "Stain"
         ]
     },
-    "455e38e3_top_inpaint_GDBICP_similarity.tif": {
+    "455e38e3_top_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2260,7 +2260,7 @@
             "Lip"
         ]
     },
-    "475cfa55_lip_1.tif": {
+    "475cfa55_lip_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2282,7 +2282,7 @@
             "Enamel"
         ]
     },
-    "477d8ab5_face_2.tif": {
+    "477d8ab5_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2298,7 +2298,7 @@
             "Lip"
         ]
     },
-    "488b1f68_bottom_2.tif": {
+    "488b1f68_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2320,7 +2320,7 @@
             "Gingivitis"
         ]
     },
-    "534fbcd7_wideangle_GDBICP_similarity_2.tif": {
+    "534fbcd7_wideangle_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -2329,7 +2329,7 @@
         "Blood pressure and pulse": " 128/101, 79",
         "Blood oxygen saturation": " -%"
     },
-    "593c7c6a_face_2.tif": {
+    "593c7c6a_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2345,7 +2345,7 @@
             "Lip"
         ]
     },
-    "614ffe9d_front_GDBICP_similarity.tif": {
+    "614ffe9d_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2354,7 +2354,7 @@
         "Blood pressure and pulse": " 100/61, 70",
         "Blood oxygen saturation": " -%"
     },
-    "616b9dea_wideangle_GDBICP_similarity_2.tif": {
+    "616b9dea_wideangle_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Navitar 5mm f/2.8.",
@@ -2363,14 +2363,14 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "632d99d9_face_GDBICP_similarity.tif": {
+    "632d99d9_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "658dadea_face_GDBICP_similarity.tif": {
+    "658dadea_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2379,7 +2379,7 @@
         "Blood pressure and pulse": " 126/80, 71",
         "Blood oxygen saturation": " -%"
     },
-    "668b05c3_front_inpaint_GDBICP_similarity_roi.tif": {
+    "668b05c3_front_inpaint_GDBICP_similarity_roi.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -2401,7 +2401,7 @@
             "Skin"
         ]
     },
-    "690db113_bottom_1.tif": {
+    "690db113_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2423,7 +2423,7 @@
             "Prosthetics"
         ]
     },
-    "759b0221_face_GDBICP_similarity.tif": {
+    "759b0221_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2432,7 +2432,7 @@
         "Blood pressure and pulse": " 164/80, 72",
         "Blood oxygen saturation": " 97%"
     },
-    "860c48a7_top_inpaint_GDBICP_similarity.tif": {
+    "860c48a7_top_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2454,7 +2454,7 @@
             "Gingivitis"
         ]
     },
-    "880f5491_face_GDBICP_similarity.tif": {
+    "880f5491_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2463,7 +2463,7 @@
         "Blood pressure and pulse": " 106/67, 84",
         "Blood oxygen saturation": " -%"
     },
-    "902f6d74_bottom_5.tif": {
+    "902f6d74_bottom_5.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2486,7 +2486,7 @@
             "Out"
         ]
     },
-    "955ae58b_top_2.tif": {
+    "955ae58b_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2511,7 +2511,7 @@
             "Skin"
         ]
     },
-    "1097b442_top_1.tif": {
+    "1097b442_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2531,7 +2531,7 @@
             "Enamel"
         ]
     },
-    "1594c146_bottom_GDBICP_similarity.tif": {
+    "1594c146_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2540,7 +2540,7 @@
         "Blood pressure and pulse": " 139/72, 60",
         "Blood oxygen saturation": " -%"
     },
-    "2773ccf1_front_2.tif": {
+    "2773ccf1_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2561,7 +2561,7 @@
             "Attached"
         ]
     },
-    "3449f2ff_top_2.tif": {
+    "3449f2ff_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2582,7 +2582,7 @@
             "Lip"
         ]
     },
-    "04123fb5_front_inpainted_GDBICP_similarity.tif": {
+    "04123fb5_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2601,7 +2601,7 @@
             "Calculus"
         ]
     },
-    "4946abf4_top_3.tif": {
+    "4946abf4_top_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2622,7 +2622,7 @@
             "Skin"
         ]
     },
-    "5138f226_face_1.tif": {
+    "5138f226_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2637,7 +2637,7 @@
             "Skin"
         ]
     },
-    "5565f021_front_1.tif": {
+    "5565f021_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2658,7 +2658,7 @@
             "Oral"
         ]
     },
-    "6098d87a_top_1.tif": {
+    "6098d87a_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2677,7 +2677,7 @@
             "Skin"
         ]
     },
-    "6375f0ac_top_1.tif": {
+    "6375f0ac_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2696,7 +2696,7 @@
             "Enamel"
         ]
     },
-    "06506d8e_top_inpaint_GDBICP_similarity.tif": {
+    "06506d8e_top_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2717,7 +2717,7 @@
             "Skin"
         ]
     },
-    "6660cf92_wide_10.tif": {
+    "6660cf92_wide_10.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -2726,7 +2726,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "7037b9e6_face_2.tif": {
+    "7037b9e6_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2741,7 +2741,7 @@
             "Skin"
         ]
     },
-    "7388b887_front_1.tif": {
+    "7388b887_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2760,7 +2760,7 @@
             "Oral"
         ]
     },
-    "7420bd81_front_inpainted_GDBICP_similarity.tif": {
+    "7420bd81_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -2776,7 +2776,7 @@
             "Skin"
         ]
     },
-    "7548be59_front_GDBICP_similarity.tif": {
+    "7548be59_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2785,7 +2785,7 @@
         "Blood pressure and pulse": " 125/76, 57",
         "Blood oxygen saturation": " -%"
     },
-    "8081db5c_front_inpaint_GDBICP_similarity.tif": {
+    "8081db5c_front_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2806,7 +2806,7 @@
             "Enamel"
         ]
     },
-    "8246c5e6_front_GDBICP_similarity.tif": {
+    "8246c5e6_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2815,7 +2815,7 @@
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "9414c2b0_bottom_2.tif": {
+    "9414c2b0_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2832,7 +2832,7 @@
             "Skin"
         ]
     },
-    "20427edb_throat_3.tif": {
+    "20427edb_throat_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2841,7 +2841,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "26395d77_top_6.tif": {
+    "26395d77_top_6.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2862,7 +2862,7 @@
             "Hard"
         ]
     },
-    "39255ce6_face_1.tif": {
+    "39255ce6_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2877,7 +2877,7 @@
             "Lip"
         ]
     },
-    "54736f24_top_1.tif": {
+    "54736f24_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2896,7 +2896,7 @@
             "Skin"
         ]
     },
-    "62766f5f_cheek_2.tif": {
+    "62766f5f_cheek_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2912,7 +2912,7 @@
             "Enamel"
         ]
     },
-    "88521cfb_front_1.tif": {
+    "88521cfb_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -2930,7 +2930,7 @@
             "Enamel"
         ]
     },
-    "093375cc_front_inpainted_GDBICP_similarity.tif": {
+    "093375cc_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2953,7 +2953,7 @@
             "Dentine"
         ]
     },
-    "98763f8a_face_inpainted_GDBICP_similarity.tif": {
+    "98763f8a_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -2965,7 +2965,7 @@
             "Makeup"
         ]
     },
-    "301504b4_front_inpainted_GDBICP_similarity.tif": {
+    "301504b4_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -2986,7 +2986,7 @@
             "Oral"
         ]
     },
-    "592136a4_top_2.tif": {
+    "592136a4_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3008,7 +3008,7 @@
             "Skin"
         ]
     },
-    "1543410a_wide_5.tif": {
+    "1543410a_wide_5.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -3024,7 +3024,7 @@
             "Oral"
         ]
     },
-    "3545016c_wideangle_GDBICP_similarity.tif": {
+    "3545016c_wideangle_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -3033,7 +3033,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "4015239b_wideangle_inpainted_GDBICP_similarity_2.tif": {
+    "4015239b_wideangle_inpainted_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -3042,7 +3042,7 @@
         "Blood pressure and pulse": " 128/101, 79",
         "Blood oxygen saturation": " -%"
     },
-    "4212452a_face_2.tif": {
+    "4212452a_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3056,7 +3056,7 @@
             "Lip"
         ]
     },
-    "05681615_front_inpainted_GDBICP_similarity.tif": {
+    "05681615_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3073,7 +3073,7 @@
             "Oral"
         ]
     },
-    "10137212_face_inpainted_GDBICP_similarity.tif": {
+    "10137212_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3087,7 +3087,7 @@
             "Skin"
         ]
     },
-    "14708242_front_inpainted_GDBICP_similarity.tif": {
+    "14708242_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3105,7 +3105,7 @@
             "Enamel"
         ]
     },
-    "50198446_bottom_inpainted_GDBICP_similarity.tif": {
+    "50198446_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -3120,7 +3120,7 @@
             "Skin"
         ]
     },
-    "90813379_front_GDBICP_similarity.tif": {
+    "90813379_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3129,7 +3129,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "a0b67057_cheek_1.tif": {
+    "a0b67057_cheek_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3149,7 +3149,7 @@
             "Calculus"
         ]
     },
-    "a1f8371c_lip_1.tif": {
+    "a1f8371c_lip_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3172,7 +3172,7 @@
             "Skin"
         ]
     },
-    "a03af337_top_3.tif": {
+    "a03af337_top_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3194,7 +3194,7 @@
             "Out"
         ]
     },
-    "a3b40df4_face_GDBICP_similarity.tif": {
+    "a3b40df4_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3203,7 +3203,7 @@
         "Blood pressure and pulse": " 109/86, 88",
         "Blood oxygen saturation": " -%"
     },
-    "a4af11ac_face_inpainted_GDBICP_similarity.tif": {
+    "a4af11ac_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -3214,14 +3214,14 @@
             "Skin"
         ]
     },
-    "a4c34cbd_bottom_GDBICP_similarity_2.tif": {
+    "a4c34cbd_bottom_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "a5b8f73b_throat_inpainted_GDBICP_similarity.tif": {
+    "a5b8f73b_throat_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -3233,7 +3233,7 @@
             "Soft"
         ]
     },
-    "a5de5daa_lip_4.tif": {
+    "a5de5daa_lip_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3248,7 +3248,7 @@
             "Oral"
         ]
     },
-    "a6e971e0_face_GDBICP_similarity.tif": {
+    "a6e971e0_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3257,7 +3257,7 @@
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "a7ab28f1_bottom_GDBICP_similarity.tif": {
+    "a7ab28f1_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3266,7 +3266,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "a8d55a82_tongue_1.tif": {
+    "a8d55a82_tongue_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3284,7 +3284,7 @@
             "Tongue"
         ]
     },
-    "a14afc8d_wideangle_bottom_GDBICP_similarity.tif": {
+    "a14afc8d_wideangle_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Canon 8-48mm f/1.0 Macro.",
@@ -3293,7 +3293,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "a24e6f89_tongue_1.tif": {
+    "a24e6f89_tongue_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3309,7 +3309,7 @@
             "Lip"
         ]
     },
-    "a68e80b2_bottom_inpainted_GDBICP_similarity.tif": {
+    "a68e80b2_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3330,7 +3330,7 @@
             "Attached"
         ]
     },
-    "a132fdb5_face_2.tif": {
+    "a132fdb5_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3346,7 +3346,7 @@
             "Lip"
         ]
     },
-    "a390fd78_lip_2.tif": {
+    "a390fd78_lip_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3360,7 +3360,7 @@
             "Lip"
         ]
     },
-    "a423f4fe_front_GDBICP_similarity.tif": {
+    "a423f4fe_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3369,7 +3369,7 @@
         "Blood pressure and pulse": " 106/67, 84",
         "Blood oxygen saturation": " -%"
     },
-    "a2282d10_face_GDBICP_similarity.tif": {
+    "a2282d10_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3378,7 +3378,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "a7203ac3_bottom_4.tif": {
+    "a7203ac3_bottom_4.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3401,7 +3401,7 @@
             "Shadow/Noise"
         ]
     },
-    "a8893eb1_bottom_GDBICP_similarity.tif": {
+    "a8893eb1_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3410,7 +3410,7 @@
         "Blood pressure and pulse": " 126/80, 71",
         "Blood oxygen saturation": " -%"
     },
-    "a32725fe_bottom_2.tif": {
+    "a32725fe_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3427,7 +3427,7 @@
             "Marginal"
         ]
     },
-    "a40085dc_front_inpainted_GDBICP_similarity.tif": {
+    "a40085dc_front_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3446,7 +3446,7 @@
             "Enamel"
         ]
     },
-    "a0106281_front_inpaint_GDBICP_similarity.tif": {
+    "a0106281_front_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3469,7 +3469,7 @@
             "Skin"
         ]
     },
-    "aa469c9b_front_3.tif": {
+    "aa469c9b_front_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3488,7 +3488,7 @@
             "Out"
         ]
     },
-    "ab1b1aad_top_1.tif": {
+    "ab1b1aad_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3507,7 +3507,7 @@
             "Metal"
         ]
     },
-    "ab1cdb1a_top_inpainted_GDBICP_similarity.tif": {
+    "ab1cdb1a_top_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -3521,7 +3521,7 @@
             "Hard"
         ]
     },
-    "abf46a0f_top_2.tif": {
+    "abf46a0f_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3541,7 +3541,7 @@
             "Marginal"
         ]
     },
-    "ad184b09_face_inpainted_GDBICP_similarity.tif": {
+    "ad184b09_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3556,7 +3556,7 @@
             "Skin"
         ]
     },
-    "ad290476_wide_1.tif": {
+    "ad290476_wide_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -3574,7 +3574,7 @@
             "Oral"
         ]
     },
-    "af477059_front_2.tif": {
+    "af477059_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3595,7 +3595,7 @@
             "Out"
         ]
     },
-    "b1de48fc_front_1.tif": {
+    "b1de48fc_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3613,7 +3613,7 @@
             "Attached"
         ]
     },
-    "b1fa4feb_bottom_GDBICP_similarity.tif": {
+    "b1fa4feb_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3622,7 +3622,7 @@
         "Blood pressure and pulse": " 138/83, 61",
         "Blood oxygen saturation": " 97%"
     },
-    "b7c19c7b_wideangle_GDBICP_similarity_1.tif": {
+    "b7c19c7b_wideangle_GDBICP_similarity_1.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Navitar 5mm f/2.8.",
@@ -3631,7 +3631,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "b49e9e2c_top_3.tif": {
+    "b49e9e2c_top_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3650,7 +3650,7 @@
             "Skin"
         ]
     },
-    "b78aa667_lip_1.tif": {
+    "b78aa667_lip_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3667,7 +3667,7 @@
             "Enamel"
         ]
     },
-    "b258ba2a_wide_2.tif": {
+    "b258ba2a_wide_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -3676,7 +3676,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "b705ca09_top_2.tif": {
+    "b705ca09_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3698,7 +3698,7 @@
             "Skin"
         ]
     },
-    "b9747ba5_bottom_inpainted_GDBICP_similarity.tif": {
+    "b9747ba5_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3718,7 +3718,7 @@
             "Attached"
         ]
     },
-    "b10644da_front_2.tif": {
+    "b10644da_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3742,7 +3742,7 @@
             "Root"
         ]
     },
-    "b4000397_top_GDBICP_similarity.tif": {
+    "b4000397_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3751,7 +3751,7 @@
         "Blood pressure and pulse": " 138/83, 61",
         "Blood oxygen saturation": " 97%"
     },
-    "b5893392_bottom_inpaint_GDBICP_similarity.tif": {
+    "b5893392_bottom_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3773,7 +3773,7 @@
             "Attached"
         ]
     },
-    "ba9444b8_front_inpaint_GDBICP_similarity_roi.tif": {
+    "ba9444b8_front_inpaint_GDBICP_similarity_roi.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -3791,7 +3791,7 @@
             "Enamel"
         ]
     },
-    "bda7a267_bottom_1.tif": {
+    "bda7a267_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3813,7 +3813,7 @@
             "Skin"
         ]
     },
-    "be8e1d55_tongue_1.tif": {
+    "be8e1d55_tongue_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3827,7 +3827,7 @@
             "Fibroma"
         ]
     },
-    "be0552df_bottom_1.tif": {
+    "be0552df_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3848,7 +3848,7 @@
             "Skin"
         ]
     },
-    "c0e2296e_top_2.tif": {
+    "c0e2296e_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3870,7 +3870,7 @@
             "Out"
         ]
     },
-    "c3b2be33_bottom_3.tif": {
+    "c3b2be33_bottom_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3891,7 +3891,7 @@
             "Out"
         ]
     },
-    "c4a6be38_front_GDBICP_similarity.tif": {
+    "c4a6be38_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -3900,7 +3900,7 @@
         "Blood pressure and pulse": " 128/82, 70",
         "Blood oxygen saturation": " -%"
     },
-    "c4a8772d_front_1.tif": {
+    "c4a8772d_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3921,7 +3921,7 @@
             "Hair"
         ]
     },
-    "c7cfedcb_wideangle_face_GDBICP_similarity_3.tif": {
+    "c7cfedcb_wideangle_face_GDBICP_similarity_3.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -3930,14 +3930,14 @@
         "Blood pressure and pulse": " 118/73, 54",
         "Blood oxygen saturation": " -%"
     },
-    "c9c7c727_bottom_GDBICP_similarity.tif": {
+    "c9c7c727_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 144/89, 50",
         "Blood oxygen saturation": " 97%"
     },
-    "c49ef240_face_1.tif": {
+    "c49ef240_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3952,7 +3952,7 @@
             "Skin"
         ]
     },
-    "c52ed903_top_2.tif": {
+    "c52ed903_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3967,7 +3967,7 @@
             "Lip"
         ]
     },
-    "c89c33a9_top_2.tif": {
+    "c89c33a9_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -3985,7 +3985,7 @@
             "Enamel"
         ]
     },
-    "c95db06f_face_inpainted_GDBICP_similarity.tif": {
+    "c95db06f_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4000,7 +4000,7 @@
             "Soft"
         ]
     },
-    "c920d42a_top_1.tif": {
+    "c920d42a_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4025,7 +4025,7 @@
             "Skin"
         ]
     },
-    "c1261b69_tongue_2.tif": {
+    "c1261b69_tongue_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4042,7 +4042,7 @@
             "Skin"
         ]
     },
-    "c4038b6b_face_GDBICP_similarity.tif": {
+    "c4038b6b_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4051,7 +4051,7 @@
         "Blood pressure and pulse": " 119/79, 68",
         "Blood oxygen saturation": " -%"
     },
-    "c5060b5b_wideangle_face_GDBICP_similarity_2.tif": {
+    "c5060b5b_wideangle_face_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4060,7 +4060,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "c59051e7_face_inpainted_GDBICP_similarity.tif": {
+    "c59051e7_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4073,7 +4073,7 @@
             "Skin"
         ]
     },
-    "ca78a81b_bottom_1.tif": {
+    "ca78a81b_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4094,7 +4094,7 @@
             "Lip"
         ]
     },
-    "ca7045b2_front_GDBICP_similarity.tif": {
+    "ca7045b2_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4103,7 +4103,7 @@
         "Blood pressure and pulse": " 112/72, 45",
         "Blood oxygen saturation": " -%"
     },
-    "cbf93b3b_bottom_2.tif": {
+    "cbf93b3b_bottom_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4122,7 +4122,7 @@
             "Out"
         ]
     },
-    "cc277b7a_bottom_GDBICP_similarity.tif": {
+    "cc277b7a_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4131,7 +4131,7 @@
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "cc263538_top_GDBICP_similarity.tif": {
+    "cc263538_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4140,7 +4140,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "ceea7fe2_bottom_GDBICP_similarity.tif": {
+    "ceea7fe2_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4149,7 +4149,7 @@
         "Blood pressure and pulse": " 125/76, 57",
         "Blood oxygen saturation": " -%"
     },
-    "cf786daf_lip_2.tif": {
+    "cf786daf_lip_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4165,7 +4165,7 @@
             "Skin"
         ]
     },
-    "d0bf9f3d_throat_2.tif": {
+    "d0bf9f3d_throat_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4174,7 +4174,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "d2d26a24_lip_1.tif": {
+    "d2d26a24_lip_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4191,7 +4191,7 @@
             "Skin"
         ]
     },
-    "d8c39419_wideangle_face_GDBICP_similarity.tif": {
+    "d8c39419_wideangle_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4200,14 +4200,14 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "d38abf20_throat_GDBICP_similarity.tif": {
+    "d38abf20_throat_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "d47a8771_bottom_inpaint_GDBICP_similarity_roi.tif": {
+    "d47a8771_bottom_inpaint_GDBICP_similarity_roi.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -4229,7 +4229,7 @@
             "Microfracture"
         ]
     },
-    "d82f21d9_bottom_3.tif": {
+    "d82f21d9_bottom_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4249,7 +4249,7 @@
             "Skin"
         ]
     },
-    "d941754f_bottom_inpaint_GDBICP_similarity.tif": {
+    "d941754f_bottom_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4274,14 +4274,14 @@
             "Attached"
         ]
     },
-    "d3638290_bottom_inpainted_GDBICP_similarity_2.tif": {
+    "d3638290_bottom_inpainted_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 105/62, 56",
         "Blood oxygen saturation": " -%"
     },
-    "da8e1a2f_bottom_inpainted_GDBICP_similarity.tif": {
+    "da8e1a2f_bottom_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4298,14 +4298,14 @@
             "Marginal"
         ]
     },
-    "db37ebc9_front_GDBICP_similarity.tif": {
+    "db37ebc9_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
         "Blood pressure and pulse": " 144/89, 50",
         "Blood oxygen saturation": " 97%"
     },
-    "db91e0f5_face_1.tif": {
+    "db91e0f5_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4320,7 +4320,7 @@
             "Lip"
         ]
     },
-    "dca018d3_wide_3.tif": {
+    "dca018d3_wide_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -4329,7 +4329,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "df5a3dcc_wideangle_GDBICP_similarity_4.tif": {
+    "df5a3dcc_wideangle_GDBICP_similarity_4.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4338,7 +4338,7 @@
         "Blood pressure and pulse": " 118/73, 54",
         "Blood oxygen saturation": " -%"
     },
-    "dfe82bdb_face_1.tif": {
+    "dfe82bdb_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4353,7 +4353,7 @@
             "Skin"
         ]
     },
-    "e9d28736_bottom_GDBICP_similarity.tif": {
+    "e9d28736_bottom_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4362,7 +4362,7 @@
         "Blood pressure and pulse": " 164/80, 72",
         "Blood oxygen saturation": " 97%"
     },
-    "e9f548f5_front_1.tif": {
+    "e9f548f5_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4384,7 +4384,7 @@
             "Out"
         ]
     },
-    "e31b4979_top_inpainted_GDBICP_similarity.tif": {
+    "e31b4979_top_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",
@@ -4399,7 +4399,7 @@
             "Metal"
         ]
     },
-    "e031c730_face_2.tif": {
+    "e031c730_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4415,7 +4415,7 @@
             "Lip"
         ]
     },
-    "e0053b84_bottom_7.tif": {
+    "e0053b84_bottom_7.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4435,7 +4435,7 @@
             "Oral"
         ]
     },
-    "e066a0ec_bottom_8.tif": {
+    "e066a0ec_bottom_8.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4455,7 +4455,7 @@
             "Metal"
         ]
     },
-    "e72c8724_face_GDBICP_similarity.tif": {
+    "e72c8724_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4464,7 +4464,7 @@
         "Blood pressure and pulse": " 125/76, 57",
         "Blood oxygen saturation": " -%"
     },
-    "e3810edd_wideangle_face_GDBICP_similarity.tif": {
+    "e3810edd_wideangle_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Canon 8-48mm f/1.0 Macro.",
@@ -4473,7 +4473,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "e19691db_front_1.tif": {
+    "e19691db_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4497,7 +4497,7 @@
             "Plastic"
         ]
     },
-    "eaefc4ae_tongue_inpaint_GDBICP_similarity.tif": {
+    "eaefc4ae_tongue_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4514,7 +4514,7 @@
             "Tongue"
         ]
     },
-    "ebd23bfd_front_GDBICP_similarity.tif": {
+    "ebd23bfd_front_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4523,7 +4523,7 @@
         "Blood pressure and pulse": " 126/80, 71",
         "Blood oxygen saturation": " -%"
     },
-    "ec7a6885_bottom_1.tif": {
+    "ec7a6885_bottom_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4544,7 +4544,7 @@
             "Hair"
         ]
     },
-    "eceb884d_front_inpaint_GDBICP_similarity.tif": {
+    "eceb884d_front_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4564,7 +4564,7 @@
             "Enamel"
         ]
     },
-    "ed5c39e0_top_2.tif": {
+    "ed5c39e0_top_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4584,7 +4584,7 @@
             "Skin"
         ]
     },
-    "ed003303_top_1.tif": {
+    "ed003303_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4602,7 +4602,7 @@
             "Specular"
         ]
     },
-    "eeca6790_wideangle_inpainted_GDBICP_similarity_4.tif": {
+    "eeca6790_wideangle_inpainted_GDBICP_similarity_4.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4611,7 +4611,7 @@
         "Blood pressure and pulse": " 118/73, 54",
         "Blood oxygen saturation": " -%"
     },
-    "f0a35c25_front_1.tif": {
+    "f0a35c25_front_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4630,7 +4630,7 @@
             "Out"
         ]
     },
-    "f1d6cd9d_top_1.tif": {
+    "f1d6cd9d_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4649,7 +4649,7 @@
             "Lip"
         ]
     },
-    "f8ef04c9_front_2.tif": {
+    "f8ef04c9_front_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4669,7 +4669,7 @@
             "Hair"
         ]
     },
-    "f13a0c9f_cheek_1.tif": {
+    "f13a0c9f_cheek_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4688,7 +4688,7 @@
             "Metal"
         ]
     },
-    "f71d6081_face_GDBICP_similarity.tif": {
+    "f71d6081_face_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4697,7 +4697,7 @@
         "Blood pressure and pulse": " 142/90, 76",
         "Blood oxygen saturation": " -%"
     },
-    "f73b6ae4_front_inpaint_GDBICP_similarity.tif": {
+    "f73b6ae4_front_inpaint_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4720,7 +4720,7 @@
             "Skin"
         ]
     },
-    "f81de683_wideangle_GDBICP_similarity_2.tif": {
+    "f81de683_wideangle_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4729,7 +4729,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "f447c31b_top_GDBICP_similarity.tif": {
+    "f447c31b_top_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4738,7 +4738,7 @@
         "Blood pressure and pulse": " 164/80, 72",
         "Blood oxygen saturation": " 97%"
     },
-    "f0506ceb_front_3.tif": {
+    "f0506ceb_front_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4759,7 +4759,7 @@
             "Stain"
         ]
     },
-    "f533af9b_lip_3.tif": {
+    "f533af9b_lip_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4784,7 +4784,7 @@
             "Enamel"
         ]
     },
-    "f5495de4_face_inpainted_GDBICP_similarity.tif": {
+    "f5495de4_face_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Samyang 35mm f/1.4.",
@@ -4798,7 +4798,7 @@
             "Skin"
         ]
     },
-    "f8047e58_face_1.tif": {
+    "f8047e58_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4812,7 +4812,7 @@
             "Lip"
         ]
     },
-    "f2730775_wideangle_face_GDBICP_similarity_2.tif": {
+    "f2730775_wideangle_face_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4821,7 +4821,7 @@
         "Blood pressure and pulse": " 128/101, 79",
         "Blood oxygen saturation": " -%"
     },
-    "f8117304_top_1.tif": {
+    "f8117304_top_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4843,7 +4843,7 @@
             "Enamel"
         ]
     },
-    "fa34d855_face_1.tif": {
+    "fa34d855_face_1.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4858,7 +4858,7 @@
             "Skin"
         ]
     },
-    "fc9029e6_front_3.tif": {
+    "fc9029e6_front_3.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4877,7 +4877,7 @@
             "Oral"
         ]
     },
-    "fd79e5b8_wide_14.tif": {
+    "fd79e5b8_wide_14.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter + Olympus FCON-T01 fisheye lens.",
@@ -4886,7 +4886,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "fdc0d7e0_wideangle_GDBICP_similarity_2.tif": {
+    "fdc0d7e0_wideangle_GDBICP_similarity_2.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " Schott 8mm f/1.4.",
@@ -4895,7 +4895,7 @@
         "Blood pressure and pulse": " -/-, -",
         "Blood oxygen saturation": " -%"
     },
-    "fe7b7582_face_2.tif": {
+    "fe7b7582_face_2.jpg": {
         "Spectral camera": " Specim IQ (Specim, Spectral Imaging Oy, Ltd., Finland).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Objective lens": " <fixed> + Hoya Fusion/EVO Antistatic Protector filter.",
@@ -4948,7 +4948,7 @@
             "Ulcer"
         ]
     },
-    "ff6bc35d_top_inpainted_GDBICP_similarity.tif": {
+    "ff6bc35d_top_inpainted_GDBICP_similarity.jpg": {
         "Spectral camera": " Nuance EX (CRi, Inc., USA).",
         "Illumination": " Thorlabs OSL2 halogen light source (100% power) + Thorlabs Ring Illuminator.",
         "Reference sample used": " Matt diffuse gray sample (\"Matt Diff Grey\", Ceram Research, Ltd., UK).",

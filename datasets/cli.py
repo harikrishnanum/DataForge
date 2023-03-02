@@ -7,12 +7,14 @@ from pymongo import MongoClient
 import glob
 import logging
 from halo import Halo
+from tqdm import tqdm
 
-logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='a')
+logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')
 
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
 @click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
+@click.option('--img_format', default='jpg', help='The image format of the dataset.')
 @click.option('--bucket', default='', help='The bucket to upload the file to.')
 @click.option('--endpoint', default='192.168.1.189:9000', help='The MinIO server endpoint.')
 @click.option('--access-key', default='minio', help='The access key for the MinIO server.')
@@ -25,8 +27,14 @@ logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='a')
 @click.option('--mongo-uri', default='mongodb://192.168.1.189:27017/', help='The MongoDB server URI.')
 @click.option('--mongo-db', default='my-database', help='The name of the MongoDB database.')
 @click.option('--mongo-collection', default='my-collection', help='The name of the MongoDB collection.')
-def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
+def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
     """Upload a dataset to MinIO and write its metadata to RabbitMQ, and create a MongoDB document for the dataset."""
+    
+    metadatafile = os.path.join(dir_path, metadatafile)
+    if not os.path.exists(metadatafile):
+        click.echo(f'Error: metadata file {metadatafile} does not exist.')
+        return
+    metadata = json.load(open(metadatafile))
     if not bucket:
         # Use the parent directory name of the directory as the bucket name
         if '/' in dir_path:
@@ -47,18 +55,19 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
             logging.info(f'Creating bucket {bucket} on MinIO server.')
             client.make_bucket(bucket)
             click.echo(f'Bucket {bucket} created on MinIO server.')
-            logging.info(f'Bucket {bucket} created on MinIO server.')
+
         # loop through all files in the directory
         logging.info(f'Uploading files in {dir_path} to bucket {bucket} on MinIO server.')
-        with Halo(text='Uploading files to MinIO server', spinner='dots'):
-            for file_path in glob.glob(dir_path + '/**/*.jpg', recursive=True):
-                if '.jpg' not in file_path:
-                    continue
-                with open(file_path, 'rb') as f:
-                    # file_name = os.path.basename(file_path)
-                    logging.info(f'Uploading {file_path} to {bucket} on MinIO server.')
-                    client.put_object(bucket, file_path, f, length=os.fstat(f.fileno()).st_size)
-                    logging.info(f'Successfully uploaded {file_path} to {bucket} on MinIO server.')
+        for file_path in tqdm(glob.glob(f'{dir_path}/**/*.{img_format}', recursive=True), desc='Uploading files to MinIO server'):
+            if img_format not in file_path:
+                continue
+            with open(file_path, 'rb') as f:
+                file_name = os.path.basename(file_path)
+                logging.info(f'Uploading {file_path} to {bucket} on MinIO server.')
+                client.put_object(bucket, file_path, f, length=os.fstat(f.fileno()).st_size)
+                logging.info(f'Successfully uploaded {file_path} to {bucket} on MinIO server.')
+                metadata[file_name]['bucket'] = bucket
+                metadata[file_name]['path'] = file_path
         click.echo(f'Successfully uploaded {dir_path} to {bucket} on MinIO server.')
             
         # Update status, name, and readme in MongoDB document
@@ -69,11 +78,9 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
         dataset = {
             'name': dir_path,
             'bucket': bucket,
-            'status': 'waiting_for_indexing',
-            'readme': ''
+            'status': 'waiting_for_indexing'
         }
         collection.insert_one(dataset)
-        # click.echo(f'Successfully created MongoDB document for {dir_path}.')
         logging.info(f'Successfully created MongoDB document for {dir_path}.')
         
     except Exception as err:
@@ -84,7 +91,7 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
         db = mongo_client[mongo_db]
         collection = db[mongo_collection]
         collection.update_one({'name': dir_path}, {'$set': {'status': 'upload_failed'}})
-        click.echo(f'Updated MongoDB document for {dir_path} to mark upload failure.')
+        logging.info(f'Updated MongoDB document for {dir_path} to mark upload failure.')
         
         return
     
@@ -97,14 +104,7 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
 
         # Declare queue
         channel.queue_declare(queue=queue, durable=True)
-
-        # Construct metadata
-        metadata = {
-            'dataset_name': dir_path,
-            'bucket_name': bucket,
-            'status': 'waiting_for_indexing'
-        }
-
+        
         # Send metadata to queue
         channel.basic_publish(exchange='', routing_key=queue, body=json.dumps(metadata), properties=pika.BasicProperties(
             delivery_mode=2,  # make message persistent
@@ -115,8 +115,8 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
         mongo_client = MongoClient(mongo_uri)
         db = mongo_client[mongo_db]
         collection = db[mongo_collection]
-        collection.update_one({'name': dir_path}, {'$set': {'status': 'waiting_for_indexing', 'readme': 'This dataset is waiting for indexing.'}})
-        click.echo(f'Updated MongoDB document for {dir_path} to mark waiting for indexing.')
+        collection.update_one({'name': dir_path}, {'$set': {'status': 'waiting_for_indexing'}})
+        logging.info(f'Updated MongoDB document for {dir_path} to mark waiting for indexing.')
         
         # Close connection to RabbitMQ server
         connection.close()
@@ -129,7 +129,7 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
         db = mongo_client[mongo_db]
         collection = db[mongo_collection]
         collection.update_one({'name': dir_path}, {'$set': {'status': 'metadata_sending_failed'}})
-        click.echo(f'Updated MongoDB document for {dir_path} to mark metadata sending failure.')
+        logging.info(f'Updated MongoDB document for {dir_path} to mark metadata sending failure.')
     
     return
 

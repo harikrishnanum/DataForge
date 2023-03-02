@@ -12,7 +12,7 @@ lines = [line for line in lines if line != '']
     
 for line in lines:
     if '.tif' in line: 
-        filename = line.split(':')[0]
+        filename = line.split(':')[0].replace('.tif', '.jpg')
         metadata[filename] = {}
     elif 'Spectral camera' in line:
         metadata[filename]['Spectral camera'] = line.split(':')[1]
@@ -37,7 +37,7 @@ lines = [line for line in lines if line != '']
 for line in lines:
     if '.tif' in line:
         filename = line.split(':')[0]
-        filename = filename.split('_mask')[0] + '.tif'
+        filename = filename.split('_mask')[0] + '.jpg'
         metadata[filename]['labels'] = []
     else:
         label = line.split()[0]
