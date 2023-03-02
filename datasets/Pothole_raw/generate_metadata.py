@@ -2,7 +2,7 @@ import random
 import json
 import glob
 
-labels = ['potholes','normal']
+labels = ['potholes']
 metadata = {}
 
 for label in labels:

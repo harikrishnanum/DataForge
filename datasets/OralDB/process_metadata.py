@@ -1,4 +1,3 @@
-import sys
 import json
 
 metadata_file = 'dataset-metadatas.rxt'

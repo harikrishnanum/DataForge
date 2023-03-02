@@ -6,7 +6,6 @@ import pika
 from pymongo import MongoClient
 import glob
 import logging
-from halo import Halo
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')

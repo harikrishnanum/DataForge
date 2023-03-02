@@ -1,0 +1,3434 @@
+{
+    "covid_050.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "120/64",
+        "Blood oxygen saturation": 98,
+        "age": 67,
+        "name": "Oscar Morales",
+        "Date": "8/7/2020"
+    },
+    "covid_044.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 97,
+        "blood pressure": "92/61",
+        "Blood oxygen saturation": 90,
+        "age": 43,
+        "name": "Helen Velasco",
+        "Date": "5/25/2021"
+    },
+    "covid_078.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 64,
+        "blood pressure": "115/66",
+        "Blood oxygen saturation": 93,
+        "age": 39,
+        "name": "Steve Gomez",
+        "Date": "5/9/2021"
+    },
+    "covid_086.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "98/79",
+        "Blood oxygen saturation": 96,
+        "age": 25,
+        "name": "Esther Gaddis",
+        "Date": "9/16/2022"
+    },
+    "covid_092.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "91/78",
+        "Blood oxygen saturation": 94,
+        "age": 32,
+        "name": "William Pettit",
+        "Date": "10/3/2022"
+    },
+    "covid_079.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 93,
+        "blood pressure": "94/69",
+        "Blood oxygen saturation": 95,
+        "age": 24,
+        "name": "Albert Cress",
+        "Date": "1/4/2021"
+    },
+    "covid_045.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "102/72",
+        "Blood oxygen saturation": 98,
+        "age": 48,
+        "name": "Sharon Stanford",
+        "Date": "4/8/2022"
+    },
+    "covid_051.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 95,
+        "blood pressure": "113/73",
+        "Blood oxygen saturation": 99,
+        "age": 54,
+        "name": "Michael Sotelo",
+        "Date": "6/18/2021"
+    },
+    "covid_auntminnie-b-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 78,
+        "blood pressure": "93/63",
+        "Blood oxygen saturation": 98,
+        "age": 28,
+        "name": "Daniel Chambers",
+        "Date": "10/24/2021"
+    },
+    "covid_047.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 90,
+        "blood pressure": "90/74",
+        "Blood oxygen saturation": 99,
+        "age": 60,
+        "name": "Randy James",
+        "Date": "7/9/2021"
+    },
+    "covid_053.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 81,
+        "blood pressure": "93/72",
+        "Blood oxygen saturation": 90,
+        "age": 36,
+        "name": "Jerry Williams",
+        "Date": "3/14/2021"
+    },
+    "covid_084.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 76,
+        "blood pressure": "109/79",
+        "Blood oxygen saturation": 90,
+        "age": 85,
+        "name": "Karen Rambert",
+        "Date": "3/19/2022"
+    },
+    "covid_090.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 82,
+        "blood pressure": "105/77",
+        "Blood oxygen saturation": 93,
+        "age": 23,
+        "name": "Jenelle Harrington",
+        "Date": "1/5/2022"
+    },
+    "covid_091.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 97,
+        "blood pressure": "90/75",
+        "Blood oxygen saturation": 94,
+        "age": 93,
+        "name": "Cathy Clifford",
+        "Date": "10/23/2021"
+    },
+    "covid_085.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 89,
+        "blood pressure": "100/63",
+        "Blood oxygen saturation": 97,
+        "age": 59,
+        "name": "Ruth Toole",
+        "Date": "7/21/2020"
+    },
+    "covid_052.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 85,
+        "blood pressure": "99/72",
+        "Blood oxygen saturation": 100,
+        "age": 79,
+        "name": "Joan Perkins",
+        "Date": "11/14/2020"
+    },
+    "covid_046.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 64,
+        "blood pressure": "109/60",
+        "Blood oxygen saturation": 99,
+        "age": 19,
+        "name": "Benjamin Phelps",
+        "Date": "8/20/2022"
+    },
+    "covid_042.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 65,
+        "blood pressure": "108/67",
+        "Blood oxygen saturation": 95,
+        "age": 33,
+        "name": "Irving Harris",
+        "Date": "3/10/2021"
+    },
+    "covid_056.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "96/62",
+        "Blood oxygen saturation": 100,
+        "age": 46,
+        "name": "Michael Johnson",
+        "Date": "9/22/2022"
+    },
+    "covid_081.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 70,
+        "blood pressure": "100/65",
+        "Blood oxygen saturation": 90,
+        "age": 85,
+        "name": "Tanya Knight",
+        "Date": "5/18/2020"
+    },
+    "covid_094.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 79,
+        "blood pressure": "116/64",
+        "Blood oxygen saturation": 92,
+        "age": 31,
+        "name": "Helen Porter",
+        "Date": "2/18/2022"
+    },
+    "covid_080.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 85,
+        "blood pressure": "109/65",
+        "Blood oxygen saturation": 90,
+        "age": 57,
+        "name": "Robert Balboa",
+        "Date": "11/17/2020"
+    },
+    "covid_057.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 91,
+        "blood pressure": "101/75",
+        "Blood oxygen saturation": 95,
+        "age": 7,
+        "name": "James Sindelar",
+        "Date": "4/12/2021"
+    },
+    "covid_043.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 80,
+        "blood pressure": "110/76",
+        "Blood oxygen saturation": 98,
+        "age": 95,
+        "name": "Lyle Andrews",
+        "Date": "8/7/2020"
+    },
+    "covid_auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 67,
+        "blood pressure": "109/69",
+        "Blood oxygen saturation": 90,
+        "age": 5,
+        "name": "Michael Smithers",
+        "Date": "3/3/2020"
+    },
+    "covid_069.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "103/64",
+        "Blood oxygen saturation": 95,
+        "age": 70,
+        "name": "Lois Weil",
+        "Date": "9/21/2020"
+    },
+    "covid_055.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 66,
+        "blood pressure": "114/73",
+        "Blood oxygen saturation": 94,
+        "age": 23,
+        "name": "Loren Rogers",
+        "Date": "9/27/2022"
+    },
+    "covid_041.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 61,
+        "blood pressure": "118/67",
+        "Blood oxygen saturation": 93,
+        "age": 33,
+        "name": "John Michel",
+        "Date": "6/25/2022"
+    },
+    "covid_096.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "116/70",
+        "Blood oxygen saturation": 98,
+        "age": 5,
+        "name": "Robert Wakefield",
+        "Date": "12/20/2022"
+    },
+    "covid_082.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "95/65",
+        "Blood oxygen saturation": 91,
+        "age": 97,
+        "name": "Toni Hou",
+        "Date": "8/15/2021"
+    },
+    "covid_083.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 74,
+        "blood pressure": "102/71",
+        "Blood oxygen saturation": 97,
+        "age": 96,
+        "name": "Gary Marks",
+        "Date": "11/4/2020"
+    },
+    "covid_040.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 87,
+        "blood pressure": "114/67",
+        "Blood oxygen saturation": 98,
+        "age": 24,
+        "name": "Teresa Schenk",
+        "Date": "10/26/2020"
+    },
+    "covid_054.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 77,
+        "blood pressure": "102/75",
+        "Blood oxygen saturation": 90,
+        "age": 55,
+        "name": "Joseph Ponce",
+        "Date": "11/4/2020"
+    },
+    "covid_068.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "101/71",
+        "Blood oxygen saturation": 100,
+        "age": 11,
+        "name": "Jason Green",
+        "Date": "9/15/2021"
+    },
+    "covid_COVID-00033.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "98/63",
+        "Blood oxygen saturation": 96,
+        "age": 80,
+        "name": "Philip Guy",
+        "Date": "6/4/2021"
+    },
+    "covid_COVID-00027.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 69,
+        "blood pressure": "116/70",
+        "Blood oxygen saturation": 92,
+        "age": 42,
+        "name": "Hilary Shaw",
+        "Date": "2/13/2020"
+    },
+    "covid_06.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 99,
+        "blood pressure": "120/73",
+        "Blood oxygen saturation": 100,
+        "age": 74,
+        "name": "Randall Foster",
+        "Date": "11/23/2022"
+    },
+    "covid_033.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "99/63",
+        "Blood oxygen saturation": 97,
+        "age": 94,
+        "name": "Gregory Phillips",
+        "Date": "3/11/2021"
+    },
+    "covid_027.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 65,
+        "blood pressure": "93/69",
+        "Blood oxygen saturation": 98,
+        "age": 87,
+        "name": "Lea Herandez",
+        "Date": "2/25/2021"
+    },
+    "covid_auntminnie-d-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 97,
+        "blood pressure": "105/79",
+        "Blood oxygen saturation": 100,
+        "age": 98,
+        "name": "Cheryl Pinto",
+        "Date": "11/25/2020"
+    },
+    "covid_0102.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 75,
+        "blood pressure": "97/76",
+        "Blood oxygen saturation": 94,
+        "age": 40,
+        "name": "Douglas Keller",
+        "Date": "10/5/2021"
+    },
+    "covid_026.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 78,
+        "blood pressure": "104/75",
+        "Blood oxygen saturation": 90,
+        "age": 56,
+        "name": "Kenneth Barbian",
+        "Date": "2/11/2021"
+    },
+    "covid_032.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 79,
+        "blood pressure": "101/65",
+        "Blood oxygen saturation": 93,
+        "age": 42,
+        "name": "John Marden",
+        "Date": "11/24/2022"
+    },
+    "covid_07.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 74,
+        "blood pressure": "115/73",
+        "Blood oxygen saturation": 90,
+        "age": 29,
+        "name": "Tori Bryand",
+        "Date": "1/3/2020"
+    },
+    "covid_COVID-00026.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 62,
+        "blood pressure": "90/78",
+        "Blood oxygen saturation": 91,
+        "age": 40,
+        "name": "Andres Hazlewood",
+        "Date": "5/10/2021"
+    },
+    "covid_COVID-00032.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 93,
+        "blood pressure": "114/65",
+        "Blood oxygen saturation": 95,
+        "age": 95,
+        "name": "Tony Vela",
+        "Date": "11/6/2021"
+    },
+    "covid_COVID-00018.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 100,
+        "blood pressure": "106/61",
+        "Blood oxygen saturation": 91,
+        "age": 3,
+        "name": "Brandon Dupree",
+        "Date": "12/17/2020"
+    },
+    "covid_COVID-00024.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 91,
+        "blood pressure": "96/66",
+        "Blood oxygen saturation": 100,
+        "age": 67,
+        "name": "Hilda Apadoca",
+        "Date": "5/16/2022"
+    },
+    "covid_COVID-00030.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 97,
+        "blood pressure": "114/78",
+        "Blood oxygen saturation": 93,
+        "age": 60,
+        "name": "Oliver Whitman",
+        "Date": "1/14/2021"
+    },
+    "covid_024.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 85,
+        "blood pressure": "91/66",
+        "Blood oxygen saturation": 99,
+        "age": 33,
+        "name": "Angela Olmos",
+        "Date": "5/6/2022"
+    },
+    "covid_0100.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 94,
+        "blood pressure": "112/68",
+        "Blood oxygen saturation": 98,
+        "age": 88,
+        "name": "Kathleen King",
+        "Date": "11/5/2021"
+    },
+    "covid_0115.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 87,
+        "blood pressure": "105/73",
+        "Blood oxygen saturation": 97,
+        "age": 93,
+        "name": "Justin Cogliano",
+        "Date": "1/11/2020"
+    },
+    "covid_019.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "90/63",
+        "Blood oxygen saturation": 90,
+        "age": 79,
+        "name": "Bonnie Thomas",
+        "Date": "6/5/2021"
+    },
+    "covid_031.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 95,
+        "blood pressure": "106/65",
+        "Blood oxygen saturation": 96,
+        "age": 69,
+        "name": "Iva Lee",
+        "Date": "12/13/2022"
+    },
+    "covid_025.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 100,
+        "blood pressure": "99/63",
+        "Blood oxygen saturation": 92,
+        "age": 20,
+        "name": "David Stroud",
+        "Date": "9/15/2021"
+    },
+    "covid_04.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 95,
+        "blood pressure": "101/62",
+        "Blood oxygen saturation": 91,
+        "age": 16,
+        "name": "Kevin Franca",
+        "Date": "5/17/2022"
+    },
+    "covid_COVID-00031.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 64,
+        "blood pressure": "108/64",
+        "Blood oxygen saturation": 92,
+        "age": 53,
+        "name": "Jared Willcutt",
+        "Date": "9/26/2022"
+    },
+    "covid_COVID-00025.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "101/64",
+        "Blood oxygen saturation": 91,
+        "age": 54,
+        "name": "Margaret Darden",
+        "Date": "6/19/2020"
+    },
+    "covid_COVID-00019.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "110/80",
+        "Blood oxygen saturation": 90,
+        "age": 49,
+        "name": "Louise Meyer",
+        "Date": "8/8/2022"
+    },
+    "covid_COVID-00021.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "103/72",
+        "Blood oxygen saturation": 98,
+        "age": 37,
+        "name": "Annie Berry",
+        "Date": "1/20/2022"
+    },
+    "covid_COVID-00035.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 66,
+        "blood pressure": "118/65",
+        "Blood oxygen saturation": 98,
+        "age": 40,
+        "name": "Jennifer Heidema",
+        "Date": "4/10/2020"
+    },
+    "covid_COVID-00009.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 67,
+        "blood pressure": "102/79",
+        "Blood oxygen saturation": 99,
+        "age": 36,
+        "name": "Fred Hurt",
+        "Date": "3/1/2022"
+    },
+    "covid_021.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 68,
+        "blood pressure": "106/76",
+        "Blood oxygen saturation": 94,
+        "age": 68,
+        "name": "Vernon Bonner",
+        "Date": "12/28/2021"
+    },
+    "covid_0105.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 89,
+        "blood pressure": "118/70",
+        "Blood oxygen saturation": 94,
+        "age": 6,
+        "name": "Tom Rose",
+        "Date": "10/12/2021"
+    },
+    "covid_0111.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 79,
+        "blood pressure": "104/63",
+        "Blood oxygen saturation": 98,
+        "age": 24,
+        "name": "John Howard",
+        "Date": "5/28/2020"
+    },
+    "covid_020.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 65,
+        "blood pressure": "90/61",
+        "Blood oxygen saturation": 95,
+        "age": 8,
+        "name": "Shannon Feazel",
+        "Date": "12/9/2021"
+    },
+    "covid_01.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "115/72",
+        "Blood oxygen saturation": 98,
+        "age": 53,
+        "name": "Lara Rohling",
+        "Date": "4/25/2022"
+    },
+    "covid_auntminnie-c-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "105/80",
+        "Blood oxygen saturation": 98,
+        "age": 99,
+        "name": "Erlinda Maymon",
+        "Date": "8/14/2022"
+    },
+    "covid_COVID-00008.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 75,
+        "blood pressure": "103/63",
+        "Blood oxygen saturation": 92,
+        "age": 15,
+        "name": "William Wade",
+        "Date": "11/6/2021"
+    },
+    "covid_COVID-00034.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 90,
+        "blood pressure": "118/80",
+        "Blood oxygen saturation": 93,
+        "age": 19,
+        "name": "Gayle Loeffler",
+        "Date": "3/22/2020"
+    },
+    "covid_COVID-00020.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 96,
+        "blood pressure": "95/73",
+        "Blood oxygen saturation": 93,
+        "age": 32,
+        "name": "Felipe Ball",
+        "Date": "12/11/2022"
+    },
+    "covid_COVID-00036.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 75,
+        "blood pressure": "104/70",
+        "Blood oxygen saturation": 90,
+        "age": 24,
+        "name": "Marilyn Huang",
+        "Date": "4/18/2021"
+    },
+    "covid_COVID-00022.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 90,
+        "blood pressure": "112/66",
+        "Blood oxygen saturation": 96,
+        "age": 67,
+        "name": "Teresa Fisher",
+        "Date": "1/4/2020"
+    },
+    "covid_03.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "97/67",
+        "Blood oxygen saturation": 94,
+        "age": 7,
+        "name": "Francis Newton",
+        "Date": "2/17/2021"
+    },
+    "covid_022.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 93,
+        "blood pressure": "119/67",
+        "Blood oxygen saturation": 95,
+        "age": 9,
+        "name": "Ernest Kline",
+        "Date": "5/9/2021"
+    },
+    "covid_0112.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 95,
+        "blood pressure": "116/60",
+        "Blood oxygen saturation": 95,
+        "age": 94,
+        "name": "Gregory Esquivel",
+        "Date": "11/2/2020"
+    },
+    "covid_0106.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 73,
+        "blood pressure": "111/70",
+        "Blood oxygen saturation": 93,
+        "age": 40,
+        "name": "Carlos Esquerra",
+        "Date": "12/14/2022"
+    },
+    "covid_0113.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 68,
+        "blood pressure": "92/60",
+        "Blood oxygen saturation": 91,
+        "age": 45,
+        "name": "Reginald Hertler",
+        "Date": "8/25/2022"
+    },
+    "covid_02.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 77,
+        "blood pressure": "92/70",
+        "Blood oxygen saturation": 99,
+        "age": 54,
+        "name": "Helen Garcia",
+        "Date": "11/12/2020"
+    },
+    "covid_COVID-00023.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 76,
+        "blood pressure": "102/75",
+        "Blood oxygen saturation": 99,
+        "age": 85,
+        "name": "John Hudson",
+        "Date": "1/25/2021"
+    },
+    "covid_COVID-00037.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 83,
+        "blood pressure": "116/68",
+        "Blood oxygen saturation": 96,
+        "age": 29,
+        "name": "Kathi Baker",
+        "Date": "12/12/2020"
+    },
+    "covid_COVID-00012.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 72,
+        "blood pressure": "102/68",
+        "Blood oxygen saturation": 100,
+        "age": 50,
+        "name": "Ruby Hill",
+        "Date": "5/11/2021"
+    },
+    "covid_COVID-00006.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 91,
+        "blood pressure": "103/79",
+        "Blood oxygen saturation": 93,
+        "age": 5,
+        "name": "Robert Barnes",
+        "Date": "1/16/2022"
+    },
+    "covid_radiopaedia-2019-novel-coronavirus-infected-pneumonia.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "90/61",
+        "Blood oxygen saturation": 97,
+        "age": 66,
+        "name": "Ethel Martinez",
+        "Date": "5/24/2020"
+    },
+    "covid_012.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "110/72",
+        "Blood oxygen saturation": 98,
+        "age": 5,
+        "name": "Christopher Kaminski",
+        "Date": "10/23/2021"
+    },
+    "covid_COVID-00007.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 65,
+        "blood pressure": "110/77",
+        "Blood oxygen saturation": 91,
+        "age": 99,
+        "name": "Deborah Boughton",
+        "Date": "5/24/2021"
+    },
+    "covid_COVID-00005.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 85,
+        "blood pressure": "112/71",
+        "Blood oxygen saturation": 96,
+        "age": 97,
+        "name": "Holly Smith",
+        "Date": "11/24/2021"
+    },
+    "covid_COVID-00011.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 75,
+        "blood pressure": "104/64",
+        "Blood oxygen saturation": 96,
+        "age": 100,
+        "name": "Eleanor Price",
+        "Date": "6/8/2022"
+    },
+    "covid_039.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "92/75",
+        "Blood oxygen saturation": 99,
+        "age": 84,
+        "name": "Casey Daigle",
+        "Date": "8/15/2022"
+    },
+    "covid_0120.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 92,
+        "blood pressure": "97/62",
+        "Blood oxygen saturation": 90,
+        "age": 57,
+        "name": "Fabian Church",
+        "Date": "4/11/2022"
+    },
+    "covid_0108.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 71,
+        "blood pressure": "99/74",
+        "Blood oxygen saturation": 97,
+        "age": 57,
+        "name": "Eduardo Mcnally",
+        "Date": "10/3/2021"
+    },
+    "covid_010.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 69,
+        "blood pressure": "104/63",
+        "Blood oxygen saturation": 92,
+        "age": 9,
+        "name": "Ryan Puff",
+        "Date": "8/17/2020"
+    },
+    "covid_COVID-00010.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "94/66",
+        "Blood oxygen saturation": 98,
+        "age": 50,
+        "name": "Nicole Heatherington",
+        "Date": "7/21/2022"
+    },
+    "covid_COVID-00004.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 78,
+        "blood pressure": "109/69",
+        "Blood oxygen saturation": 90,
+        "age": 9,
+        "name": "Sheri Whitney",
+        "Date": "10/2/2020"
+    },
+    "covid_COVID-00038.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 93,
+        "blood pressure": "96/79",
+        "Blood oxygen saturation": 93,
+        "age": 17,
+        "name": "Debra Schmid",
+        "Date": "8/6/2021"
+    },
+    "covid_COVID-00003a.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 69,
+        "blood pressure": "103/67",
+        "Blood oxygen saturation": 96,
+        "age": 38,
+        "name": "Charles Pierce",
+        "Date": "6/22/2022"
+    },
+    "covid_COVID-00014.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 86,
+        "blood pressure": "113/80",
+        "Blood oxygen saturation": 92,
+        "age": 79,
+        "name": "William Salas",
+        "Date": "12/20/2021"
+    },
+    "covid_COVID-00028.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 100,
+        "blood pressure": "100/78",
+        "Blood oxygen saturation": 98,
+        "age": 24,
+        "name": "Susan Jones",
+        "Date": "7/14/2020"
+    },
+    "covid_09.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 87,
+        "blood pressure": "115/75",
+        "Blood oxygen saturation": 98,
+        "age": 14,
+        "name": "Ina Reyes",
+        "Date": "9/16/2021"
+    },
+    "covid_0118.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 93,
+        "blood pressure": "109/72",
+        "Blood oxygen saturation": 99,
+        "age": 60,
+        "name": "Cynthia Parks",
+        "Date": "7/6/2020"
+    },
+    "covid_COVID-00015a.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 60,
+        "blood pressure": "94/68",
+        "Blood oxygen saturation": 99,
+        "age": 95,
+        "name": "Anthony Baker",
+        "Date": "3/7/2020"
+    },
+    "covid_0119.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 70,
+        "blood pressure": "97/79",
+        "Blood oxygen saturation": 92,
+        "age": 78,
+        "name": "Gregory Knotts",
+        "Date": "5/19/2020"
+    },
+    "covid_015.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 94,
+        "blood pressure": "107/76",
+        "Blood oxygen saturation": 100,
+        "age": 7,
+        "name": "Edward Schultz",
+        "Date": "12/19/2021"
+    },
+    "covid_08.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 100,
+        "blood pressure": "99/68",
+        "Blood oxygen saturation": 97,
+        "age": 39,
+        "name": "Corina Barnes",
+        "Date": "4/18/2022"
+    },
+    "covid_auntminnie-a-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 62,
+        "blood pressure": "92/72",
+        "Blood oxygen saturation": 95,
+        "age": 10,
+        "name": "Russell Hogg",
+        "Date": "8/6/2021"
+    },
+    "covid_COVID-00029.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 96,
+        "blood pressure": "102/79",
+        "Blood oxygen saturation": 97,
+        "age": 53,
+        "name": "Evelyn Mcmillan",
+        "Date": "9/3/2021"
+    },
+    "covid_COVID-00001.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 77,
+        "blood pressure": "106/71",
+        "Blood oxygen saturation": 94,
+        "age": 14,
+        "name": "Jimmy Weldon",
+        "Date": "12/6/2020"
+    },
+    "covid_COVID-00017.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 80,
+        "blood pressure": "118/70",
+        "Blood oxygen saturation": 99,
+        "age": 55,
+        "name": "Walter Mcwhirter",
+        "Date": "4/15/2021"
+    },
+    "covid_COVID-00003b.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "109/79",
+        "Blood oxygen saturation": 100,
+        "age": 95,
+        "name": "Jason Bryant",
+        "Date": "11/10/2020"
+    },
+    "covid_COVID-00015b.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 79,
+        "blood pressure": "115/61",
+        "Blood oxygen saturation": 93,
+        "age": 19,
+        "name": "Gene Conley",
+        "Date": "11/20/2020"
+    },
+    "covid_COVID-00002.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 87,
+        "blood pressure": "104/70",
+        "Blood oxygen saturation": 91,
+        "age": 70,
+        "name": "Hosea Lyon",
+        "Date": "4/20/2020"
+    },
+    "covid_COVID-00016.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 70,
+        "blood pressure": "112/78",
+        "Blood oxygen saturation": 100,
+        "age": 33,
+        "name": "James Mosley",
+        "Date": "8/11/2022"
+    },
+    "covid_071.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 78,
+        "blood pressure": "104/66",
+        "Blood oxygen saturation": 95,
+        "age": 81,
+        "name": "Christopher Borror",
+        "Date": "9/15/2021"
+    },
+    "covid_065.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 70,
+        "blood pressure": "112/77",
+        "Blood oxygen saturation": 99,
+        "age": 15,
+        "name": "Stacey Kowalewski",
+        "Date": "8/2/2020"
+    },
+    "covid_059.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 85,
+        "blood pressure": "114/66",
+        "Blood oxygen saturation": 96,
+        "age": 30,
+        "name": "Elmer Griffith",
+        "Date": "12/11/2021"
+    },
+    "covid_058.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 66,
+        "blood pressure": "101/75",
+        "Blood oxygen saturation": 95,
+        "age": 59,
+        "name": "Inez Sturtevant",
+        "Date": "12/28/2020"
+    },
+    "covid_064.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 86,
+        "blood pressure": "110/65",
+        "Blood oxygen saturation": 91,
+        "age": 22,
+        "name": "Glenn Torres",
+        "Date": "6/7/2022"
+    },
+    "covid_072.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 95,
+        "blood pressure": "104/65",
+        "Blood oxygen saturation": 98,
+        "age": 51,
+        "name": "Barbara Bailey",
+        "Date": "7/1/2020"
+    },
+    "covid_098.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 84,
+        "blood pressure": "107/64",
+        "Blood oxygen saturation": 99,
+        "age": 39,
+        "name": "Malcolm Woodlock",
+        "Date": "8/4/2022"
+    },
+    "covid_073.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 62,
+        "blood pressure": "108/66",
+        "Blood oxygen saturation": 94,
+        "age": 86,
+        "name": "Christopher Geary",
+        "Date": "10/21/2021"
+    },
+    "covid_067.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 63,
+        "blood pressure": "99/78",
+        "Blood oxygen saturation": 93,
+        "age": 40,
+        "name": "Brett Demetriou",
+        "Date": "1/27/2021"
+    },
+    "covid_088.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 61,
+        "blood pressure": "110/71",
+        "Blood oxygen saturation": 93,
+        "age": 73,
+        "name": "Shelley Swedlund",
+        "Date": "9/1/2020"
+    },
+    "covid_COVID-00013b.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 67,
+        "blood pressure": "93/60",
+        "Blood oxygen saturation": 99,
+        "age": 21,
+        "name": "Donald Wheeler",
+        "Date": "6/21/2022"
+    },
+    "covid_089.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 78,
+        "blood pressure": "106/69",
+        "Blood oxygen saturation": 97,
+        "age": 95,
+        "name": "Antonio Zimmer",
+        "Date": "11/20/2021"
+    },
+    "covid_076.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 98,
+        "blood pressure": "105/74",
+        "Blood oxygen saturation": 95,
+        "age": 59,
+        "name": "Donald Martin",
+        "Date": "4/4/2022"
+    },
+    "covid_062.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 96,
+        "blood pressure": "102/73",
+        "Blood oxygen saturation": 97,
+        "age": 9,
+        "name": "James Snow",
+        "Date": "11/26/2020"
+    },
+    "covid_048.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 68,
+        "blood pressure": "114/75",
+        "Blood oxygen saturation": 94,
+        "age": 8,
+        "name": "Kristin Hue",
+        "Date": "7/14/2021"
+    },
+    "covid_074.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 94,
+        "blood pressure": "115/66",
+        "Blood oxygen saturation": 96,
+        "age": 27,
+        "name": "Mary Trebilcock",
+        "Date": "8/17/2021"
+    },
+    "covid_060.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 82,
+        "blood pressure": "96/66",
+        "Blood oxygen saturation": 100,
+        "age": 8,
+        "name": "Ann Schupp",
+        "Date": "6/14/2020"
+    },
+    "covid_COVID-00013a.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 96,
+        "blood pressure": "116/73",
+        "Blood oxygen saturation": 92,
+        "age": 98,
+        "name": "Rosa Nader",
+        "Date": "12/15/2022"
+    },
+    "covid_061.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 79,
+        "blood pressure": "97/71",
+        "Blood oxygen saturation": 100,
+        "age": 48,
+        "name": "Thomas Schinke",
+        "Date": "8/16/2022"
+    },
+    "covid_049.jpg": {
+        "labels": [
+            "Covid"
+        ],
+        "pulse": 100,
+        "blood pressure": "96/68",
+        "Blood oxygen saturation": 96,
+        "age": 8,
+        "name": "Asa Stracener",
+        "Date": "1/12/2020"
+    },
+    "normal_074.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 93,
+        "blood pressure": "101/70",
+        "Blood oxygen saturation": 94,
+        "age": 47,
+        "name": "Sandy Le",
+        "Date": "7/17/2021"
+    },
+    "normal_060.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 61,
+        "blood pressure": "106/67",
+        "Blood oxygen saturation": 95,
+        "age": 88,
+        "name": "Thomas Parrish",
+        "Date": "4/16/2020"
+    },
+    "normal_061.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 75,
+        "blood pressure": "103/62",
+        "Blood oxygen saturation": 91,
+        "age": 97,
+        "name": "Lori Emerson",
+        "Date": "8/11/2022"
+    },
+    "normal_075.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 66,
+        "blood pressure": "119/70",
+        "Blood oxygen saturation": 96,
+        "age": 56,
+        "name": "Sammie Hinkle",
+        "Date": "8/1/2022"
+    },
+    "normal_063.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 98,
+        "blood pressure": "104/78",
+        "Blood oxygen saturation": 96,
+        "age": 73,
+        "name": "Tommy Cannon",
+        "Date": "4/18/2020"
+    },
+    "normal_077.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 92,
+        "blood pressure": "96/70",
+        "Blood oxygen saturation": 95,
+        "age": 37,
+        "name": "Dora Pully",
+        "Date": "12/3/2021"
+    },
+    "normal_088.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 94,
+        "blood pressure": "94/61",
+        "Blood oxygen saturation": 91,
+        "age": 75,
+        "name": "David Meyer",
+        "Date": "5/19/2022"
+    },
+    "normal_076.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 92,
+        "blood pressure": "119/70",
+        "Blood oxygen saturation": 94,
+        "age": 94,
+        "name": "Brenda Moores",
+        "Date": "8/11/2021"
+    },
+    "normal_062.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 73,
+        "blood pressure": "98/76",
+        "Blood oxygen saturation": 95,
+        "age": 12,
+        "name": "Cindy Castillo",
+        "Date": "9/23/2020"
+    },
+    "normal_066.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 60,
+        "blood pressure": "94/61",
+        "Blood oxygen saturation": 99,
+        "age": 56,
+        "name": "Rita Mullins",
+        "Date": "6/19/2021"
+    },
+    "normal_072.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 87,
+        "blood pressure": "96/65",
+        "Blood oxygen saturation": 96,
+        "age": 1,
+        "name": "Ruth Matthew",
+        "Date": "11/18/2021"
+    },
+    "normal_073.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 76,
+        "blood pressure": "105/79",
+        "Blood oxygen saturation": 99,
+        "age": 79,
+        "name": "Frank Johnson",
+        "Date": "1/10/2020"
+    },
+    "normal_067.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 91,
+        "blood pressure": "90/60",
+        "Blood oxygen saturation": 93,
+        "age": 23,
+        "name": "Richard Myers",
+        "Date": "7/26/2021"
+    },
+    "normal_071.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 97,
+        "blood pressure": "118/70",
+        "Blood oxygen saturation": 100,
+        "age": 93,
+        "name": "Terrell Donovan",
+        "Date": "4/5/2021"
+    },
+    "normal_065.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 99,
+        "blood pressure": "114/78",
+        "Blood oxygen saturation": 90,
+        "age": 49,
+        "name": "Patricia Hartley",
+        "Date": "1/22/2021"
+    },
+    "normal_059.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 71,
+        "blood pressure": "110/66",
+        "Blood oxygen saturation": 97,
+        "age": 85,
+        "name": "Joan Carter",
+        "Date": "2/6/2020"
+    },
+    "normal_058.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 81,
+        "blood pressure": "105/66",
+        "Blood oxygen saturation": 99,
+        "age": 32,
+        "name": "Clifford Olewine",
+        "Date": "1/17/2022"
+    },
+    "normal_064.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 79,
+        "blood pressure": "105/78",
+        "Blood oxygen saturation": 97,
+        "age": 68,
+        "name": "Richard Bloomgren",
+        "Date": "6/3/2020"
+    },
+    "normal_070.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 69,
+        "blood pressure": "116/62",
+        "Blood oxygen saturation": 96,
+        "age": 100,
+        "name": "Ken Barash",
+        "Date": "6/1/2021"
+    },
+    "normal_0102.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 77,
+        "blood pressure": "91/60",
+        "Blood oxygen saturation": 98,
+        "age": 96,
+        "name": "Arthur Wood",
+        "Date": "8/1/2020"
+    },
+    "normal_0116.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 74,
+        "blood pressure": "111/60",
+        "Blood oxygen saturation": 93,
+        "age": 80,
+        "name": "Mary Druvenga",
+        "Date": "5/26/2020"
+    },
+    "normal_017.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 93,
+        "blood pressure": "100/75",
+        "Blood oxygen saturation": 97,
+        "age": 28,
+        "name": "Jacob Adcock",
+        "Date": "12/1/2022"
+    },
+    "normal_016.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 62,
+        "blood pressure": "99/74",
+        "Blood oxygen saturation": 93,
+        "age": 61,
+        "name": "Scott Pacheco",
+        "Date": "3/15/2021"
+    },
+    "normal_0117.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 98,
+        "blood pressure": "99/66",
+        "Blood oxygen saturation": 98,
+        "age": 27,
+        "name": "John Vandam",
+        "Date": "12/9/2021"
+    },
+    "normal_0103.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 71,
+        "blood pressure": "112/78",
+        "Blood oxygen saturation": 91,
+        "age": 28,
+        "name": "Sondra Mance",
+        "Date": "3/15/2022"
+    },
+    "normal_09.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 80,
+        "blood pressure": "107/76",
+        "Blood oxygen saturation": 97,
+        "age": 98,
+        "name": "Susan Hall",
+        "Date": "12/10/2021"
+    },
+    "normal_0115.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 90,
+        "blood pressure": "94/64",
+        "Blood oxygen saturation": 91,
+        "age": 89,
+        "name": "Doris Granby",
+        "Date": "2/19/2021"
+    },
+    "normal_0101.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 90,
+        "blood pressure": "107/76",
+        "Blood oxygen saturation": 99,
+        "age": 31,
+        "name": "Misty Sandoval",
+        "Date": "12/25/2022"
+    },
+    "normal_014.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 75,
+        "blood pressure": "109/77",
+        "Blood oxygen saturation": 91,
+        "age": 24,
+        "name": "Joy Lee",
+        "Date": "10/4/2022"
+    },
+    "normal_015.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 81,
+        "blood pressure": "115/67",
+        "Blood oxygen saturation": 98,
+        "age": 3,
+        "name": "Joseph Stauffer",
+        "Date": "11/15/2022"
+    },
+    "normal_0114.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 100,
+        "blood pressure": "101/63",
+        "Blood oxygen saturation": 92,
+        "age": 78,
+        "name": "Michael Patrick",
+        "Date": "10/16/2022"
+    },
+    "normal_08.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 98,
+        "blood pressure": "100/72",
+        "Blood oxygen saturation": 96,
+        "age": 60,
+        "name": "Thomas Pastrano",
+        "Date": "10/23/2021"
+    },
+    "normal_011.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 71,
+        "blood pressure": "93/75",
+        "Blood oxygen saturation": 94,
+        "age": 63,
+        "name": "Terri Dickson",
+        "Date": "11/3/2021"
+    },
+    "normal_0110.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 91,
+        "blood pressure": "114/76",
+        "Blood oxygen saturation": 91,
+        "age": 45,
+        "name": "Maria Hans",
+        "Date": "6/5/2022"
+    },
+    "normal_0105.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 84,
+        "blood pressure": "93/77",
+        "Blood oxygen saturation": 91,
+        "age": 17,
+        "name": "Denise King",
+        "Date": "4/22/2021"
+    },
+    "normal_0111.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 86,
+        "blood pressure": "104/63",
+        "Blood oxygen saturation": 93,
+        "age": 23,
+        "name": "Charles Rosenberg",
+        "Date": "2/18/2022"
+    },
+    "normal_010.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 99,
+        "blood pressure": "99/77",
+        "Blood oxygen saturation": 94,
+        "age": 84,
+        "name": "Aaron Moyes",
+        "Date": "4/25/2021"
+    },
+    "normal_012.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 65,
+        "blood pressure": "108/76",
+        "Blood oxygen saturation": 94,
+        "age": 91,
+        "name": "Mireille Bolar",
+        "Date": "8/7/2021"
+    },
+    "normal_0107.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 80,
+        "blood pressure": "92/73",
+        "Blood oxygen saturation": 92,
+        "age": 68,
+        "name": "Charlotte Barrington",
+        "Date": "9/8/2020"
+    },
+    "normal_0112.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 83,
+        "blood pressure": "103/70",
+        "Blood oxygen saturation": 93,
+        "age": 76,
+        "name": "Harry Owens",
+        "Date": "12/12/2020"
+    },
+    "normal_0106.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 77,
+        "blood pressure": "103/61",
+        "Blood oxygen saturation": 98,
+        "age": 25,
+        "name": "Henry Johnson",
+        "Date": "4/6/2021"
+    },
+    "normal_013.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 69,
+        "blood pressure": "93/69",
+        "Blood oxygen saturation": 99,
+        "age": 41,
+        "name": "Eva Fox",
+        "Date": "3/7/2020"
+    },
+    "normal_03.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 92,
+        "blood pressure": "113/74",
+        "Blood oxygen saturation": 93,
+        "age": 23,
+        "name": "Phillis Johnson",
+        "Date": "12/28/2022"
+    },
+    "normal_022.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 88,
+        "blood pressure": "101/61",
+        "Blood oxygen saturation": 91,
+        "age": 0,
+        "name": "Terri Mannella",
+        "Date": "11/23/2020"
+    },
+    "normal_023.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 92,
+        "blood pressure": "98/71",
+        "Blood oxygen saturation": 97,
+        "age": 48,
+        "name": "Nancy Daniels",
+        "Date": "6/7/2021"
+    },
+    "normal_0122.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 91,
+        "blood pressure": "98/63",
+        "Blood oxygen saturation": 93,
+        "age": 19,
+        "name": "Jeannie Ocasio",
+        "Date": "10/19/2021"
+    },
+    "normal_02.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 77,
+        "blood pressure": "95/74",
+        "Blood oxygen saturation": 100,
+        "age": 11,
+        "name": "Daisy Nickerson",
+        "Date": "2/20/2021"
+    },
+    "normal_0120.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 97,
+        "blood pressure": "110/79",
+        "Blood oxygen saturation": 91,
+        "age": 28,
+        "name": "Robert Heisler",
+        "Date": "4/25/2022"
+    },
+    "normal_0108.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 88,
+        "blood pressure": "102/76",
+        "Blood oxygen saturation": 96,
+        "age": 96,
+        "name": "Juanita Treat",
+        "Date": "5/16/2021"
+    },
+    "normal_021.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 97,
+        "blood pressure": "103/70",
+        "Blood oxygen saturation": 93,
+        "age": 58,
+        "name": "Steven Alonso",
+        "Date": "4/8/2020"
+    },
+    "normal_0109.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 90,
+        "blood pressure": "112/74",
+        "Blood oxygen saturation": 91,
+        "age": 18,
+        "name": "Samuel Stonerock",
+        "Date": "7/7/2021"
+    },
+    "normal_020.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 67,
+        "blood pressure": "97/64",
+        "Blood oxygen saturation": 97,
+        "age": 80,
+        "name": "David Grubb",
+        "Date": "9/18/2022"
+    },
+    "normal_0121.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 74,
+        "blood pressure": "109/66",
+        "Blood oxygen saturation": 99,
+        "age": 50,
+        "name": "Myrtle Ellington",
+        "Date": "1/6/2020"
+    },
+    "normal_01.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 100,
+        "blood pressure": "114/62",
+        "Blood oxygen saturation": 90,
+        "age": 61,
+        "name": "Breanne Larsen",
+        "Date": "6/10/2021"
+    },
+    "normal_05.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 65,
+        "blood pressure": "104/70",
+        "Blood oxygen saturation": 90,
+        "age": 61,
+        "name": "Charles Aguilera",
+        "Date": "8/16/2021"
+    },
+    "normal_024.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 79,
+        "blood pressure": "104/76",
+        "Blood oxygen saturation": 92,
+        "age": 97,
+        "name": "John Yadao",
+        "Date": "7/14/2020"
+    },
+    "normal_0119.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 95,
+        "blood pressure": "105/72",
+        "Blood oxygen saturation": 97,
+        "age": 99,
+        "name": "Ted Cacho",
+        "Date": "6/26/2021"
+    },
+    "normal_018.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 79,
+        "blood pressure": "100/72",
+        "Blood oxygen saturation": 95,
+        "age": 15,
+        "name": "Deborah Bara",
+        "Date": "9/15/2022"
+    },
+    "normal_019.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 60,
+        "blood pressure": "118/62",
+        "Blood oxygen saturation": 98,
+        "age": 26,
+        "name": "Doris Davis",
+        "Date": "12/24/2020"
+    },
+    "normal_0118.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 97,
+        "blood pressure": "92/65",
+        "Blood oxygen saturation": 91,
+        "age": 58,
+        "name": "Robert Bulmer",
+        "Date": "3/13/2020"
+    },
+    "normal_025.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 73,
+        "blood pressure": "108/70",
+        "Blood oxygen saturation": 99,
+        "age": 76,
+        "name": "Kim Woods",
+        "Date": "8/2/2020"
+    },
+    "normal_04.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 61,
+        "blood pressure": "114/62",
+        "Blood oxygen saturation": 100,
+        "age": 50,
+        "name": "Mae Larsen",
+        "Date": "12/18/2021"
+    },
+    "normal_06.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 68,
+        "blood pressure": "120/77",
+        "Blood oxygen saturation": 95,
+        "age": 49,
+        "name": "Jennifer Linville",
+        "Date": "7/10/2022"
+    },
+    "normal_07.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 68,
+        "blood pressure": "98/72",
+        "Blood oxygen saturation": 92,
+        "age": 28,
+        "name": "Brian Sanders",
+        "Date": "10/8/2022"
+    },
+    "normal_069.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 69,
+        "blood pressure": "101/62",
+        "Blood oxygen saturation": 94,
+        "age": 48,
+        "name": "Trudy Bender",
+        "Date": "9/24/2022"
+    },
+    "normal_055.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 79,
+        "blood pressure": "112/61",
+        "Blood oxygen saturation": 90,
+        "age": 55,
+        "name": "John Peterson",
+        "Date": "5/6/2020"
+    },
+    "normal_096.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 88,
+        "blood pressure": "112/65",
+        "Blood oxygen saturation": 96,
+        "age": 100,
+        "name": "Rochelle Wilson",
+        "Date": "10/3/2021"
+    },
+    "normal_082.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 96,
+        "blood pressure": "95/79",
+        "Blood oxygen saturation": 96,
+        "age": 67,
+        "name": "Frederick Koster",
+        "Date": "10/12/2021"
+    },
+    "normal_083.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 74,
+        "blood pressure": "93/67",
+        "Blood oxygen saturation": 93,
+        "age": 98,
+        "name": "Jeannette Rangel",
+        "Date": "5/11/2020"
+    },
+    "normal_097.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 71,
+        "blood pressure": "96/74",
+        "Blood oxygen saturation": 98,
+        "age": 77,
+        "name": "Edna Hunter",
+        "Date": "5/9/2020"
+    },
+    "normal_054.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 72,
+        "blood pressure": "119/79",
+        "Blood oxygen saturation": 95,
+        "age": 9,
+        "name": "Edwin Babcock",
+        "Date": "4/3/2022"
+    },
+    "normal_068.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 70,
+        "blood pressure": "95/61",
+        "Blood oxygen saturation": 94,
+        "age": 57,
+        "name": "Werner Burrell",
+        "Date": "10/18/2022"
+    },
+    "normal_056.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 87,
+        "blood pressure": "108/80",
+        "Blood oxygen saturation": 96,
+        "age": 15,
+        "name": "Hollie Sullivan",
+        "Date": "7/13/2021"
+    },
+    "normal_081.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 72,
+        "blood pressure": "101/65",
+        "Blood oxygen saturation": 90,
+        "age": 60,
+        "name": "Pauline Tate",
+        "Date": "2/16/2021"
+    },
+    "normal_095.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 62,
+        "blood pressure": "92/69",
+        "Blood oxygen saturation": 97,
+        "age": 80,
+        "name": "Michael Ballard",
+        "Date": "4/18/2021"
+    },
+    "normal_094.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 88,
+        "blood pressure": "116/62",
+        "Blood oxygen saturation": 99,
+        "age": 60,
+        "name": "Melvin Ackley",
+        "Date": "7/28/2022"
+    },
+    "normal_080.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 68,
+        "blood pressure": "93/79",
+        "Blood oxygen saturation": 91,
+        "age": 76,
+        "name": "Ann Gering",
+        "Date": "11/6/2022"
+    },
+    "normal_057.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 66,
+        "blood pressure": "106/69",
+        "Blood oxygen saturation": 94,
+        "age": 80,
+        "name": "Ashley Morrison",
+        "Date": "1/1/2021"
+    },
+    "normal_053.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 95,
+        "blood pressure": "91/65",
+        "Blood oxygen saturation": 94,
+        "age": 92,
+        "name": "James Mcfarland",
+        "Date": "6/12/2021"
+    },
+    "normal_084.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 94,
+        "blood pressure": "100/63",
+        "Blood oxygen saturation": 92,
+        "age": 65,
+        "name": "Robert Ousley",
+        "Date": "12/3/2022"
+    },
+    "normal_091.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 79,
+        "blood pressure": "115/65",
+        "Blood oxygen saturation": 94,
+        "age": 74,
+        "name": "Robert Poss",
+        "Date": "5/3/2022"
+    },
+    "normal_085.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 73,
+        "blood pressure": "96/63",
+        "Blood oxygen saturation": 96,
+        "age": 97,
+        "name": "Lisa Zeigler",
+        "Date": "7/12/2022"
+    },
+    "normal_052.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 99,
+        "blood pressure": "98/70",
+        "Blood oxygen saturation": 99,
+        "age": 62,
+        "name": "Dorathy Wilson",
+        "Date": "9/2/2022"
+    },
+    "normal_050.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 69,
+        "blood pressure": "96/73",
+        "Blood oxygen saturation": 90,
+        "age": 14,
+        "name": "Albert Valsin",
+        "Date": "6/3/2021"
+    },
+    "normal_093.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 81,
+        "blood pressure": "91/71",
+        "Blood oxygen saturation": 100,
+        "age": 89,
+        "name": "John Congress",
+        "Date": "2/13/2022"
+    },
+    "normal_087.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 69,
+        "blood pressure": "95/66",
+        "Blood oxygen saturation": 94,
+        "age": 52,
+        "name": "Sam Babb",
+        "Date": "11/13/2022"
+    },
+    "normal_086.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 100,
+        "blood pressure": "96/64",
+        "Blood oxygen saturation": 96,
+        "age": 69,
+        "name": "Everett Galvan",
+        "Date": "8/9/2020"
+    },
+    "normal_092.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 86,
+        "blood pressure": "119/67",
+        "Blood oxygen saturation": 92,
+        "age": 51,
+        "name": "Timothy Fields",
+        "Date": "8/5/2021"
+    },
+    "normal_079.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 84,
+        "blood pressure": "119/79",
+        "Blood oxygen saturation": 100,
+        "age": 16,
+        "name": "Helen Perry",
+        "Date": "12/11/2021"
+    },
+    "normal_051.jpg": {
+        "labels": [
+            "Normal"
+        ],
+        "pulse": 64,
+        "blood pressure": "107/69",
+        "Blood oxygen saturation": 90,
+        "age": 40,
+        "name": "David Canada",
+        "Date": "12/25/2022"
+    },
+    "viral_pneumonia_038.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 62,
+        "blood pressure": "91/76",
+        "Blood oxygen saturation": 92,
+        "age": 37,
+        "name": "Maria Thompson",
+        "Date": "12/25/2022"
+    },
+    "viral_pneumonia_010.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 96,
+        "blood pressure": "106/79",
+        "Blood oxygen saturation": 100,
+        "age": 31,
+        "name": "William Eastes",
+        "Date": "7/21/2022"
+    },
+    "viral_pneumonia_0103.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 99,
+        "blood pressure": "100/74",
+        "Blood oxygen saturation": 93,
+        "age": 52,
+        "name": "Tod Miller",
+        "Date": "5/9/2020"
+    },
+    "viral_pneumonia_0117.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 73,
+        "blood pressure": "117/77",
+        "Blood oxygen saturation": 90,
+        "age": 11,
+        "name": "Helen Avent",
+        "Date": "7/19/2022"
+    },
+    "viral_pneumonia_07.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 95,
+        "blood pressure": "105/65",
+        "Blood oxygen saturation": 93,
+        "age": 9,
+        "name": "David Adams",
+        "Date": "5/23/2020"
+    },
+    "viral_pneumonia_06.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 71,
+        "blood pressure": "104/70",
+        "Blood oxygen saturation": 98,
+        "age": 50,
+        "name": "Mary Williams",
+        "Date": "4/11/2020"
+    },
+    "viral_pneumonia_0116.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 69,
+        "blood pressure": "95/64",
+        "Blood oxygen saturation": 91,
+        "age": 92,
+        "name": "Leona Metzler",
+        "Date": "3/11/2020"
+    },
+    "viral_pneumonia_0102.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 64,
+        "blood pressure": "114/62",
+        "Blood oxygen saturation": 93,
+        "age": 32,
+        "name": "Ben Moses",
+        "Date": "11/3/2021"
+    },
+    "viral_pneumonia_011.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 73,
+        "blood pressure": "102/60",
+        "Blood oxygen saturation": 94,
+        "age": 37,
+        "name": "Sonia Hernandez",
+        "Date": "5/17/2020"
+    },
+    "viral_pneumonia_013.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 86,
+        "blood pressure": "106/61",
+        "Blood oxygen saturation": 100,
+        "age": 93,
+        "name": "Barbara Smith",
+        "Date": "9/7/2022"
+    },
+    "viral_pneumonia_0114.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 91,
+        "blood pressure": "114/74",
+        "Blood oxygen saturation": 94,
+        "age": 31,
+        "name": "Clara George",
+        "Date": "5/22/2020"
+    },
+    "viral_pneumonia_04.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 97,
+        "blood pressure": "114/70",
+        "Blood oxygen saturation": 98,
+        "age": 94,
+        "name": "Susan Oldham",
+        "Date": "4/10/2021"
+    },
+    "viral_pneumonia_05.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 88,
+        "blood pressure": "114/67",
+        "Blood oxygen saturation": 100,
+        "age": 26,
+        "name": "Nicole Mcglade",
+        "Date": "2/26/2020"
+    },
+    "viral_pneumonia_0101.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 82,
+        "blood pressure": "117/61",
+        "Blood oxygen saturation": 90,
+        "age": 71,
+        "name": "Mary Li",
+        "Date": "6/7/2020"
+    },
+    "viral_pneumonia_0115.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 96,
+        "blood pressure": "103/64",
+        "Blood oxygen saturation": 95,
+        "age": 64,
+        "name": "Russell Taylor",
+        "Date": "8/27/2021"
+    },
+    "viral_pneumonia_012.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 63,
+        "blood pressure": "107/63",
+        "Blood oxygen saturation": 93,
+        "age": 71,
+        "name": "Douglas Keenan",
+        "Date": "12/20/2020"
+    },
+    "viral_pneumonia_016.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 80,
+        "blood pressure": "102/75",
+        "Blood oxygen saturation": 99,
+        "age": 77,
+        "name": "Jacob Massaro",
+        "Date": "5/24/2020"
+    },
+    "viral_pneumonia_0111.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 83,
+        "blood pressure": "118/70",
+        "Blood oxygen saturation": 90,
+        "age": 38,
+        "name": "Mose Downs",
+        "Date": "12/26/2021"
+    },
+    "viral_pneumonia_0105.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 64,
+        "blood pressure": "114/75",
+        "Blood oxygen saturation": 90,
+        "age": 64,
+        "name": "Carlene Reed",
+        "Date": "6/18/2021"
+    },
+    "viral_pneumonia_01.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 61,
+        "blood pressure": "120/65",
+        "Blood oxygen saturation": 92,
+        "age": 14,
+        "name": "Juanita Archambeault",
+        "Date": "1/2/2020"
+    },
+    "viral_pneumonia_0104.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 100,
+        "blood pressure": "102/61",
+        "Blood oxygen saturation": 96,
+        "age": 36,
+        "name": "Sidney Medeiros",
+        "Date": "4/27/2022"
+    },
+    "viral_pneumonia_0110.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 85,
+        "blood pressure": "102/63",
+        "Blood oxygen saturation": 99,
+        "age": 86,
+        "name": "Viola Ross",
+        "Date": "5/11/2022"
+    },
+    "viral_pneumonia_0106.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 78,
+        "blood pressure": "107/71",
+        "Blood oxygen saturation": 90,
+        "age": 37,
+        "name": "James Espinal",
+        "Date": "8/8/2022"
+    },
+    "viral_pneumonia_0112.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 96,
+        "blood pressure": "120/76",
+        "Blood oxygen saturation": 90,
+        "age": 58,
+        "name": "Michael Hall",
+        "Date": "6/1/2022"
+    },
+    "viral_pneumonia_02.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 76,
+        "blood pressure": "109/78",
+        "Blood oxygen saturation": 96,
+        "age": 16,
+        "name": "Taylor Fitch",
+        "Date": "10/18/2021"
+    },
+    "viral_pneumonia_03.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 99,
+        "blood pressure": "100/76",
+        "Blood oxygen saturation": 90,
+        "age": 83,
+        "name": "Daniel Messenger",
+        "Date": "4/12/2022"
+    },
+    "viral_pneumonia_0113.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 100,
+        "blood pressure": "120/80",
+        "Blood oxygen saturation": 95,
+        "age": 86,
+        "name": "Luke Walther",
+        "Date": "2/8/2021"
+    },
+    "viral_pneumonia_0107.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 99,
+        "blood pressure": "90/76",
+        "Blood oxygen saturation": 90,
+        "age": 75,
+        "name": "Roland Hunter",
+        "Date": "1/11/2021"
+    },
+    "viral_pneumonia_067.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 85,
+        "blood pressure": "105/76",
+        "Blood oxygen saturation": 90,
+        "age": 79,
+        "name": "Toni Fico",
+        "Date": "7/27/2022"
+    },
+    "viral_pneumonia_073.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 93,
+        "blood pressure": "108/80",
+        "Blood oxygen saturation": 91,
+        "age": 29,
+        "name": "Norris Hearnen",
+        "Date": "7/10/2022"
+    },
+    "viral_pneumonia_072.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 93,
+        "blood pressure": "106/66",
+        "Blood oxygen saturation": 97,
+        "age": 91,
+        "name": "Maxine Commodore",
+        "Date": "2/7/2020"
+    },
+    "viral_pneumonia_066.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 74,
+        "blood pressure": "115/76",
+        "Blood oxygen saturation": 99,
+        "age": 86,
+        "name": "Ray Black",
+        "Date": "4/5/2020"
+    },
+    "viral_pneumonia_058.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 84,
+        "blood pressure": "101/61",
+        "Blood oxygen saturation": 98,
+        "age": 42,
+        "name": "Nancy Anderson",
+        "Date": "10/23/2020"
+    },
+    "viral_pneumonia_064.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 78,
+        "blood pressure": "116/75",
+        "Blood oxygen saturation": 100,
+        "age": 14,
+        "name": "Gloria Kaba",
+        "Date": "1/4/2020"
+    },
+    "viral_pneumonia_065.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 87,
+        "blood pressure": "117/74",
+        "Blood oxygen saturation": 99,
+        "age": 61,
+        "name": "Lance Fitzwater",
+        "Date": "4/27/2022"
+    },
+    "viral_pneumonia_071.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 62,
+        "blood pressure": "98/79",
+        "Blood oxygen saturation": 94,
+        "age": 87,
+        "name": "Leola Williams",
+        "Date": "1/21/2021"
+    },
+    "viral_pneumonia_075.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 60,
+        "blood pressure": "116/74",
+        "Blood oxygen saturation": 92,
+        "age": 19,
+        "name": "Rebecca Witten",
+        "Date": "4/10/2020"
+    },
+    "viral_pneumonia_061.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 64,
+        "blood pressure": "100/67",
+        "Blood oxygen saturation": 95,
+        "age": 77,
+        "name": "Carmen Jones",
+        "Date": "7/11/2020"
+    },
+    "viral_pneumonia_048.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 93,
+        "blood pressure": "115/72",
+        "Blood oxygen saturation": 92,
+        "age": 89,
+        "name": "Janet Saborido",
+        "Date": "8/20/2022"
+    },
+    "viral_pneumonia_074.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 100,
+        "blood pressure": "96/74",
+        "Blood oxygen saturation": 100,
+        "age": 61,
+        "name": "Pearl Biddle",
+        "Date": "1/11/2022"
+    },
+    "viral_pneumonia_062.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 67,
+        "blood pressure": "117/71",
+        "Blood oxygen saturation": 96,
+        "age": 98,
+        "name": "Craig Talib",
+        "Date": "2/4/2022"
+    },
+    "viral_pneumonia_076.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 72,
+        "blood pressure": "117/74",
+        "Blood oxygen saturation": 95,
+        "age": 65,
+        "name": "Irene Taylor",
+        "Date": "2/11/2022"
+    },
+    "viral_pneumonia_077.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 62,
+        "blood pressure": "117/60",
+        "Blood oxygen saturation": 100,
+        "age": 26,
+        "name": "Nancy Olson",
+        "Date": "11/18/2021"
+    },
+    "viral_pneumonia_063.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 95,
+        "blood pressure": "92/66",
+        "Blood oxygen saturation": 94,
+        "age": 85,
+        "name": "Mindy Paongo",
+        "Date": "5/14/2021"
+    },
+    "viral_pneumonia_046.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 76,
+        "blood pressure": "90/74",
+        "Blood oxygen saturation": 95,
+        "age": 64,
+        "name": "Joseph Dawson",
+        "Date": "5/5/2022"
+    },
+    "viral_pneumonia_052.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 97,
+        "blood pressure": "93/72",
+        "Blood oxygen saturation": 99,
+        "age": 69,
+        "name": "Tiffany Mullin",
+        "Date": "10/7/2022"
+    },
+    "viral_pneumonia_084.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 63,
+        "blood pressure": "115/60",
+        "Blood oxygen saturation": 93,
+        "age": 6,
+        "name": "William Nevins",
+        "Date": "4/3/2020"
+    },
+    "viral_pneumonia_053.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 68,
+        "blood pressure": "101/69",
+        "Blood oxygen saturation": 93,
+        "age": 70,
+        "name": "Constance Woods",
+        "Date": "10/7/2022"
+    },
+    "viral_pneumonia_047.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 81,
+        "blood pressure": "114/64",
+        "Blood oxygen saturation": 93,
+        "age": 22,
+        "name": "Anton Oswald",
+        "Date": "5/1/2022"
+    },
+    "viral_pneumonia_051.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 69,
+        "blood pressure": "94/76",
+        "Blood oxygen saturation": 98,
+        "age": 66,
+        "name": "Robert Hardy",
+        "Date": "12/5/2022"
+    },
+    "viral_pneumonia_045.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 60,
+        "blood pressure": "119/63",
+        "Blood oxygen saturation": 92,
+        "age": 73,
+        "name": "Ruben Cullen",
+        "Date": "12/24/2022"
+    },
+    "viral_pneumonia_044.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 66,
+        "blood pressure": "90/70",
+        "Blood oxygen saturation": 90,
+        "age": 96,
+        "name": "Dawn Jones",
+        "Date": "9/1/2021"
+    },
+    "viral_pneumonia_078.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 98,
+        "blood pressure": "113/63",
+        "Blood oxygen saturation": 98,
+        "age": 35,
+        "name": "Diane Brown",
+        "Date": "9/20/2020"
+    },
+    "viral_pneumonia_054.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 78,
+        "blood pressure": "112/60",
+        "Blood oxygen saturation": 93,
+        "age": 75,
+        "name": "Bert Blackburn",
+        "Date": "4/5/2022"
+    },
+    "viral_pneumonia_068.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 76,
+        "blood pressure": "102/74",
+        "Blood oxygen saturation": 91,
+        "age": 56,
+        "name": "Frances Mount",
+        "Date": "9/26/2022"
+    },
+    "viral_pneumonia_083.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 87,
+        "blood pressure": "103/68",
+        "Blood oxygen saturation": 96,
+        "age": 99,
+        "name": "Tyson Filer",
+        "Date": "9/21/2022"
+    },
+    "viral_pneumonia_082.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 69,
+        "blood pressure": "118/76",
+        "Blood oxygen saturation": 93,
+        "age": 2,
+        "name": "Roland Becker",
+        "Date": "9/17/2021"
+    },
+    "viral_pneumonia_096.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 73,
+        "blood pressure": "101/74",
+        "Blood oxygen saturation": 99,
+        "age": 42,
+        "name": "Brigette Peacock",
+        "Date": "1/7/2021"
+    },
+    "viral_pneumonia_041.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 95,
+        "blood pressure": "101/62",
+        "Blood oxygen saturation": 97,
+        "age": 23,
+        "name": "Brian Thompson",
+        "Date": "3/19/2022"
+    },
+    "viral_pneumonia_055.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 72,
+        "blood pressure": "99/60",
+        "Blood oxygen saturation": 97,
+        "age": 88,
+        "name": "Patricia Hall",
+        "Date": "10/9/2020"
+    },
+    "viral_pneumonia_043.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 71,
+        "blood pressure": "115/72",
+        "Blood oxygen saturation": 97,
+        "age": 14,
+        "name": "Angela Bronson",
+        "Date": "12/6/2021"
+    },
+    "viral_pneumonia_057.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 73,
+        "blood pressure": "103/68",
+        "Blood oxygen saturation": 95,
+        "age": 90,
+        "name": "Samuel Crandell",
+        "Date": "3/14/2020"
+    },
+    "viral_pneumonia_094.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 74,
+        "blood pressure": "93/74",
+        "Blood oxygen saturation": 98,
+        "age": 83,
+        "name": "Ruth Blake",
+        "Date": "4/21/2022"
+    },
+    "viral_pneumonia_095.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 63,
+        "blood pressure": "109/68",
+        "Blood oxygen saturation": 93,
+        "age": 95,
+        "name": "Brenda Hopper",
+        "Date": "2/2/2020"
+    },
+    "viral_pneumonia_081.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 69,
+        "blood pressure": "120/76",
+        "Blood oxygen saturation": 93,
+        "age": 31,
+        "name": "Grover Scott",
+        "Date": "7/11/2020"
+    },
+    "viral_pneumonia_056.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 66,
+        "blood pressure": "115/80",
+        "Blood oxygen saturation": 95,
+        "age": 87,
+        "name": "Carol Fontillas",
+        "Date": "2/14/2020"
+    },
+    "viral_pneumonia_042.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 81,
+        "blood pressure": "95/73",
+        "Blood oxygen saturation": 98,
+        "age": 51,
+        "name": "David Huitink",
+        "Date": "11/6/2020"
+    },
+    "viral_pneumonia_019.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 91,
+        "blood pressure": "96/68",
+        "Blood oxygen saturation": 94,
+        "age": 78,
+        "name": "Gary Schuyler",
+        "Date": "10/12/2021"
+    },
+    "viral_pneumonia_025.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 78,
+        "blood pressure": "94/66",
+        "Blood oxygen saturation": 91,
+        "age": 45,
+        "name": "Rhonda Ritchey",
+        "Date": "4/6/2021"
+    },
+    "viral_pneumonia_031.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 100,
+        "blood pressure": "100/79",
+        "Blood oxygen saturation": 99,
+        "age": 83,
+        "name": "Michael Kirk",
+        "Date": "5/7/2022"
+    },
+    "viral_pneumonia_024.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 69,
+        "blood pressure": "94/66",
+        "Blood oxygen saturation": 98,
+        "age": 36,
+        "name": "Heather Martin",
+        "Date": "9/7/2022"
+    },
+    "viral_pneumonia_018.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 84,
+        "blood pressure": "109/80",
+        "Blood oxygen saturation": 92,
+        "age": 40,
+        "name": "Robin Childs",
+        "Date": "2/4/2021"
+    },
+    "viral_pneumonia_032.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 74,
+        "blood pressure": "108/75",
+        "Blood oxygen saturation": 98,
+        "age": 44,
+        "name": "Laura Humphrys",
+        "Date": "6/22/2021"
+    },
+    "viral_pneumonia_0109.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 77,
+        "blood pressure": "115/67",
+        "Blood oxygen saturation": 96,
+        "age": 46,
+        "name": "Hortencia Doyle",
+        "Date": "7/13/2021"
+    },
+    "viral_pneumonia_0120.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 61,
+        "blood pressure": "90/74",
+        "Blood oxygen saturation": 98,
+        "age": 31,
+        "name": "Edward Bertolini",
+        "Date": "2/8/2020"
+    },
+    "viral_pneumonia_0108.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 62,
+        "blood pressure": "115/78",
+        "Blood oxygen saturation": 92,
+        "age": 76,
+        "name": "Amanda Ball",
+        "Date": "12/28/2020"
+    },
+    "viral_pneumonia_027.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 89,
+        "blood pressure": "95/70",
+        "Blood oxygen saturation": 96,
+        "age": 74,
+        "name": "Christal Simon",
+        "Date": "4/11/2022"
+    },
+    "viral_pneumonia_033.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 71,
+        "blood pressure": "96/66",
+        "Blood oxygen saturation": 96,
+        "age": 67,
+        "name": "Sally Rourke",
+        "Date": "5/25/2022"
+    },
+    "viral_pneumonia_037.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 90,
+        "blood pressure": "90/61",
+        "Blood oxygen saturation": 96,
+        "age": 91,
+        "name": "Victor Cox",
+        "Date": "7/9/2020"
+    },
+    "viral_pneumonia_023.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 72,
+        "blood pressure": "107/75",
+        "Blood oxygen saturation": 91,
+        "age": 75,
+        "name": "Morris Wheeler",
+        "Date": "4/16/2022"
+    },
+    "viral_pneumonia_0118.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 88,
+        "blood pressure": "95/71",
+        "Blood oxygen saturation": 93,
+        "age": 79,
+        "name": "Paul Haas",
+        "Date": "1/27/2020"
+    },
+    "viral_pneumonia_08.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 86,
+        "blood pressure": "100/65",
+        "Blood oxygen saturation": 96,
+        "age": 11,
+        "name": "Madeline Thompson",
+        "Date": "5/23/2021"
+    },
+    "viral_pneumonia_09.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 71,
+        "blood pressure": "105/80",
+        "Blood oxygen saturation": 93,
+        "age": 19,
+        "name": "Michel Costello",
+        "Date": "8/26/2021"
+    },
+    "viral_pneumonia_0119.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 63,
+        "blood pressure": "99/72",
+        "Blood oxygen saturation": 91,
+        "age": 45,
+        "name": "Ladonna Swanson",
+        "Date": "8/27/2022"
+    },
+    "viral_pneumonia_022.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 95,
+        "blood pressure": "115/66",
+        "Blood oxygen saturation": 96,
+        "age": 100,
+        "name": "Beatrice Medders",
+        "Date": "6/9/2020"
+    },
+    "viral_pneumonia_036.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 73,
+        "blood pressure": "120/78",
+        "Blood oxygen saturation": 96,
+        "age": 2,
+        "name": "Charles Bright",
+        "Date": "2/4/2022"
+    },
+    "viral_pneumonia_020.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 100,
+        "blood pressure": "100/62",
+        "Blood oxygen saturation": 91,
+        "age": 44,
+        "name": "Shelley Coulter",
+        "Date": "12/25/2022"
+    },
+    "viral_pneumonia_034.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 64,
+        "blood pressure": "109/60",
+        "Blood oxygen saturation": 97,
+        "age": 62,
+        "name": "Steven Garcia",
+        "Date": "1/27/2020"
+    },
+    "viral_pneumonia_035.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 64,
+        "blood pressure": "110/65",
+        "Blood oxygen saturation": 93,
+        "age": 13,
+        "name": "Ira Thorngren",
+        "Date": "5/5/2022"
+    },
+    "viral_pneumonia_021.jpg": {
+        "labels": [
+            "Viral Pneumonia"
+        ],
+        "pulse": 66,
+        "blood pressure": "112/74",
+        "Blood oxygen saturation": 100,
+        "age": 11,
+        "name": "Jason Townsend",
+        "Date": "12/19/2020"
+    }
+}
