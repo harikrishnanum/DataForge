@@ -37,6 +37,8 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
         click.echo(f'Error: metadata file {metadatafile} does not exist.')
         return
     metadata = json.load(open(metadatafile))
+    indexing_metadata = {}
+    indexing_metadata['files'] = []
     if not bucket:
         # Use the parent directory name of the directory as the bucket name
         if '/' in dir_path:
@@ -68,8 +70,15 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
                 logging.info(f'Uploading {file_path} to {bucket} on MinIO server.')
                 client.put_object(bucket, file_path, f, length=os.fstat(f.fileno()).st_size)
                 logging.info(f'Successfully uploaded {file_path} to {bucket} on MinIO server.')
-                metadata[file_name]['bucket'] = bucket
-                metadata[file_name]['path'] = file_path
+                if file_name not in metadata:
+                    continue
+                file_details = metadata[file_name]
+                file_details['name'] = file_name
+                file_details['bucket'] = bucket
+                file_details['path'] = file_path
+                indexing_metadata['files'].append(file_details)
+        indexing_metadata['dataset_name'] = bucket
+
         click.echo(f'Successfully uploaded {dir_path} to {bucket} on MinIO server.')
             
         # Update status, name, and readme in MongoDB document
@@ -108,7 +117,7 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
         channel.queue_declare(queue=queue, durable=True)
         
         # Send metadata to queue
-        channel.basic_publish(exchange='', routing_key=queue, body=json.dumps(metadata), properties=pika.BasicProperties(
+        channel.basic_publish(exchange='', routing_key=queue, body=json.dumps(indexing_metadata), properties=pika.BasicProperties(
             delivery_mode=2,  # make message persistent
         ))
         click.echo(f'Successfully sent metadata for {dir_path} to {queue} on RabbitMQ server.')
