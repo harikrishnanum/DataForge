@@ -5,14 +5,14 @@ const amqp = require('amqplib');
 const MongoClient = require('mongodb').MongoClient;
 
 // const uri = 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority';
-const uri = 'mongodb://192.168.1.189:27017/mydatabase';
+const uri = 'mongodb://localhost:27017/mydatabase';
 const mongo_client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const app = express();
 const port = 3000;
 
-const ELASTICSEARCH_HOST = 'http://192.168.1.189:9200';
-const RABBITMQ_HOST = 'amqp://192.168.1.189';
+const ELASTICSEARCH_HOST = 'http://localhost:9200';
+const RABBITMQ_HOST = 'amqp://localhost';
 
 const elasticsearchClient = new Client({
   host: ELASTICSEARCH_HOST
@@ -26,7 +26,21 @@ app.get('/', (req, res) => {
 });
 // endpoint to search for dataset
 app.get('/search/:datasetName', async (req, res) => {
-  res.send('Dummy search endpoint');
+  console.log("Inside")
+  const searchQuery = req.params.datasetName;
+   elasticsearchClient.search({
+    body: {
+      "query": {
+          "match": {
+            "_all": searchQuery
+          }
+      }
+    }
+  }).then((searchResponse)=> {
+    res.send(searchResponse.hits.hits);
+  }).catch((e) => {
+    console.log(e)
+  });
 });
 
 // endpoint for filtering

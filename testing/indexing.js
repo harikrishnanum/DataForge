@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { Client } = require('elasticsearch');
 
-const ELASTICSEARCH_HOST = 'http://192.168.1.189:9200';
+const ELASTICSEARCH_HOST = 'http://localhost:9200';
 const elasticsearchClient = new Client({
     host: ELASTICSEARCH_HOST
 });
