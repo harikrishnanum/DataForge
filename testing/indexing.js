@@ -39,4 +39,18 @@ fs.readFile('metadata_sample.json', 'utf8', async (err, data) => {
     } catch (err) {
       console.error(err);
     }
+    elasticsearchClient.indices.putSettings({
+      index: json.datasetName,
+      body: {
+        "number_of_replicas":0 // need to increase this and allocate more nodes for scalability
+      }
+    }, function (error, response) {
+      if (error) {
+        console.error(error);
+      } else {
+        console.log(response);
+      }
+    });
   });
+
+  

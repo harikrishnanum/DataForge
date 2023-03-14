@@ -31,14 +31,19 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 // endpoint to search for dataset
-app.get('/search/:datasetName', async (req, res) => {
+app.get('/search/', async (req, res) => {
   console.log("Inside")
-  const searchQuery = req.params.datasetName;
+  const { datasetName, query, fields, sorting, pagination, facets } = req.query; 
+  // Query Parameters
+  // queryText - string value that will be used for querying in the indexed data. 
+  // pagination - maximum number
+  // const searchQuery = req.params.searchText;
    elasticsearchClient.search({
+    index: datasetName,
     body: {
       "query": {
           "match": {
-            "_all": searchQuery
+            "_all": query
           }
       }
     }
