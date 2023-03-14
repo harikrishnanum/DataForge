@@ -3,7 +3,7 @@ const { Client } = require('elasticsearch');
 
 const isLocal = false; // change when using in local
 
-host = "192.168.1.189"
+const host = "192.168.1.189"
 if(isLocal) {
   host = "localhost"
 }
