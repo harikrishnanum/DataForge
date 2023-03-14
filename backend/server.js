@@ -5,14 +5,20 @@ const amqp = require('amqplib');
 const MongoClient = require('mongodb').MongoClient;
 
 // const uri = 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority';
-const uri = 'mongodb://localhost:27017/mydatabase';
+const isLocal = false; // change when using in local
+const host = "192.168.1.189"
+if(isLocal) {
+  host = "localhost"
+}
+
+const uri = `mongodb://${host}:27017/mydatabase`;
 const mongo_client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const app = express();
 const port = 3000;
 
-const ELASTICSEARCH_HOST = 'http://localhost:9200';
-const RABBITMQ_HOST = 'amqp://localhost';
+const ELASTICSEARCH_HOST = `http://${host}:9200`;
+const RABBITMQ_HOST = `amqp://${host}`;
 
 const elasticsearchClient = new Client({
   host: ELASTICSEARCH_HOST
@@ -123,5 +129,5 @@ consumeQueue();
 
 // start server
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://${host}:${port}`);
 });

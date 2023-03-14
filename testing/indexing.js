@@ -1,7 +1,14 @@
 const fs = require('fs');
 const { Client } = require('elasticsearch');
 
-const ELASTICSEARCH_HOST = 'http://localhost:9200';
+const isLocal = false; // change when using in local
+
+host = "192.168.1.189"
+if(isLocal) {
+  host = "localhost"
+}
+
+const ELASTICSEARCH_HOST = `http://${host}:9200`;
 const elasticsearchClient = new Client({
     host: ELASTICSEARCH_HOST
 });
