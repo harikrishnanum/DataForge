@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 // const uri = 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const isLocal = false; // change when using in local
-const host = "192.168.1.189"
+let host = "192.168.1.189"
 if(isLocal) {
   host = "localhost"
 }
