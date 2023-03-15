@@ -2,11 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Client } = require('elasticsearch');
 const amqp = require('amqplib');
-const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config();
 
-const uri = process.env.MONGO_URI;
-const mongo_client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+const { mongo_connect } = require('./mongo-client');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -55,12 +53,27 @@ app.post('/filter', async (req, res) => {
   res.send('Dummy filter endpoint');
 });
 
+app.get('/datasets', async (req, res) => {
+  try {
+    const db = await mongo_connect();
+    const collection = await db.collection("my-collection");
+
+    // Perform the text search
+    const { datasetName } = req.query;
+    const result = await collection.find({ $text: { $search: datasetName } }, { score: { $meta: 'textScore' } })
+      .sort({ score: { $meta: 'textScore' } }).toArray();
+    res.send(result);
+  } catch (err) {
+    console.error(err);
+  }
+});
+
 const update_mongo_status = async (dataset_name) => {
   console.log('updating mongo status for dataset: ' + dataset_name);
 
   try {
-    const client = await mongo_client.connect();
-    const collection = client.db("my-database").collection("my-collection");
+    const db = await mongo_connect();
+    const collection = await db.collection("my-collection");
 
     console.log('connected to mongo');
 
@@ -71,8 +84,6 @@ const update_mongo_status = async (dataset_name) => {
     console.log(result.modifiedCount + " document updated");
   } catch (err) {
     console.error(err);
-  } finally {
-    mongo_client.close();
   }
 };
 
