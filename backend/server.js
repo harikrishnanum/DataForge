@@ -43,7 +43,7 @@ app.get('/search:datasetName', async (req, res) => {
    elasticsearchClient.search({
     index: datasetName,
     body: {
-      from: (page - 1) * size,
+      from: (pagination - 1) * size,
       size,
       query: {
           // match: {
