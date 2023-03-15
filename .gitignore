@@ -162,3 +162,4 @@ cython_debug/
 rmq_log/
 /testing/node_modules
 /backend/node_modules
+.python-version
