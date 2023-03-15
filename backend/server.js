@@ -77,7 +77,7 @@ app.get('/search:datasetName', async (req, res) => {
         // Return response
         res.json({
           total,
-          page,
+          pagination,
           size,
           results: hits.hits.map((hit) => hit._source),
           facets: parsedFacets,
