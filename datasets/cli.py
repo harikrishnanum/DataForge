@@ -8,10 +8,26 @@ import glob
 import logging
 from tqdm import tqdm
 from dotenv import load_dotenv
+from datetime import date
+from pathlib import Path
+
 
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')
+
+def get_dataset_size(path):
+    root_directory = Path(path)
+    small = 100 * 1024 * 1024 # 100 MB
+    medium = 1000 * 1024 * 1024 # 1 GB
+    size = sum(f.stat().st_size for f in root_directory.glob('**/*') if f.is_file())
+    if size <= small:
+        return 'small'
+    elif size <= medium:
+        return 'medium'
+    else:
+        return 'large'
+
 
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
@@ -89,7 +105,10 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
         dataset = {
             'name': dir_path,
             'bucket': bucket,
-            'status': 'waiting_for_indexing'
+            'status': 'waiting_for_indexing',
+            'date': date.today().strftime('%Y-%m-%d'),
+            'Dataset Size': get_dataset_size(dir_path),
+            'Dateset file type': img_format
         }
         collection.insert_one(dataset)
         logging.info(f'Successfully created MongoDB document for {dir_path}.')
