@@ -31,24 +31,58 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 // endpoint to search for dataset
-app.get('/search/', async (req, res) => {
+app.get('/search:datasetName', async (req, res) => {
   console.log("Inside")
-  const { datasetName, query, fields, sorting, pagination, facets } = req.query; 
+  const datasetName = req.params.datasetName
+  const { query, fields, sorting=0, pagination=1, size = 10, facets } = req.query; 
   // Query Parameters
-  // queryText - string value that will be used for querying in the indexed data. 
+  // datasetName - Name of the dataset to search on.
+  // query - 
   // pagination - maximum number
   // const searchQuery = req.params.searchText;
    elasticsearchClient.search({
     index: datasetName,
     body: {
-      "query": {
-          "match": {
-            "_all": query
-          }
-      }
+      from: (page - 1) * size,
+      size,
+      query: {
+          // match: {
+          //   _all: query
+          // }
+          bool: {
+            must: query ? { match: { _all: query } } : undefined,
+          },
+      },
+      _source: fields ? fields.split(',') : undefined,
+      aggs: facets
+      ? JSON.parse(facets).reduce((acc, cur) => {
+        acc[cur] = { terms: { field: cur } };
+        return acc;
+      }, {})
+      : undefined,
     }
-  }).then((searchResponse)=> {
-    res.send(searchResponse.hits.hits);
+  }).then((result)=> {
+        // Extract hits and total count
+        const { hits, aggregations } = result;
+        const { total } = hits;
+    
+        // Extract facets
+        const parsedFacets = facets
+          ? JSON.parse(facets).reduce((acc, cur) => {
+              acc[cur] = aggregations[cur].buckets.map((b) => b.key);
+              return acc;
+            }, {})
+          : undefined;
+    
+        // Return response
+        res.json({
+          total,
+          page,
+          size,
+          results: hits.hits.map((hit) => hit._source),
+          facets: parsedFacets,
+        });
+    // res.send(searchResponse.hits.hits);
   }).catch((e) => {
     console.log(e)
   });
