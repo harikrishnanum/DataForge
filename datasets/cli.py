@@ -3,14 +3,12 @@ import json
 import click
 from minio import Minio
 import pika
-from pymongo import MongoClient
 import glob
 import logging
 from tqdm import tqdm
 from dotenv import load_dotenv
 from datetime import date
 from pathlib import Path
-
 
 load_dotenv()
 
@@ -42,11 +40,8 @@ def get_dataset_size(path):
 @click.option('--port', default=os.getenv('RM_PORT'), help='The RabbitMQ server port.')
 @click.option('--username', default=os.getenv('RM_USERNAME'), help='The RabbitMQ server username.')
 @click.option('--password', default=os.getenv('RM_PASSWORD'), help='The RabbitMQ server password.')
-@click.option('--mongo-uri', default=os.getenv('MONGO_URI'), help='The MongoDB server URI.')
-@click.option('--mongo-db', default=os.getenv('MONGO_DB'), help='The name of the MongoDB database.')
-@click.option('--mongo-collection', default=os.getenv('MONGO_COLLECTION'), help='The name of the MongoDB collection.')
-def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_key, secret_key, queue, host, port, username, password, mongo_uri, mongo_db, mongo_collection):
-    """Upload a dataset to MinIO and write its metadata to RabbitMQ, and create a MongoDB document for the dataset."""
+def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_key, secret_key, queue, host, port, username, password):
+    """Upload a dataset to MinIO and write its metadata to RabbitMQ."""
     
     metadatafile = os.path.join(dir_path, metadatafile)
     if not os.path.exists(metadatafile):
@@ -97,32 +92,19 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
 
         click.echo(f'Successfully uploaded {dir_path} to {bucket} on MinIO server.')
             
-        # Update status, name, and readme in MongoDB document
-        mongo_client = MongoClient(mongo_uri)
-        db = mongo_client[mongo_db]
-        collection = db[mongo_collection]
-        logging.info(f'MongoDB client connected to {mongo_uri}')
-        dataset = {
-            'name': dir_path,
+        dataset_details = {
+            'datasetName': dir_path,
             'bucket': bucket,
-            'status': 'waiting_for_indexing',
             'date': date.today().strftime('%Y-%m-%d'),
-            'Dataset Size': get_dataset_size(dir_path),
-            'Dateset file type': img_format
+            'datasetSize': get_dataset_size(dir_path),
+            'datesetFiletype': img_format
         }
-        collection.insert_one(dataset)
-        logging.info(f'Successfully created MongoDB document for {dir_path}.')
+
+        indexing_metadata['dataset_details'] = dataset_details
+        
         
     except Exception as err:
         click.echo(f'Error uploading file: {err}')
-        
-        # Update status in MongoDB document to reflect upload failure
-        mongo_client = MongoClient(mongo_uri)
-        db = mongo_client[mongo_db]
-        collection = db[mongo_collection]
-        collection.update_one({'name': dir_path}, {'$set': {'status': 'upload_failed'}})
-        logging.info(f'Updated MongoDB document for {dir_path} to mark upload failure.')
-        
         return
     
     # Send metadata to RabbitMQ
@@ -141,26 +123,11 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
         ))
         click.echo(f'Successfully sent metadata for {dir_path} to {queue} on RabbitMQ server.')
         
-        # Update status and readme in MongoDB document
-        mongo_client = MongoClient(mongo_uri)
-        db = mongo_client[mongo_db]
-        collection = db[mongo_collection]
-        collection.update_one({'name': dir_path}, {'$set': {'status': 'waiting_for_indexing'}})
-        logging.info(f'Updated MongoDB document for {dir_path} to mark waiting for indexing.')
-        
         # Close connection to RabbitMQ server
         connection.close()
 
     except Exception as err:
         click.echo(f'Error sending metadata to RabbitMQ')
-        
-        # Update status in MongoDB document to reflect metadata sending failure
-        mongo_client = MongoClient(mongo_uri)
-        db = mongo_client[mongo_db]
-        collection = db[mongo_collection]
-        collection.update_one({'name': dir_path}, {'$set': {'status': 'metadata_sending_failed'}})
-        logging.info(f'Updated MongoDB document for {dir_path} to mark metadata sending failure.')
-    
     return
 
 

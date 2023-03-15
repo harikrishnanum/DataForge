@@ -4,8 +4,6 @@ const { Client } = require('elasticsearch');
 const amqp = require('amqplib');
 require('dotenv').config();
 
-const { mongo_connect } = require('./mongo-client');
-
 const app = express();
 const port = process.env.PORT || 3000;
 const host = process.env.HOST || 'localhost';
@@ -88,38 +86,24 @@ app.post('/filter', async (req, res) => {
 });
 
 app.get('/datasets', async (req, res) => {
+  const { datasetName } = req.query;
   try {
-    const db = await mongo_connect();
-    const collection = await db.collection("my-collection");
-
-    // Perform the text search
-    const { datasetName } = req.query;
-    const result = await collection.find({ $text: { $search: datasetName } }, { score: { $meta: 'textScore' } })
-      .sort({ score: { $meta: 'textScore' } }).toArray();
-    res.send(result);
-  } catch (err) {
-    console.error(err);
+    const searchResponse = await elasticsearchClient.search({
+      index: 'datasets',
+      body: {
+        query: {
+          match: {
+            datasetName: datasetName
+          }
+        }
+      }
+    });
+    res.send(searchResponse.hits.hits);
+  }
+  catch (e) {
+    console.log(e)
   }
 });
-
-const update_mongo_status = async (dataset_name) => {
-  console.log('updating mongo status for dataset: ' + dataset_name);
-
-  try {
-    const db = await mongo_connect();
-    const collection = await db.collection("my-collection");
-
-    console.log('connected to mongo');
-
-    const result = await collection.updateOne(
-      { bucket: dataset_name },
-      { $set: { status: "Indexing Completed!" } }
-    );
-    console.log(result.modifiedCount + " document updated");
-  } catch (err) {
-    console.error(err);
-  }
-};
 
 const bulk_index = async (indexing_data, index_name) => {
   const body = indexing_data.reduce((bulkRequestBody, doc) => {
@@ -132,7 +116,6 @@ const bulk_index = async (indexing_data, index_name) => {
     body: body
   });
   console.log('indexing completed');
-  update_mongo_status(index_name);
 }
 
 // consume RabbitMQ queue and index metadata to Elasticsearch
@@ -155,6 +138,13 @@ async function consumeQueue() {
         console.log(`Received metadata for dataset ${metadata.dataset_name}`);
         try {
           const index = metadata.dataset_name;
+
+          const datasetDetails = metadata.dataset_details;
+          await elasticsearchClient.index({
+            index: 'datasets',
+            body: datasetDetails
+          });
+
           bulk_index(metadata['files'], index);
         } catch (error) {
           console.error(error);
