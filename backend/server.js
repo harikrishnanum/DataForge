@@ -92,8 +92,9 @@ app.get('/datasets', async (req, res) => {
       index: 'datasets',
       body: {
         query: {
-          match: {
-            datasetName: datasetName
+          query_string: {
+            default_field: 'name',
+            query: `${datasetName}*`
           }
         }
       }

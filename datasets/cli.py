@@ -93,7 +93,7 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
         click.echo(f'Successfully uploaded {dir_path} to {bucket} on MinIO server.')
             
         dataset_details = {
-            'datasetName': dir_path,
+            'name': dir_path,
             'bucket': bucket,
             'date': date.today().strftime('%Y-%m-%d'),
             'datasetSize': get_dataset_size(dir_path),
