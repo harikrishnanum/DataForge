@@ -1,8 +1,13 @@
+
+
+
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Client } = require('elasticsearch');
 const amqp = require('amqplib');
 require('dotenv').config();
+const swagger = require('./swagger');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -22,59 +27,37 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 // endpoint to search for dataset
-app.get('/search:datasetName', async (req, res) => {
+app.get('/search/:datasetName', async (req, res) => {
   console.log("Inside")
   const datasetName = req.params.datasetName
-  const { query, fields, sorting = 0, pagination = 1, size = 10, facets } = req.query;
-  // Query Parameters
-  // datasetName - Name of the dataset to search on.
-  // query - 
-  // pagination - maximum number
-  // const searchQuery = req.params.searchText;
+  const { query, fields, pagination = 1, pageSize = 10 } = req.query;
+  console.log("request details")
+  console.log(query)
+  console.log(datasetName)
   elasticsearchClient.search({
     index: datasetName,
     body: {
-      from: (pagination - 1) * size,
-      size,
-      query: {
-        // match: {
-        //   _all: query
-        // }
-        bool: {
-          must: query ? { match: { _all: query } } : undefined,
-        },
-      },
+      from: (pagination - 1) * pageSize,
+      size : pageSize,
+      query: query ? { query_string: { query : `${query}*` } } : undefined,
       _source: fields ? fields.split(',') : undefined,
-      aggs: facets
-        ? JSON.parse(facets).reduce((acc, cur) => {
-          acc[cur] = { terms: { field: cur } };
-          return acc;
-        }, {})
-        : undefined,
     }
   }).then((result) => {
     // Extract hits and total count
     const { hits, aggregations } = result;
     const { total } = hits;
 
-    // Extract facets
-    const parsedFacets = facets
-      ? JSON.parse(facets).reduce((acc, cur) => {
-        acc[cur] = aggregations[cur].buckets.map((b) => b.key);
-        return acc;
-      }, {})
-      : undefined;
-
+    console.log(hits.hits);
     // Return response
     res.json({
       total,
       pagination,
-      size,
+      pageSize,
       results: hits.hits.map((hit) => hit._source),
-      facets: parsedFacets,
     });
     // res.send(searchResponse.hits.hits);
   }).catch((e) => {
+    console.log("Error --")
     console.log(e)
   });
 });
@@ -146,9 +129,10 @@ async function consumeQueue() {
             body: datasetDetails
           });
 
-          bulk_index(metadata['files'], index);
+          await bulk_index(metadata['files'], index);
         } catch (error) {
           console.error(error);
+          consumeQueue()
         } finally {
           channel.ack(msg);
         }
@@ -157,11 +141,15 @@ async function consumeQueue() {
     );
   } catch (error) {
     console.error(error);
+    consumeQueue()
   }
 }
 
 // start consuming RabbitMQ queue
 consumeQueue();
+
+// Swagger documentation of the API
+swagger(app);
 
 // start server
 app.listen(port, () => {
