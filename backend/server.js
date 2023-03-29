@@ -1,7 +1,3 @@
-
-
-
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Client } = require('elasticsearch');
@@ -23,17 +19,15 @@ const elasticsearchClient = new Client({
 // middleware to parse request body as JSON
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+// Healthcheck api 
+app.get('/healthcheck', (req, res) => {
+  res.send('OK');
 });
-// endpoint to search for dataset
+
+// Endpoint to search for dataset
 app.get('/search/:datasetName', async (req, res) => {
-  console.log("Inside")
   const datasetName = req.params.datasetName
   const { query, fields, pagination = 1, pageSize = 10 } = req.query;
-  console.log("request details")
-  console.log(query)
-  console.log(datasetName)
   elasticsearchClient.search({
     index: datasetName,
     body: {
@@ -44,7 +38,7 @@ app.get('/search/:datasetName', async (req, res) => {
     }
   }).then((result) => {
     // Extract hits and total count
-    const { hits, aggregations } = result;
+    const { hits } = result;
     const { total } = hits;
 
     console.log(hits.hits);
@@ -62,7 +56,7 @@ app.get('/search/:datasetName', async (req, res) => {
   });
 });
 
-// endpoint for filtering
+// Endpoint for filtering
 app.post('/filter', async (req, res) => {
   // dummy implementation for now
   res.send('Dummy filter endpoint');
@@ -102,7 +96,8 @@ const bulk_index = async (indexing_data, index_name) => {
   console.log('indexing completed');
 }
 
-// consume RabbitMQ queue and index metadata to Elasticsearch
+// || Event Receiver ||
+// Consume RabbitMQ queue and index metadata to Elasticsearch
 async function consumeQueue() {
   try {
     const connection = await amqp.connect(RABBITMQ_HOST);

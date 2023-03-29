@@ -1,3 +1,8 @@
+'''
+    || File Uploader || - This is a cli tool that can be used to upload datasets and their corresponding metadata to the MinIO storage.
+    Please refer to the README.md under the same directory for instructions on how to use this cli.
+'''
+
 import os
 import json
 import click
