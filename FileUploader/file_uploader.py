@@ -17,7 +17,7 @@ from pathlib import Path
 
 load_dotenv()
 
-logging.basicConfig(level=logging.INFO, filename='cli.log', filemode='w')
+logging.basicConfig(level=logging.INFO, filename='file_uploader.log', filemode='w')
 
 def get_dataset_size(path):
     root_directory = Path(path)
