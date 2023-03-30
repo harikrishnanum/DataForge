@@ -1,6 +1,7 @@
+
 # CLI to upload datasets to MinIO
 
-## Steps to run the CLI
+## Steps to upload a dataset to MinIO
 
 1. Create a .env file with the following format:
 ```
@@ -12,26 +13,21 @@
     RM_PORT= ...
     RM_USERNAME= ...
     RM_PASSWORD= ...
-    MONGO_URI= ...
-    MONGO_DB= ...
-    MONGO_COLLECTION= ...
+    ELASTICSEARCH_HOST= ...
 ```
 \
 2. Run the following commands to install the required packages :
 
-```
-    pip install minio
-    pip install pika
-    pip install pymongo
-    pip install dotenv
-```
+   - Create a new Python virtual environment by running the following command: `python3 -m venv venv`
+   - Activate the virtual environment by running: `source venv/bin/activate`
+   - Install the required Python packages by running: `pip install -r requirements.txt`
 
-3. To run the cli run the following command from the /datasets folder :
+3. To upload a dataset, copy the dataset folder to the FileUploader directory and run the following command:
 ```
-    python3 cli.py --dir_path <path_to_data_set_folder> --bucket <name_of_the_bucket_on_minio_where_you_want_to_upload>
+    python3 file_uploader.py --dir_path <path_to_data_set_folder> --bucket <name_of_the_bucket_on_minio_where_you_want_to_upload>
 ```
 
 Example of the above command :
 ```
-    python3 cli.py --dir_path Covid19-dataset --bucket covid19
+    python3 file_uploader.py --dir_path Covid19-dataset --bucket covid19
 ```

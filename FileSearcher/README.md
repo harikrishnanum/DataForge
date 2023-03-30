@@ -2,21 +2,13 @@
 
 ## Steps to run
 
-[In the /backend folder]
 
 1. Create a .env file with the following content:
 ```
     ELASTICSEARCH_HOST = <host-name>:<elastic-search-port (9200 by default)>
-    RM_HOST = <host-name>
+    SERVER_IP=... 
+    SERVER_PORT=...
 ```
-\
-2. Run the following command to install the required packages :
-
-```
-    npm install
-```
-\
-3. Start the server (this will start both the File Searcher and the Event Receiver modules) :
-```
-    node server.js
-```
+2. Install the required Node.js packages by running: `npm install`
+3. Run the file searcher script by running: `node file_searcher.js`
+4. To access the API documentation by opening localhost:3000/api-docs in your web browser.
