@@ -27,21 +27,70 @@ app.get('/healthcheck', (req, res) => {
 // Endpoint to search for dataset
 app.get('/search/:datasetName', async (req, res) => {
   const datasetName = req.params.datasetName
-  const { query, fields, pagination = 1, pageSize = 10 } = req.query;
+  const { query, fields, pagination = 1, pageSize = 10, eq_filters, range_filters } = req.query;
+  let filter_data_list = []
+  let range_filter_list = []
+
+  if(eq_filters)
+    filter_data_list = eq_filters.match(/(\\.|[^&])+/g)
+                                                            
+  if(range_filters)
+    range_filter_list = range_filters.match(/(\\.|[^&])+/g)  // key=gt:3|lt:32&key=gt:3|lt:32
+
+  let must_clause_list = []
+  // Eq filter
+  for (var i = 0; i < filter_data_list.length; i++) { 
+    key_val = filter_data_list[i].match(/(\\.|[^=])+/g)
+    // console.log(key_val)
+    key_val_obj = {}
+    key_val_obj[key_val[0]] = key_val[1]
+    predicate_obj = {"match_phrase" : key_val_obj}
+    must_clause_list.push(predicate_obj)
+  }
+
+  // Range filter
+  // for (var i = 0; i < range_filter_list.length; i++) {
+  //   key_val = range_filter_list[i].match(/(\\.|[^=])+/g)
+  //   // console.log(key_val)
+
+  //   // key_val_obj = {}
+  //   // key_val_obj[key_val[0]] = key_val[1]
+  //   // predicate_obj = {"match_phrase" : key_val_obj}
+  //   // must_clause_list.push(predicate_obj)
+  // }  
+
+  console.log(must_clause_list)
   elasticsearchClient.search({
     index: datasetName,
     body: {
       from: (pagination - 1) * pageSize,
       size : pageSize,
-      query: query ? { query_string: { query : `${query}*` } } : undefined,
+      query : 
+      {
+        bool: {
+          must : [
+            { 
+              query_string: 
+              { 
+                query : query ? `${query}*` : `*` 
+              } 
+          }, {
+            bool : {
+              must : must_clause_list
+            }
+          }
+        ]
+        }
+      },
       _source: fields ? fields.split(',') : undefined,
+      
     }
   }).then((result) => {
     // Extract hits and total count
     const { hits } = result;
     const { total } = hits;
 
-    console.log(hits.hits);
+    // console.log(hits.hits);
     // Return response
     res.json({
       total,
@@ -53,13 +102,8 @@ app.get('/search/:datasetName', async (req, res) => {
   }).catch((e) => {
     console.log("Error --")
     console.log(e)
+    res.status(e.status).send(e.body.error)
   });
-});
-
-// Endpoint for filtering
-app.post('/filter', async (req, res) => {
-  // dummy implementation for now
-  res.send('Dummy filter endpoint');
 });
 
 app.get('/datasets', async (req, res) => {
