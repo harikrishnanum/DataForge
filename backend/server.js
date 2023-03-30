@@ -32,8 +32,8 @@ app.get('/search/:datasetName', async (req, res) => {
     index: datasetName,
     body: {
       from: (pagination - 1) * pageSize,
-      size : pageSize,
-      query: query ? { query_string: { query : `${query}*` } } : undefined,
+      size: pageSize,
+      query: query ? { query_string: { query: `${query}*` } } : undefined,
       _source: fields ? fields.split(',') : undefined,
     }
   }).then((result) => {
@@ -63,25 +63,66 @@ app.post('/filter', async (req, res) => {
 });
 
 app.get('/datasets', async (req, res) => {
-  const { datasetName } = req.query;
+  const { datasetName, fromDate, toDate, minSize, maxSize, fileType } = req.query;
   try {
-    const searchResponse = await elasticsearchClient.search({
+    const searchQuery = {
       index: 'datasets',
       body: {
         query: {
-          query_string: {
-            default_field: 'name',
-            query: `${datasetName}*`
+          bool: {
+            must: [
+              {
+                query_string: {
+                  default_field: 'name',
+                  query: `${datasetName}*`
+                }
+              }
+            ],
+            filter: []
           }
         }
       }
-    });
+    };
+
+    if (fromDate && toDate) {
+      searchQuery.body.query.bool.filter.push({
+        range: {
+          date: {
+            gte: fromDate,
+            lte: toDate
+          }
+        }
+      });
+    }
+
+    if (minSize && maxSize) {
+      searchQuery.body.query.bool.filter.push({
+        range: {
+          size: {
+            gte: minSize,
+            lte: maxSize
+          }
+        }
+      });
+    }
+
+    if (fileType) {
+      const fileTypes = fileType.split(',');
+      searchQuery.body.query.bool.filter.push({
+        terms: {
+          filetype: fileTypes
+        }
+      });
+    }
+
+    const searchResponse = await elasticsearchClient.search(searchQuery);
     res.send(searchResponse.hits.hits);
   }
   catch (e) {
     console.log(e)
   }
 });
+
 
 const bulk_index = async (indexing_data, index_name) => {
   const body = indexing_data.reduce((bulkRequestBody, doc) => {

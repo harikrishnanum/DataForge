@@ -24,12 +24,13 @@ def get_dataset_size(path):
     small = 100 * 1024 * 1024 # 100 MB
     medium = 1000 * 1024 * 1024 # 1 GB
     size = sum(f.stat().st_size for f in root_directory.glob('**/*') if f.is_file())
-    if size <= small:
-        return 'small'
-    elif size <= medium:
-        return 'medium'
-    else:
-        return 'large'
+    return size
+    # if size <= small:
+    #     return 'small'
+    # elif size <= medium:
+    #     return 'medium'
+    # else:
+    #     return 'large'
 
 
 @click.command()
@@ -101,8 +102,8 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
             'name': dir_path,
             'bucket': bucket,
             'date': date.today().strftime('%Y-%m-%d'),
-            'datasetSize': get_dataset_size(dir_path),
-            'datesetFiletype': img_format
+            'size': get_dataset_size(dir_path),
+            'filetype': img_format
         }
 
         indexing_metadata['dataset_details'] = dataset_details
