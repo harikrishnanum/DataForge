@@ -41,7 +41,7 @@
             {
                 "name" : "datasetName",
                 "in" : "path",
-                "descripton" : "Name of the dataset to search on",
+                "descripton" : "Exact name of the dataset to search on.",
                 "required" : true,
                 "type" : "string"
             },
@@ -50,6 +50,12 @@
                 "in" : "query",
                 "description" : "Query string to search with",
                 "required" : true
+            },
+            {
+              "name" : "eq_filters",
+              "in" : "query",
+              "description" : "Key value pairs separated with '&'. For eg: color=blue&shape=round",
+              "type" : "string"
             },
             {
                 "name" : "fields",
@@ -78,7 +84,10 @@
             },
             "400": {
                 "description": "Bad Request"
-            }
+            },
+            "404": {
+              "description": "Not Found"
+          }
           }
         }
       }
