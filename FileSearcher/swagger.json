@@ -1,0 +1,160 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "MinIO Dataset Search",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/"
+    }
+  ],
+  "paths": {
+    "/datasets": {
+      "get": {
+        "summary": "Search for datasets",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "datasetName",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Name of the dataset to search for"
+          },
+          {
+            "in": "query",
+            "name": "fromDate",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "description": "Starting date range for dataset creation"
+          },
+          {
+            "in": "query",
+            "name": "toDate",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "description": "Ending date range for dataset creation"
+          },
+          {
+            "in": "query",
+            "name": "minSize",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Minimum size of the dataset in bytes"
+          },
+          {
+            "in": "query",
+            "name": "maxSize",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Maximum size of the dataset in bytes"
+          },
+          {
+            "in": "query",
+            "name": "fileType",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Comma-separated list of file types to filter by (e.g. jpg,csv,png)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "date": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "Dataset Size": {
+                        "type": "integer"
+                      },
+                      "Dateset file type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search/{datasetName}": {
+      "get": {
+        "tags": [
+          "Search inside Datasets"
+        ],
+        "summary": "Search for data in dataset.",
+        "operationId": "searchData",
+        "parameters": [
+          {
+            "name": "datasetName",
+            "in": "path",
+            "descripton": "Exact name of the dataset to search on.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "query",
+            "in": "query",
+            "description": "Query string to search with",
+            "required": true
+          },
+          {
+            "name": "eq_filters",
+            "in": "query",
+            "description": "Key value pairs separated with '&'. For eg: color=blue&shape=round",
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma separated list of fields on which you want to search.",
+            "type": "string"
+          },
+          {
+            "name": "pagination",
+            "in": "query",
+            "description": "Page to return (expects the page number)",
+            "type": "number",
+            "default": 1
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "Number of items returned per page.",
+            "type": "number",
+            "default": 10
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  }
+}
