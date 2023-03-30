@@ -57,7 +57,7 @@ app.get('/search/:datasetName', async (req, res) => {
   //   // key_val_obj[key_val[0]] = key_val[1]
   //   // predicate_obj = {"match_phrase" : key_val_obj}
   //   // must_clause_list.push(predicate_obj)
-  // }  
+  // }
 
   console.log(must_clause_list)
   elasticsearchClient.search({

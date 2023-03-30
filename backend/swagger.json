@@ -52,7 +52,7 @@
                 "required" : true
             },
             {
-              "name" : "filters",
+              "name" : "eq_filters",
               "in" : "query",
               "description" : "Key value pairs separated with '&'. For eg: color=blue&shape=round",
               "type" : "string"
