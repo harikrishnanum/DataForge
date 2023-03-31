@@ -64,7 +64,7 @@ app.get('/search/:datasetName', async (req, res) => {
 
     console.log(must_clause_list)
     elasticsearchClient.search({
-        index: datasetName,
+        index: datasetName.toLocaleLowerCase(),
         body: {
             from: (pagination - 1) * pageSize,
             size: pageSize,

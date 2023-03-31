@@ -13,6 +13,9 @@
   "paths": {
     "/datasets": {
       "get": {
+        "tags": [
+          "Search over Dataset names"
+        ],
         "summary": "Search for datasets",
         "parameters": [
           {
@@ -113,8 +116,7 @@
           {
             "name": "query",
             "in": "query",
-            "description": "Query string to search with",
-            "required": true
+            "description": "Query string to search with"
           },
           {
             "name": "eq_filters",
