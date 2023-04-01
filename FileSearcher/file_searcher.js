@@ -1,4 +1,10 @@
-// api.js
+/**
+ * File Searcher Service.
+ * This is an API that provides several endpoints to search on the uploaded datasets using their indexed metadata
+ * through search queries on Elasticsearch.
+ * The matched metadata of the datasets are returned to the client.
+ * Basic filters and pagination are supported.
+ */
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -19,50 +25,110 @@ const port = process.env.PORT || 3000;
 const host = process.env.HOST || 'localhost';
 
 
-// middleware to parse request body as JSON
+// Middleware to parse request body as JSON
 app.use(bodyParser.json());
 
-// Healthcheck api 
+/**
+ * Healthcheck api 
+ */
 app.get('/healthcheck', (req, res) => {
     res.send('OK');
 });
 
-// Endpoint to search for dataset
+/**
+ * Returns list of overall dataset metadata that match the query and the filters.
+ * The response can be filtered based on datasetname prefix, date range, size range and filetype. 
+ */
+ app.get('/datasets', async (req, res) => {
+    const { datasetName, fromDate, toDate, minSize, maxSize, fileType } = req.query;
+    try {
+        const searchQuery = {
+            index: 'datasets',
+            body: {
+                query: {
+                    bool: {
+                        must: [
+                            {
+                                query_string: {
+                                    default_field: 'name',
+                                    query: `${datasetName}*`
+                                }
+                            }
+                        ],
+                        filter: []
+                    }
+                }
+            }
+        };
+
+        // Date Filter
+        if (fromDate && toDate) {
+            searchQuery.body.query.bool.filter.push({
+                range: {
+                    date: {
+                        gte: fromDate,
+                        lte: toDate
+                    }
+                }
+            });
+        }
+
+        // Size Filter
+        if (minSize && maxSize) {
+            searchQuery.body.query.bool.filter.push({
+                range: {
+                    size: {
+                        gte: minSize,
+                        lte: maxSize
+                    }
+                }
+            });
+        }
+
+        // Filetype Filter
+        if (fileType) {
+            const fileTypes = fileType.split(',');
+            searchQuery.body.query.bool.filter.push({
+                terms: {
+                    filetype: fileTypes
+                }
+            });
+        }
+
+        // Send generated query to Elasticsearch.
+        const searchResponse = await elasticsearchClient.search(searchQuery);
+        res.send(searchResponse.hits.hits);
+    }
+    catch (e) {
+        console.log(e)
+    }
+});
+
+
+/**
+ * Returns data(for eg. images) of a particular dataset that match the given filters.
+ * The API accepts the exact dataset name of the dataset on which you want to query, the 
+ */
 app.get('/search/:datasetName', async (req, res) => {
     const datasetName = req.params.datasetName
-    const { query, fields, pagination = 1, pageSize = 10, eq_filters, range_filters } = req.query;
+    const { query, fields, pagination = 1, pageSize = 10, eq_filters } = req.query;
     let filter_data_list = []
-    let range_filter_list = []
 
     if (eq_filters)
         filter_data_list = eq_filters.match(/(\\.|[^&])+/g)
 
-    if (range_filters)
-        range_filter_list = range_filters.match(/(\\.|[^&])+/g)  // key=gt:3|lt:32&key=gt:3|lt:32
-
     let must_clause_list = []
+
     // Eq filter
     for (var i = 0; i < filter_data_list.length; i++) {
         key_val = filter_data_list[i].match(/(\\.|[^=])+/g)
-        // console.log(key_val)
         key_val_obj = {}
         key_val_obj[key_val[0]] = key_val[1]
         predicate_obj = { "match_phrase": key_val_obj }
         must_clause_list.push(predicate_obj)
     }
 
-    // Range filter
-    // for (var i = 0; i < range_filter_list.length; i++) {
-    //   key_val = range_filter_list[i].match(/(\\.|[^=])+/g)
-    //   // console.log(key_val)
-
-    //   // key_val_obj = {}
-    //   // key_val_obj[key_val[0]] = key_val[1]
-    //   // predicate_obj = {"match_phrase" : key_val_obj}
-    //   // must_clause_list.push(predicate_obj)
-    // }
-
-    console.log(must_clause_list)
+    // Generate and send query to Elastic search.
     elasticsearchClient.search({
         index: datasetName.toLocaleLowerCase(),
         body: {
@@ -93,7 +159,6 @@ app.get('/search/:datasetName', async (req, res) => {
         const { hits } = result;
         const { total } = hits;
 
-        // console.log(hits.hits);
         // Return response
         res.json({
             total,
@@ -101,7 +166,6 @@ app.get('/search/:datasetName', async (req, res) => {
             pageSize,
             results: hits.hits.map((hit) => hit._source),
         });
-        // res.send(searchResponse.hits.hits);
     }).catch((e) => {
         console.log("Error --")
         console.log(e)
@@ -109,74 +173,9 @@ app.get('/search/:datasetName', async (req, res) => {
     });
 });
 
-// Endpoint for filtering
-app.post('/filter', async (req, res) => {
-    // dummy implementation for now
-    res.send('Dummy filter endpoint');
-});
-
-app.get('/datasets', async (req, res) => {
-    const { datasetName, fromDate, toDate, minSize, maxSize, fileType } = req.query;
-    try {
-        const searchQuery = {
-            index: 'datasets',
-            body: {
-                query: {
-                    bool: {
-                        must: [
-                            {
-                                query_string: {
-                                    default_field: 'name',
-                                    query: `${datasetName}*`
-                                }
-                            }
-                        ],
-                        filter: []
-                    }
-                }
-            }
-        };
-
-        if (fromDate && toDate) {
-            searchQuery.body.query.bool.filter.push({
-                range: {
-                    date: {
-                        gte: fromDate,
-                        lte: toDate
-                    }
-                }
-            });
-        }
-
-        if (minSize && maxSize) {
-            searchQuery.body.query.bool.filter.push({
-                range: {
-                    size: {
-                        gte: minSize,
-                        lte: maxSize
-                    }
-                }
-            });
-        }
-
-        if (fileType) {
-            const fileTypes = fileType.split(',');
-            searchQuery.body.query.bool.filter.push({
-                terms: {
-                    filetype: fileTypes
-                }
-            });
-        }
-
-        const searchResponse = await elasticsearchClient.search(searchQuery);
-        res.send(searchResponse.hits.hits);
-    }
-    catch (e) {
-        console.log(e)
-    }
-});
-
+// Run Swagger API Interface.
 swagger(app);
+
 
 app.listen(port, host, () => {
     console.log(`Server listening at http://${host}:${port}`);

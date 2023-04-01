@@ -1,3 +1,9 @@
+/***
+ * Event Receiver Service.
+ * This service continuously listens on the RabbitMQ queue to consume metadata that is sent from the File Uploader service.
+ * After consuming a metadata message, it sends an indexing request to the Elastic Search server.
+ */
+
 const { Client } = require('elasticsearch');
 const amqp = require('amqplib');
 require('dotenv').config();
@@ -9,20 +15,29 @@ const elasticsearchClient = new Client({
     host: ELASTICSEARCH_HOST
 });
 
+/***
+ * Used to send indexing request of multiple metadata objects together to Elasticsearch.
+ */
 const bulkIndex = async (indexingData, indexName) => {
     const body = indexingData.reduce((bulkRequestBody, doc) => {
-        bulkRequestBody += JSON.stringify({ index: { _index: indexName } }) + '\n';
+        bulkRequestBody += JSON.stringify({ index: { _index: indexName, number_of_replicas: 0} }) + '\n';
         bulkRequestBody += JSON.stringify(doc) + '\n';
         return bulkRequestBody;
     }, '');
 
-    const response = await elasticsearchClient.bulk({
-        body: body
-    });
-
-    console.log('Indexing completed');
+    try {
+        const response = await elasticsearchClient.bulk({
+            body: body
+        });
+        console.log('Indexing completed');
+    } catch(e) {
+        console.log(e);
+    }
 };
 
+/***
+ * Consumes the metadata from the RabbitMQ and sends indexing request to Elasticsearch.
+ */
 const consumeQueueAndIndex = async () => {
     try {
         const connection = await amqp.connect(RABBITMQ_HOST);

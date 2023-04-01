@@ -19,6 +19,7 @@ load_dotenv()
 
 logging.basicConfig(level=logging.INFO, filename='file_uploader.log', filemode='w')
 
+# Determines the size of the dataset directory in bytes.
 def get_dataset_size(path):
     root_directory = Path(path)
     small = 100 * 1024 * 1024 # 100 MB
@@ -33,6 +34,7 @@ def get_dataset_size(path):
     #     return 'large'
 
 
+# CLI command setup.
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
 @click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
