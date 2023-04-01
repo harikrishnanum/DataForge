@@ -20,7 +20,7 @@ const elasticsearchClient = new Client({
  */
 const bulkIndex = async (indexingData, indexName) => {
     const body = indexingData.reduce((bulkRequestBody, doc) => {
-        bulkRequestBody += JSON.stringify({ index: { _index: indexName, number_of_replicas: 0} }) + '\n';
+        bulkRequestBody += JSON.stringify({ index: { _index: indexName} }) + '\n';
         bulkRequestBody += JSON.stringify(doc) + '\n';
         return bulkRequestBody;
     }, '');
