@@ -19,19 +19,17 @@ const elasticsearchClient = new Client({
  * Used to send indexing request of multiple metadata objects together to Elasticsearch.
  */
 const bulkIndex = async (indexingData, indexName) => {
-    const body = indexingData.reduce((bulkRequestBody, doc) => {
-        bulkRequestBody += JSON.stringify({ index: { _index: indexName} }) + '\n';
-        bulkRequestBody += JSON.stringify(doc) + '\n';
-        return bulkRequestBody;
-    }, '');
-
     try {
         const response = await elasticsearchClient.bulk({
-            body: body
+            body: indexingData.flatMap((doc) => [
+                { index: { _index: indexName } },
+                doc,
+            ]),
         });
         console.log('Indexing completed');
-    } catch(e) {
-        console.log(e);
+    } catch (e) {
+        console.error(e);
+        throw e;
     }
 };
 
@@ -67,7 +65,6 @@ const consumeQueueAndIndex = async () => {
                     await bulkIndex(metadata['files'], index);
                 } catch (error) {
                     console.error(error);
-                    consumeQueueAndIndex();
                 } finally {
                     channel.ack(msg);
                 }
@@ -76,7 +73,6 @@ const consumeQueueAndIndex = async () => {
         );
     } catch (error) {
         console.error(error);
-        consumeQueueAndIndex();
     }
 };
 
