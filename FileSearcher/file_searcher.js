@@ -39,12 +39,14 @@ app.get('/healthcheck', (req, res) => {
  * Returns list of overall dataset metadata that match the query and the filters.
  * The response can be filtered based on datasetname prefix, date range, size range and filetype. 
  */
- app.get('/datasets', async (req, res) => {
-    const { datasetName, fromDate, toDate, minSize, maxSize, fileType } = req.query;
+app.get('/datasets', async (req, res) => {
+    const { datasetName, fromDate, toDate, minSize, maxSize, fileType, pagination = 1, pageSize = 10 } = req.query;
     try {
         const searchQuery = {
             index: 'datasets',
             body: {
+                from: (pagination - 1) * pageSize,
+                size: pageSize,
                 query: {
                     bool: {
                         must: [

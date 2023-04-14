@@ -67,6 +67,20 @@
               "type": "string"
             },
             "description": "Comma-separated list of file types to filter by (e.g. jpg,csv,png)"
+          },
+          {
+            "name": "pagination",
+            "in": "query",
+            "description": "Page to return (expects the page number)",
+            "type": "number",
+            "default": 1
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "Number of items returned per page.",
+            "type": "number",
+            "default": 10
           }
         ],
         "responses": {
