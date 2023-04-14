@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "image_id",
+            "patient_name",
+            "image_path",
+            "image_type",
+            "image_date",
+            "lesion_location",
+            "clinical_notes",
+            "label"
+        ],
+        "properties": {
+            "image_id": {
+                "type": "string"
+            },
+            "patient_name": {
+                "type": "string"
+            },
+            "image_path": {
+                "type": "string"
+            },
+            "image_type": {
+                "type": "string"
+            },
+            "image_date": {
+                "type": "string",
+                "format": "date"
+            },
+            "lesion_location": {
+                "type": "string"
+            },
+            "clinical_notes": {
+                "type": "string"
+            },
+            "label": {
+                "type": "string"
+            }
+        }
+    }
+}
