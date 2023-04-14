@@ -1,0 +1,618 @@
+{
+    "dataset_280x190_tongue_cancer_facts_ref_guide.jpg": {
+        "patient_id": "Ruby Taylor",
+        "image_type": "jpg",
+        "image_date": "2014-07-04",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports difficulty opening the mouth. Patient reports pain or numbness in the tongue, lips, or other areas of the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "cancer 6.jpg": {
+        "patient_id": "Thu White",
+        "image_type": "jpg",
+        "image_date": "2018-12-09",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports bleeding or pain in the mouth. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Melanoma"
+    },
+    "dataset_41415_2000_Article_BF4800481_Fig1_HTML.jpg": {
+        "patient_id": "Louise Miller",
+        "image_type": "jpg",
+        "image_date": "2020-08-19",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports pain or numbness in the tongue, lips, or other areas of the mouth. Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_2-1080x675.jpg": {
+        "patient_id": "Kimberly Dunmire",
+        "image_type": "jpg",
+        "image_date": "2013-09-03",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports bleeding or pain in the mouth.",
+        "label": "Lymphoma"
+    },
+    "dataset_oral-leukoplakia-br-image-credit-dermnet-new-zealand-br.jpg": {
+        "patient_id": "Carmen Helt",
+        "image_type": "jpg",
+        "image_date": "2012-04-10",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports difficulty moving the tongue or jaw. Patient reports a burning sensation in the mouth or throat.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "skin-cancer-of-the-lip.jpg": {
+        "patient_id": "Sandra Lott",
+        "image_type": "jpg",
+        "image_date": "2014-03-27",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports difficulty moving the tongue or jaw. Patient reports a change in the way the teeth fit together. Patient reports difficulty opening the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "SRMJResDentSci_2013_4_1_35_116830_u1.jpg": {
+        "patient_id": "Lily Siler",
+        "image_type": "jpg",
+        "image_date": "2012-07-19",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports a persistent earache on one side. Oral examination reveals white or red patches on the gums, tongue, or lining of the mouth.",
+        "label": "Adenoid cystic carcinoma"
+    },
+    "oral-leukoplakia-br-image-credit-dermnet-new-zealand-br.jpg": {
+        "patient_id": "Scott Huntington",
+        "image_type": "jpg",
+        "image_date": "2023-03-13",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports a chronic sore throat or hoarseness. Patient reports difficulty moving the tongue or jaw. Patient presents with a lump or sore in the mouth that does not heal.",
+        "label": "Melanoma"
+    },
+    "Oral-Cancer-Screenings.jpg": {
+        "patient_id": "Delores Jeffrey",
+        "image_type": "jpg",
+        "image_date": "2021-04-28",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports a feeling of something caught in the throat.",
+        "label": "Acinic cell carcinoma"
+    },
+    "41415_2000_Article_BF4800481_Fig1_HTML.jpg": {
+        "patient_id": "Erin Jones",
+        "image_type": "jpg",
+        "image_date": "2012-12-20",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient presents with a lump or sore in the mouth that does not heal.",
+        "label": "Verrucous carcinoma"
+    },
+    "18b79305-949e-4ed8-849c-ec5d5a794752.jpg": {
+        "patient_id": "Mary Gantt",
+        "image_type": "jpg",
+        "image_date": "2017-03-12",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports a change in the way the teeth fit together.",
+        "label": "Lymphoma"
+    },
+    "lip-cancer-pictures-youtube-regarding-lip-cancer-pictures.jpg": {
+        "patient_id": "Kimberly Coleman",
+        "image_type": "jpg",
+        "image_date": "2013-01-29",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports a metallic taste in the mouth.",
+        "label": "Verrucous carcinoma"
+    },
+    "dataset_cancer 6.jpg": {
+        "patient_id": "Maria Whidden",
+        "image_type": "jpg",
+        "image_date": "2015-06-01",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports a change in the fit of dentures. Patient reports a burning sensation in the mouth or throat.",
+        "label": "Minor salivary gland carcinomas"
+    },
+    "Carcinomaoftherighttongue_OCT-20161108085557163.jpg": {
+        "patient_id": "Jack Cook",
+        "image_type": "jpg",
+        "image_date": "2017-01-10",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports a metallic taste in the mouth. Patient reports difficulty opening the mouth. Patient reports a persistent earache on one side.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_41457tn.jpg": {
+        "patient_id": "Billie Terry",
+        "image_type": "jpg",
+        "image_date": "2022-08-21",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Oral examination reveals a growth or swelling in the mouth. Patient presents with a persistent bad breath.",
+        "label": "Squamous cell carcinoma"
+    },
+    "46e21e7be60567c4b9b2ca9018587f88_XL.jpg": {
+        "patient_id": "Ami Crawford",
+        "image_type": "jpg",
+        "image_date": "2022-01-12",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports a chronic sore throat or hoarseness. Patient reports a feeling of something caught in the throat.",
+        "label": "Squamous cell carcinoma"
+    },
+    "lipreconstruction1.jpg": {
+        "patient_id": "Thomas Cervantes",
+        "image_type": "jpg",
+        "image_date": "2019-05-15",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a change in the way the teeth fit together. Patient presents with a lump or sore in the mouth that does not heal.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_1200px-ZungenCa2a (1).jpg": {
+        "patient_id": "Michael Srour",
+        "image_type": "jpg",
+        "image_date": "2020-12-27",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient presents with a sore on the lip or in the mouth. Patient reports bleeding or pain in the mouth.",
+        "label": "Melanoma"
+    },
+    "dataset_squamous-cell-carinoma-of-the-tongue.jpg": {
+        "patient_id": "Jose Altman",
+        "image_type": "jpg",
+        "image_date": "2013-09-27",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal. Patient presents with a non-healing ulcer in the mouth. Oral examination reveals a lesion or ulcer in the mouth.",
+        "label": "Melanoma"
+    },
+    "dataset_650x350_oral_cancer_ref_guide.jpg": {
+        "patient_id": "Donna Gregg",
+        "image_type": "jpg",
+        "image_date": "2010-10-08",
+        "lesion_location": "Lips",
+        "clinical_notes": "Oral examination reveals a lump or mass in the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "pract_oral_cancer.jpg": {
+        "patient_id": "Vincent Bretthauer",
+        "image_type": "jpg",
+        "image_date": "2020-04-11",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports bleeding or pain in the mouth. Patient reports a lump or swelling in the jaw.",
+        "label": "Squamous cell carcinoma"
+    },
+    "oral-cancer-by-j-shah-33-728.jpg": {
+        "patient_id": "Phillip Johnson",
+        "image_type": "jpg",
+        "image_date": "2012-08-04",
+        "lesion_location": "Gums",
+        "clinical_notes": "Oral examination reveals white or red patches on the gums, tongue, or lining of the mouth. Patient reports bleeding or pain in the mouth. Patient presents with a persistent bad breath.",
+        "label": "Adenoid cystic carcinoma"
+    },
+    "dataset_1200px-ZungenCa2a.jpg": {
+        "patient_id": "Rupert Truxillo",
+        "image_type": "jpg",
+        "image_date": "2021-04-21",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a persistent earache on one side. Patient reports a metallic taste in the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "41457tn.jpg": {
+        "patient_id": "James Erickson",
+        "image_type": "jpg",
+        "image_date": "2011-07-20",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports difficulty opening the mouth.",
+        "label": "Lymphoma"
+    },
+    "dataset_oral-cancer-screening.jpg": {
+        "patient_id": "Johnnie Murphy",
+        "image_type": "jpg",
+        "image_date": "2014-04-20",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports unexplained weight loss and fatigue. Patient presents with a persistent bad breath. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "949b9f09-aa54-454e-b631-b6d98e079f45.jpg": {
+        "patient_id": "James Inda",
+        "image_type": "jpg",
+        "image_date": "2016-07-13",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports a burning sensation in the mouth or throat.",
+        "label": "Acinic cell carcinoma"
+    },
+    "f45634f6-0b4a-4d7d-ac44-5ea1658f728e.jpg": {
+        "patient_id": "Peggy Kimber",
+        "image_type": "jpg",
+        "image_date": "2015-05-15",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports a metallic taste in the mouth. Oral examination reveals a lesion or ulcer in the mouth.",
+        "label": "Lymphoma"
+    },
+    "dataset_Carcinomaoftherighttongue_OCT-20161108085557163.jpg": {
+        "patient_id": "Danielle Allen",
+        "image_type": "jpg",
+        "image_date": "2012-01-02",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient presents with a persistent bad breath. Patient presents with a lump or thickening in the cheek or neck.",
+        "label": "Melanoma"
+    },
+    "dataset_figure1.jpg": {
+        "patient_id": "Jerry Henderson",
+        "image_type": "jpg",
+        "image_date": "2020-12-15",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient presents with a sore on the lip or in the mouth. Patient reports a persistent earache on one side. Patient presents with a lump or thickening in the cheek or neck.",
+        "label": "Adenoid cystic carcinoma"
+    },
+    "01960a64-cfe8-444d-bbc5-575c15389a21.jpg": {
+        "patient_id": "Brian Soto",
+        "image_type": "jpg",
+        "image_date": "2021-07-23",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "dataset_SRMJResDentSci_2013_4_1_35_116830_u1.jpg": {
+        "patient_id": "Kelly Ciciora",
+        "image_type": "jpg",
+        "image_date": "2022-03-15",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports pain or numbness in the tongue, lips, or other areas of the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "oral-cancer__ProtectWyJQcm90ZWN0Il0_FocusFillWzI5NCwyMjIsIngiLDIwXQ.jpg": {
+        "patient_id": "Robert Simpson",
+        "image_type": "jpg",
+        "image_date": "2016-07-19",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports difficulty opening the mouth. Patient reports pain or numbness in the tongue, lips, or other areas of the mouth. Patient reports a white or red patch on the tongue.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_3-s2.0-B9780443100734500148-f10-07-9780443100734.jpg": {
+        "patient_id": "Marleen Zumwalt",
+        "image_type": "jpg",
+        "image_date": "2013-08-04",
+        "lesion_location": "Lips",
+        "clinical_notes": "Oral examination reveals a lump or mass in the mouth.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "is-lip-cancer-painful.jpg": {
+        "patient_id": "Jesenia Halford",
+        "image_type": "jpg",
+        "image_date": "2018-07-29",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports difficulty moving the tongue or jaw.",
+        "label": "Adenoid cystic carcinoma"
+    },
+    "f063-001a-9781416025276.jpg": {
+        "patient_id": "Denise Castillo",
+        "image_type": "jpg",
+        "image_date": "2022-10-26",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports unexplained weight loss and fatigue.",
+        "label": "Squamous cell carcinoma"
+    },
+    "a342a6a0-d3f6-4459-b99a-6a4d4313aa9f.jpg": {
+        "patient_id": "Maritza Burk",
+        "image_type": "jpg",
+        "image_date": "2017-03-16",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient presents with a persistent bad breath. Patient reports difficulty moving the tongue or jaw.",
+        "label": "Lymphoma"
+    },
+    "first-sign-lip-cancer_c3094f88d448d26b.jpg": {
+        "patient_id": "Bennie Garland",
+        "image_type": "jpg",
+        "image_date": "2020-09-24",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Oral examination reveals a lesion or ulcer in the mouth. Patient reports a feeling of something caught in the throat. Patient reports unexplained weight loss and fatigue.",
+        "label": "Minor salivary gland carcinomas"
+    },
+    "dataset_oral-cancer-by-j-shah-33-728.jpg": {
+        "patient_id": "Doyle Balistreri",
+        "image_type": "jpg",
+        "image_date": "2020-09-21",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports a change in the way the teeth fit together. Patient reports a persistent earache on one side.",
+        "label": "Squamous cell carcinoma"
+    },
+    "324950_1100.jpg": {
+        "patient_id": "Maria Hendricks",
+        "image_type": "jpg",
+        "image_date": "2014-01-01",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports difficulty opening the mouth. Patient reports a lump or swelling in the jaw. Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_base-of-tongue-cancer-symptoms.jpg": {
+        "patient_id": "Kevin Banks",
+        "image_type": "jpg",
+        "image_date": "2011-09-16",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Oral examination reveals a lesion or ulcer in the mouth. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "3-s2.0-B9780443100734500148-f10-07-9780443100734.jpg": {
+        "patient_id": "Matt Reyes",
+        "image_type": "jpg",
+        "image_date": "2010-02-21",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Melanoma"
+    },
+    "mouth-cancer-symptoms-1.jpg": {
+        "patient_id": "Carmen Settles",
+        "image_type": "jpg",
+        "image_date": "2015-01-03",
+        "lesion_location": "Gums",
+        "clinical_notes": "Oral examination reveals a growth or swelling in the mouth. Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal. Patient presents with a persistent bad breath.",
+        "label": "Adenoid cystic carcinoma"
+    },
+    "Lower_lip_cancer.jpg": {
+        "patient_id": "Wayne Davison",
+        "image_type": "jpg",
+        "image_date": "2017-12-07",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports a lump or swelling in the jaw.",
+        "label": "Acinic cell carcinoma"
+    },
+    "C0235749-Mouth_cancer-SPL-20170511085515620.jpg": {
+        "patient_id": "Sue Mota",
+        "image_type": "jpg",
+        "image_date": "2010-11-05",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports a burning sensation in the mouth or throat. Patient presents with a sore on the lip or in the mouth.",
+        "label": "Verrucous carcinoma"
+    },
+    "dataset_oral-cancer__ProtectWyJQcm90ZWN0Il0_FocusFillWzI5NCwyMjIsIngiLDIwXQ.jpg": {
+        "patient_id": "Danny Hines",
+        "image_type": "jpg",
+        "image_date": "2021-04-28",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports pain or numbness in the tongue, lips, or other areas of the mouth.",
+        "label": "Melanoma"
+    },
+    "d09a9b5c-a0b1-488f-9d50-2937fe578a7e.jpg": {
+        "patient_id": "Ronald Lutz",
+        "image_type": "jpg",
+        "image_date": "2010-09-22",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports a lump or swelling in the jaw. Patient reports difficulty moving the tongue or jaw. Patient reports a chronic sore throat or hoarseness.",
+        "label": "Verrucous carcinoma"
+    },
+    "ds01089_im00213_c7_lipcancerpicturethu_jpg.jpg": {
+        "patient_id": "Cynthia Lynch",
+        "image_type": "jpg",
+        "image_date": "2020-01-22",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient presents with a lump or thickening in the cheek or neck.",
+        "label": "Squamous cell carcinoma"
+    },
+    "dataset_mouth-cancer-symptoms-1.jpg": {
+        "patient_id": "Roy Stewart",
+        "image_type": "jpg",
+        "image_date": "2016-02-03",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports a persistent cough or sore throat.",
+        "label": "Squamous cell carcinoma"
+    },
+    "figure1.jpg": {
+        "patient_id": "Justin Phillips",
+        "image_type": "jpg",
+        "image_date": "2010-08-22",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports a burning sensation in the mouth or throat. Patient reports a persistent cough or sore throat. Patient reports a metallic taste in the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "mouth-cancer.jpg": {
+        "patient_id": "Jaime Currier",
+        "image_type": "jpg",
+        "image_date": "2021-04-22",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports unexplained weight loss and fatigue.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "oral-cancer-screening.jpg": {
+        "patient_id": "Leslie Jones",
+        "image_type": "jpg",
+        "image_date": "2016-08-12",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports a metallic taste in the mouth.",
+        "label": "Verrucous carcinoma"
+    },
+    "squamous-cell-carinoma-of-the-tongue.jpg": {
+        "patient_id": "Anne Eggleston",
+        "image_type": "jpg",
+        "image_date": "2020-01-25",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient presents with a lump or thickening in the cheek or neck.",
+        "label": "Squamous cell carcinoma"
+    },
+    "b2585c8d-65a0-4476-a4e6-a9f2d424cd60.jpg": {
+        "patient_id": "Jason Anderson",
+        "image_type": "jpg",
+        "image_date": "2011-11-27",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a chronic sore throat or hoarseness. Patient reports a change in the way the teeth fit together.",
+        "label": "Acinic cell carcinoma"
+    },
+    "skin-cancer-on-lips-treatment.jpg": {
+        "patient_id": "Ellen Pike",
+        "image_type": "jpg",
+        "image_date": "2011-11-02",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a lump or swelling in the jaw.",
+        "label": "Melanoma"
+    },
+    "lip-cancer-and-symptoms.jpg": {
+        "patient_id": "Yvonne Parent",
+        "image_type": "jpg",
+        "image_date": "2018-04-15",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports a persistent earache on one side. Patient reports a change in the way the teeth fit together.",
+        "label": "Lymphoma"
+    },
+    "lip_images_oct_2006.jpg": {
+        "patient_id": "Neil Smith",
+        "image_type": "jpg",
+        "image_date": "2022-08-17",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports pain or numbness in the tongue, lips, or other areas of the mouth. Oral examination reveals a lesion or ulcer in the mouth. Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Melanoma"
+    },
+    "base-of-tongue-cancer-symptoms.jpg": {
+        "patient_id": "Kelly Bayly",
+        "image_type": "jpg",
+        "image_date": "2016-05-01",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient presents with a persistent bad breath. Patient presents with a sore on the lip or in the mouth. Patient reports pain or numbness in the tongue, lips, or other areas of the mouth.",
+        "label": "Minor salivary gland carcinomas"
+    },
+    "lip-reconstruction-gallery-skin-cancer-and-reconstructive-surgery-pertaining-to-lip-cancer-surgery.jpg": {
+        "patient_id": "Todd Sofranko",
+        "image_type": "jpg",
+        "image_date": "2014-05-14",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal. Patient reports a persistent earache on one side.",
+        "label": "Melanoma"
+    },
+    "dataset_pract_oral_cancer.jpg": {
+        "patient_id": "Christine Norman",
+        "image_type": "jpg",
+        "image_date": "2018-10-13",
+        "lesion_location": "Floor of the mouth",
+        "clinical_notes": "Patient reports a persistent earache on one side.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "lip-cancer-br-image-credit-national-cancer-institute-2003-br.jpg": {
+        "patient_id": "Amie Miske",
+        "image_type": "jpg",
+        "image_date": "2013-06-19",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient reports unexplained weight loss and fatigue. Patient reports a change in the fit of dentures. Patient reports a feeling of something caught in the throat.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "IMG_3506-e1564923599677.jpg": {
+        "patient_id": "James Dixon",
+        "image_type": "jpg",
+        "image_date": "2013-12-23",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports a persistent earache on one side. Oral examination reveals white or red patches on the gums, tongue, or lining of the mouth.",
+        "label": "Squamous cell carcinoma"
+    },
+    "1200px-ZungenCa2a.jpg": {
+        "patient_id": "Adrian Johnson",
+        "image_type": "jpg",
+        "image_date": "2014-01-02",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient presents with a sore on the lip or in the mouth. Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "oral-cancer-treatment-500x500.png": {
+        "patient_id": "David Hazan",
+        "image_type": "png",
+        "image_date": "2017-01-25",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient reports a burning sensation in the mouth or throat.",
+        "label": "Lymphoma"
+    },
+    "oralcancer1.png": {
+        "patient_id": "Chris Wisdom",
+        "image_type": "png",
+        "image_date": "2020-11-09",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Lymphoma"
+    },
+    "dataset_1366.fig.1.png": {
+        "patient_id": "Breanna Johnson",
+        "image_type": "png",
+        "image_date": "2016-01-25",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a change in the fit of dentures. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Mucoepidermoid carcinoma"
+    },
+    "Screenshot 2020-03-16 at 10.47.50 AM.png": {
+        "patient_id": "David Stewart",
+        "image_type": "png",
+        "image_date": "2022-01-24",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient presents with a non-healing ulcer in the mouth.",
+        "label": "Lymphoma"
+    },
+    "Oral-cancer-Courtesy-of-Professor-Jan-Zapa1a-Chair-of-Cranio-Maxillofacial.png": {
+        "patient_id": "Harold Bloodsaw",
+        "image_type": "png",
+        "image_date": "2012-11-29",
+        "lesion_location": "Gums",
+        "clinical_notes": "Oral examination reveals white or red patches on the gums, tongue, or lining of the mouth. Patient presents with a sore on the lip or in the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "dataset_mouth-photo-3.png": {
+        "patient_id": "Janet Slaughter",
+        "image_type": "png",
+        "image_date": "2016-02-16",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports difficulty moving the tongue or jaw. Oral examination reveals a lump or mass in the mouth. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "a-Frontal-view-of-patient-with-lower-lip-squamous-cell-carcinoma-b-Postoperative.png": {
+        "patient_id": "Paul Banks",
+        "image_type": "png",
+        "image_date": "2019-01-21",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Oral examination reveals a lump or mass in the mouth. Patient presents with a persistent bad breath.",
+        "label": "Verrucous carcinoma"
+    },
+    "dataset_mouth-photo-4.png": {
+        "patient_id": "Sylvia Plunkett",
+        "image_type": "png",
+        "image_date": "2010-04-15",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports difficulty moving the tongue or jaw. Patient reports a white or red patch on the tongue.",
+        "label": "Minor salivary gland carcinomas"
+    },
+    "mouth-photo-4.png": {
+        "patient_id": "Dorothy Fuller",
+        "image_type": "png",
+        "image_date": "2019-06-21",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports a burning sensation in the mouth or throat. Patient reports pain or numbness in the tongue, lips, or other areas of the mouth. Patient reports a feeling of something caught in the throat.",
+        "label": "Lymphoma"
+    },
+    "dataset_Oral-cancer-Courtesy-of-Professor-Jan-Zapa1a-Chair-of-Cranio-Maxillofacial.png": {
+        "patient_id": "William Smith",
+        "image_type": "png",
+        "image_date": "2010-08-17",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Oral examination reveals a lesion or ulcer in the mouth. Patient presents with a lump or sore in the mouth that does not heal. Oral examination reveals a growth or swelling in the mouth.",
+        "label": "Acinic cell carcinoma"
+    },
+    "dataset_Tongue-cancer-symptoms.png": {
+        "patient_id": "Cinthia Chavez",
+        "image_type": "png",
+        "image_date": "2018-10-19",
+        "lesion_location": "Gums",
+        "clinical_notes": "Patient reports a white or red patch on the tongue. Patient reports a persistent cough or sore throat.",
+        "label": "Minor salivary gland carcinomas"
+    },
+    "ircmj-17-3-13478-g001-preview.png": {
+        "patient_id": "Louis Murphy",
+        "image_type": "png",
+        "image_date": "2011-12-23",
+        "lesion_location": "Inner lining of the cheeks",
+        "clinical_notes": "Patient reports a metallic taste in the mouth.",
+        "label": "Lymphoma"
+    },
+    "dataset_oral-cancer-treatment-500x500.png": {
+        "patient_id": "Mildred Gaffney",
+        "image_type": "png",
+        "image_date": "2022-07-19",
+        "lesion_location": "Tongue",
+        "clinical_notes": "Oral examination reveals a growth or swelling in the mouth. Patient reports a lump or swelling in the jaw.",
+        "label": "Lymphoma"
+    },
+    "mouth-photo-3.png": {
+        "patient_id": "Susan Ojeda",
+        "image_type": "png",
+        "image_date": "2019-04-25",
+        "lesion_location": "Lips",
+        "clinical_notes": "Patient reports difficulty swallowing and a persistent sore in the mouth that does not heal. Patient presents with a lump or thickening in the cheek or neck. Patient reports unexplained weight loss and fatigue.",
+        "label": "Melanoma"
+    },
+    "Tongue-cancer-symptoms.png": {
+        "patient_id": "Synthia Burger",
+        "image_type": "png",
+        "image_date": "2013-06-04",
+        "lesion_location": "Roof of the mouth",
+        "clinical_notes": "Patient presents with a lump or thickening in the cheek or neck. Patient presents with a persistent bad breath. Patient reports a feeling of something caught in the throat.",
+        "label": "Melanoma"
+    }
+}
