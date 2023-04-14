@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import names
 import sys
+import uuid
 
 if len(sys.argv) != 2:
     print("Usage: python generate_metadata.py <directory_path>")
@@ -63,24 +64,28 @@ images = list(Path(dir_path).glob("*.jpg")) + list(Path(dir_path).glob("*.png"))
 metadata = {}
 
 # Iterate over each image file and generate metadata
+metadata = []
 for image_file in images:
     # Generate random metadata values
-    patient_id = names.get_full_name()
+    patient_name = names.get_full_name()
     image_type = image_file.suffix.split('.')[-1]
     image_date = random_date(datetime(2010, 1, 1), datetime.now())
     lesion_location = random.choice(lesion_locations)
     clinical_notes = random_notes()
     label = random.choice(labels)
+    filename = str(image_file).split('/')[-1]
 
     # Store metadata in a dictionary
-    metadata[str(image_file).split('/')[-1]] = {
-        "patient_id": patient_id,
+    metadata.append({
+        "image_id": uuid.uuid4().hex,
+        "patient_name": patient_name,
+        "image_path": str(image_file),
         "image_type": image_type,
         "image_date": image_date.strftime('%Y-%m-%d'),
         "lesion_location": lesion_location,
         "clinical_notes": clinical_notes,
         "label": label
-    }
+    })
 
 # Write the metadata to a JSON file
 with open("metadata.json", "w") as outfile:

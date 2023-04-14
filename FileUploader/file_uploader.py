@@ -8,7 +8,6 @@ import json
 import click
 from minio import Minio
 import pika
-import glob
 import logging
 from tqdm import tqdm
 from dotenv import load_dotenv
@@ -38,7 +37,6 @@ def get_dataset_size(path):
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
 @click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
-@click.option('--img_format', default='jpg', help='The image format of the dataset.')
 @click.option('--bucket', default='', help='The bucket to upload the file to.')
 @click.option('--endpoint', default=os.getenv('MINIO_ENDPOINT'), help='The MinIO server endpoint.')
 @click.option('--access-key', default=os.getenv('MINIO_ACCESS_KEY'), help='The access key for the MinIO server.')
@@ -48,7 +46,7 @@ def get_dataset_size(path):
 @click.option('--port', default=os.getenv('RM_PORT'), help='The RabbitMQ server port.')
 @click.option('--username', default=os.getenv('RM_USERNAME'), help='The RabbitMQ server username.')
 @click.option('--password', default=os.getenv('RM_PASSWORD'), help='The RabbitMQ server password.')
-def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_key, secret_key, queue, host, port, username, password):
+def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_key, queue, host, port, username, password):
     """Upload a dataset to MinIO and write its metadata to RabbitMQ."""
     
     metadatafile = os.path.join(dir_path, metadatafile)
@@ -80,21 +78,16 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
             click.echo(f'Bucket {bucket} created on MinIO server.')
 
         # loop through all files in the directory
+        img_format = set()
         logging.info(f'Uploading files in {dir_path} to bucket {bucket} on MinIO server.')
-        for file_path in tqdm(glob.glob(f'{dir_path}/**/*.{img_format}', recursive=True), desc='Uploading files to MinIO server'):
-            if img_format not in file_path:
-                continue
+        for file_details in tqdm(metadata, desc='Uploading files to MinIO server'):
+            file_path = os.path.join(dir_path, file_details['image_path'])
+            img_format.add(file_details['image_type'])
             with open(file_path, 'rb') as f:
-                file_name = os.path.basename(file_path)
                 logging.info(f'Uploading {file_path} to {bucket} on MinIO server.')
                 client.put_object(bucket, file_path, f, length=os.fstat(f.fileno()).st_size)
                 logging.info(f'Successfully uploaded {file_path} to {bucket} on MinIO server.')
-                if file_name not in metadata:
-                    continue
-                file_details = metadata[file_name]
-                file_details['name'] = file_name
                 file_details['bucket'] = bucket
-                file_details['path'] = file_path
                 indexing_metadata['files'].append(file_details)
         indexing_metadata['dataset_name'] = bucket
 
@@ -105,7 +98,7 @@ def upload_dataset(dir_path, metadatafile, img_format, bucket, endpoint, access_
             'bucket': bucket,
             'date': date.today().strftime('%Y-%m-%d'),
             'size': get_dataset_size(dir_path),
-            'filetype': img_format
+            'filetype': list(img_format) 
         }
 
         indexing_metadata['dataset_details'] = dataset_details
