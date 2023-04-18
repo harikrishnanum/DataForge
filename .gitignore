@@ -160,3 +160,4 @@ rmq_log/
 /**/package-lock.json
 /EventReceiver/node_modules
 /FileSearcher/node_modules
+uploads/

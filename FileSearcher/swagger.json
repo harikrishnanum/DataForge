@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.0",
+  "swagger": "2.0",
   "info": {
     "title": "MinIO Dataset Search",
     "description": "",
@@ -9,6 +9,12 @@
     {
       "url": "http://localhost:3000/"
     }
+  ],
+  "consumes": [
+    "multipart/form-data"
+  ],
+  "produces": [
+    "application/json"
   ],
   "paths": {
     "/datasets": {
@@ -168,6 +174,89 @@
           },
           "404": {
             "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/newdataclass": {
+      "post": {
+        "tags": [
+          "Data Classes"
+        ],
+        "summary": "Create a new data class",
+        "description": "Creates a new data class in MongoDB.",
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "formData",
+            "description": "The name of the data class.",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "file",
+            "in": "formData",
+            "description": "The JSON file to upload.",
+            "type": "file",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Data class created successfully."
+          },
+          "500": {
+            "description": "Failed to create data class."
+          }
+        }
+      }
+    },
+    "/dataclasses": {
+      "get": {
+        "summary": "List all data classes",
+        "tags": [
+          "Data Classes"
+        ],
+        "responses": {
+          "200": {
+            "description": "List of all data classes"
+          },
+          "500": {
+            "description": "Failed to list data classes"
+          }
+        }
+      }
+    },
+    "/getdataclass/{name}": {
+      "get": {
+        "summary": "Show the schema of a data class",
+        "tags": [
+          "Data Classes"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The name of the data class"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Schema of the data class"
+          },
+          "404": {
+            "description": "Data class not found"
+          },
+          "500": {
+            "description": "Failed to show schema for data class"
           }
         }
       }

@@ -13,10 +13,14 @@ from tqdm import tqdm
 from dotenv import load_dotenv
 from datetime import date
 from pathlib import Path
+import requests
+import jsonschema
 
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO, filename='file_uploader.log', filemode='w')
+
+API = os.getenv('API') # The API endpoint for the backend.
 
 # Determines the size of the dataset directory in bytes.
 def get_dataset_size(path):
@@ -37,6 +41,7 @@ def get_dataset_size(path):
 @click.command()
 @click.option('--dir_path', type=click.Path(exists=True), required=True, help='The path to the directory containing the dataset.')
 @click.option('--metadatafile', default='metadata.json', help='The name of the metadata file.')
+@click.option('--dataclass', required=True, help='The dataclass of the dataset.')
 @click.option('--bucket', default='', help='The bucket to upload the file to.')
 @click.option('--endpoint', default=os.getenv('MINIO_ENDPOINT'), help='The MinIO server endpoint.')
 @click.option('--access-key', default=os.getenv('MINIO_ACCESS_KEY'), help='The access key for the MinIO server.')
@@ -46,7 +51,7 @@ def get_dataset_size(path):
 @click.option('--port', default=os.getenv('RM_PORT'), help='The RabbitMQ server port.')
 @click.option('--username', default=os.getenv('RM_USERNAME'), help='The RabbitMQ server username.')
 @click.option('--password', default=os.getenv('RM_PASSWORD'), help='The RabbitMQ server password.')
-def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_key, queue, host, port, username, password):
+def upload_dataset(dir_path, metadatafile, dataclass, bucket, endpoint, access_key, secret_key, queue, host, port, username, password):
     """Upload a dataset to MinIO and write its metadata to RabbitMQ."""
     
     metadatafile = os.path.join(dir_path, metadatafile)
@@ -54,6 +59,24 @@ def upload_dataset(dir_path, metadatafile, bucket, endpoint, access_key, secret_
         click.echo(f'Error: metadata file {metadatafile} does not exist.')
         return
     metadata = json.load(open(metadatafile))
+    try:
+        res = requests.get(f'{API}/{dataclass}')
+        res.raise_for_status()  # Raise an error for non-200 status codes
+    except requests.exceptions.ConnectionError:
+        click.echo('Error: Failed to connect to server.')
+        return
+    except requests.exceptions.HTTPError:
+        click.echo(f'Error: Cannot retrieve schema for dataclass {dataclass} from the database.')
+        return
+    schema = res.json()
+    try:
+        jsonschema.validate(metadata, schema)
+    except jsonschema.exceptions.ValidationError as e:
+        click.echo(f'Error: metadata file {metadatafile} does not match the schema.')
+        return
+    click.echo(f'Validated metadata file {metadatafile} against the schema.')
+    # check if the dataclass exists in the database
+
     indexing_metadata = {}
     indexing_metadata['files'] = []
     if not bucket:

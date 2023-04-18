@@ -11,7 +11,10 @@ const bodyParser = require('body-parser');
 const { Client } = require('elasticsearch');
 const swagger = require('./swagger');
 const cors = require('cors');
+const multer = require('multer');
+const { MongoClient } = require('mongodb');
 require('dotenv').config();
+const path = require('path');
 
 const ELASTICSEARCH_HOST = process.env.ELASTICSEARCH_HOST || 'http://localhost:9200';
 
@@ -174,6 +177,79 @@ app.get('/search/:datasetName', async (req, res) => {
         res.status(e.status).send(e.body.error)
     });
 });
+
+// Configure Multer to handle file uploads
+const upload = multer({ dest: 'uploads/' });
+
+// MongoDB connection string
+const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost:27017';
+
+// Route to handle data class creation
+app.post('/newdataclass', upload.single('file'), async (req, res) => {
+    const name = req.body.name;
+    const file = req.file;
+
+    try {
+        // Use MongoClient to connect to the database
+        const client = await MongoClient.connect(mongoUrl);
+
+        // Get a reference to the database
+        const db = client.db('mydb');
+
+        // Insert the data class into the database
+        await db.collection('dataclasses').insertOne({ name: name, file: file });
+
+        res.status(200).send('Data class created successfully');
+    } catch (err) {
+        console.error('Failed to create data class', err);
+        res.status(500).send('Failed to create data class');
+    }
+});
+
+app.get('/dataclasses', async (req, res) => {
+    try {
+        // Use MongoClient to connect to the database
+        const client = await MongoClient.connect(mongoUrl);
+        // Get a reference to the database
+        const db = client.db('mydb');
+        // Find all data classes in the database
+        const dataClasses = await db.collection('dataclasses').find().toArray();
+        // Close the database connection
+        client.close();
+        // Send the data classes as the response
+        res.json(dataClasses);
+    } catch (err) {
+        console.error('Failed to list data classes', err);
+        res.status(500).send('Failed to list data classes');
+    }
+});
+
+app.get('/getdataclass/:name', async (req, res) => {
+    const name = req.params.name;
+    try {
+        // Use MongoClient to connect to the database
+        const client = await MongoClient.connect(mongoUrl);
+        // Get a reference to the database
+        const db = client.db('mydb');
+        // Find the data class by name
+        const dataClass = await db.collection('dataclasses').findOne({ name: name });
+        // Close the database connection
+        client.close();
+        if (dataClass) {
+            // Set the content type header based on the file extension
+            res.setHeader('Content-Type', `application/${dataClass.file.mimetype}`);
+            // Send the file as the response
+            res.sendFile(path.resolve(dataClass.file.path));
+        } else {
+            // Send a 404 response if the data class was not found
+            res.status(404).send('Data class not found');
+        }
+    } catch (err) {
+        console.error('Failed to show schema for data class', err);
+        res.status(500).send('Failed to show schema for data class');
+    }
+});
+
 
 // Run Swagger API Interface.
 swagger(app);
