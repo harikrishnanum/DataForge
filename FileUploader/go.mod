@@ -1,4 +1,4 @@
-module github.com/harikrishnanum/FileUploader
+module github.com/FileUploader
 
 go 1.19
 
