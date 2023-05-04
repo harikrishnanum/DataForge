@@ -10,7 +10,6 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
 	"time"
 
@@ -23,26 +22,17 @@ import (
 
 func check_path(path string) bool {
 	_, err := os.Stat(path)
-	if err != nil {
-		if os.IsNotExist(err) {
-			fmt.Printf("Path %s does not exist\n", path)
-		} else {
-			fmt.Printf("Error checking path %s: %s\n", path, err)
-		}
-		return false
-	} else {
-		return true
-	}
+	return !os.IsNotExist(err)
 }
 
-func validateMetadata(dirPath, metadatafile, dataclass string) (bool, interface{}) {
+func validateMetadata(dirPath, metadatafile, dataclass string) (bool, []map[string]string) {
 	API := os.Getenv("API")
 
 	// Construct the path to the metadata file
 	metadataPath := filepath.Join(dirPath, metadatafile)
 
 	// Check if the metadata file exists
-	if _, err := os.Stat(metadataPath); os.IsNotExist(err) {
+	if check_path(metadataPath) == false {
 		fmt.Printf("Error: metadata file %s does not exist.\n", metadataPath)
 		return false, nil
 	}
@@ -54,7 +44,8 @@ func validateMetadata(dirPath, metadatafile, dataclass string) (bool, interface{
 		return false, nil
 	}
 
-	var metadata interface{}
+	var metadata []map[string]string
+
 	err = json.Unmarshal(metadataBytes, &metadata)
 	if err != nil {
 		fmt.Printf("Error parsing metadata file %s: %s\n", metadataPath, err)
@@ -243,33 +234,6 @@ func sendMetadataToRabbitMQ(username, password, host, queue string, indexingMeta
 	return true
 }
 
-func convertToMapSlice(data []interface{}) ([]map[string]string, error) {
-	var result []map[string]string
-
-	for _, item := range data {
-		// Assert that the item is a map[string]interface{}
-		itemMap, ok := item.(map[string]interface{})
-		if !ok {
-			return nil, fmt.Errorf("invalid data format: expected map[string]interface{}, got %T", item)
-		}
-
-		// Convert the item to a map[string]string
-		var itemStringMap = make(map[string]string)
-		for key, value := range itemMap {
-			if s, ok := value.(string); ok {
-				itemStringMap[key] = s
-			} else {
-				return nil, fmt.Errorf("invalid data format: expected string value for key %s, got %T", key, value)
-			}
-		}
-
-		// Append the item to the result slice
-		result = append(result, itemStringMap)
-	}
-
-	return result, nil
-}
-
 func main() {
 	err := godotenv.Load()
 	if err != nil {
@@ -284,44 +248,39 @@ func main() {
 	var dataclass string
 	flag.StringVar(&dataclass, "dataclass", "", "The dataclass of the dataset.")
 
-	var bucket string
-	flag.StringVar(&bucket, "bucket", "", "The bucket to upload the file to.")
+	var minio_bucket string
+	flag.StringVar(&minio_bucket, "bucket", "", "The bucket to upload the file to.")
 
-	var endpoint string
-	flag.StringVar(&endpoint, "endpoint", os.Getenv("MINIO_ENDPOINT"), "The MinIO server endpoint.")
+	var minio_endpoint string
+	flag.StringVar(&minio_endpoint, "endpoint", os.Getenv("MINIO_ENDPOINT"), "The MinIO server endpoint.")
 
-	var accessKey string
-	flag.StringVar(&accessKey, "access-key", os.Getenv("MINIO_ACCESS_KEY"), "The access key for the MinIO server.")
+	var minio_accessKey string
+	flag.StringVar(&minio_accessKey, "access-key", os.Getenv("MINIO_ACCESS_KEY"), "The access key for the MinIO server.")
 
-	var secretKey string
-	flag.StringVar(&secretKey, "secret-key", os.Getenv("MINIO_SECRET_KEY"), "The secret key for the MinIO server.")
+	var minio_secretKey string
+	flag.StringVar(&minio_secretKey, "secret-key", os.Getenv("MINIO_SECRET_KEY"), "The secret key for the MinIO server.")
 
-	var queue string
-	flag.StringVar(&queue, "queue", os.Getenv("RM_QUEUE"), "The RabbitMQ queue name to send the metadata to.")
+	var rmqueue string
+	flag.StringVar(&rmqueue, "queue", os.Getenv("RM_QUEUE"), "The RabbitMQ queue name to send the metadata to.")
 
-	var host string
-	flag.StringVar(&host, "host", os.Getenv("RM_HOST"), "The RabbitMQ server hostname.")
+	var rmq_host string
+	flag.StringVar(&rmq_host, "host", os.Getenv("RM_HOST"), "The RabbitMQ server hostname.")
 
-	var port_str string
-	flag.StringVar(&port_str, "port", os.Getenv("RM_PORT"), "The RabbitMQ server port.")
-	port, _ := strconv.Atoi(port_str)
+	var rmq_port_str string
+	flag.StringVar(&rmq_port_str, "port", os.Getenv("RM_PORT"), "The RabbitMQ server port.")
 
-	var username string
-	flag.StringVar(&username, "username", os.Getenv("RM_USERNAME"), "The RabbitMQ server username.")
+	var rmq_username string
+	flag.StringVar(&rmq_username, "username", os.Getenv("RM_USERNAME"), "The RabbitMQ server username.")
 
-	var password string
-	flag.StringVar(&password, "password", os.Getenv("RM_PASSWORD"), "The RabbitMQ server password.")
+	var rmq_password string
+	flag.StringVar(&rmq_password, "password", os.Getenv("RM_PASSWORD"), "The RabbitMQ server password.")
 
 	flag.Parse()
 
 	if !check_path(dirPath) {
+		fmt.Printf("dir_path: %s does not exist\n", dirPath)
 		return
 	}
-
-	fmt.Printf("dir_path: %s\n", dirPath)
-	fmt.Printf("port: %d\n", port)
-	fmt.Printf("metadatafile: %s\n", metadatafile)
-	fmt.Printf("dataclass: %s\n", dataclass)
 
 	status, metadata := validateMetadata(dirPath, metadatafile, dataclass)
 	if !status {
@@ -330,23 +289,17 @@ func main() {
 
 	indexingMetadata := make(map[string]interface{})
 	indexingMetadata["files"] = []interface{}{}
-	if bucket == "" {
+	if minio_bucket == "" {
 		// Use the parent directory name of the directory as the bucket name
 		dirs := strings.Split(dirPath, "/")
-		bucket = dirs[len(dirs)-1]
-		bucket = strings.ToLower(bucket)
+		minio_bucket = dirs[len(dirs)-1]
+		minio_bucket = strings.ToLower(minio_bucket)
 	}
-	metadataSlice, _ := metadata.([]interface{})
-	metadataMapSlice, err := convertToMapSlice(metadataSlice)
-	if err != nil {
-		fmt.Println("error converting metadata to map slice:", err)
-		return
-	}
-	minio_status, indexingMetadata := uploadToMinIO(dirPath, metadataMapSlice, dataclass, bucket, endpoint, accessKey, secretKey)
+	minio_status, indexingMetadata := uploadToMinIO(dirPath, metadata, dataclass, minio_bucket, minio_endpoint, minio_accessKey, minio_secretKey)
 	if !minio_status {
 		return
 	}
-	rabbitmq_status := sendMetadataToRabbitMQ(username, password, host, queue, indexingMetadata)
+	rabbitmq_status := sendMetadataToRabbitMQ(rmq_username, rmq_password, rmq_host, rmqueue, indexingMetadata)
 	if !rabbitmq_status {
 		return
 	}
