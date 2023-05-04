@@ -287,8 +287,6 @@ func main() {
 		return
 	}
 
-	indexingMetadata := make(map[string]interface{})
-	indexingMetadata["files"] = []interface{}{}
 	if minio_bucket == "" {
 		// Use the parent directory name of the directory as the bucket name
 		dirs := strings.Split(dirPath, "/")
